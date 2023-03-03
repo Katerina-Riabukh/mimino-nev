@@ -5,21 +5,30 @@
   |============================
 */
 @import url('./reset.css');
-@import url('./vite-promo.css');
-@import url('./header.css');
+@import url('./variables.css');
+@import url('./base.css');
 
-:root {
-  font-family: Inter, Avenir, Helvetica, Arial, sans-serif;
-  font-size: 16px;
-  line-height: 24px;
-  font-weight: 400;
+@import url('./home-page.css/header.css');
+@import url('./home-page.css/hero-home.css');
+@import url('./home-page.css/review-section.css');
+@import url('./home-page.css/restaurant-section.css');
+@import url('./home-page.css/welcome-section.css');
+@import url('./home-page.css/hotel-section.css');
+@import url('./home-page.css/location-section.css');
+@import url('./home-page.css/footer.css');
 
-  color: #242424;
-  background-color: rgba(255, 255, 255, 0.87);
+@import url('./hotel-page.css/hero-hotel.css');
+@import url('./hotel-page.css/room-section.css');
 
-  font-synthesis: none;
-  text-rendering: optimizeLegibility;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  -webkit-text-size-adjust: 100%;
-}
+@import url('./restaurant-page.css/hero-restaurant.css');
+@import url('./restaurant-page.css/presentation-section.css');
+@import url('./restaurant-page.css/restaurant-menu.css');
+
+@import url('./room-page.css/hero-room.css');
+@import url('./room-page.css/about-section.css');
+
+@import url('./windows.css/book-a-room.css');
+@import url('./windows.css/book-a-table.css');
+@import url('./windows.css/mobile-tablet-menu.css');
+@import url('./windows.css/prices-per-room.css');
+
