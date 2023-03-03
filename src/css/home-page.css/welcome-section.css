@@ -1,0 +1,33 @@
+.welcome-section {
+    margin-bottom: 72px;
+}
+
+.title-welcome {
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 1.12;
+    letter-spacing: -0.02em;
+    margin-bottom: 32px;
+}
+
+.text-one-welcome {
+    width: 306px;
+    font-size: 14px;
+    line-height: 1.3;
+    letter-spacing: -0.02em;
+    text-transform: uppercase;
+    margin-bottom: 32px;
+}
+
+.text-two-welcome {
+    font-size: 14px;
+    line-height: 1.3;
+    letter-spacing: -0.02em;
+    text-transform: uppercase;
+    margin-bottom: 32px;
+}
+
+.img-welcome {
+    margin-left: auto;
+    margin-right: auto;
+}
