@@ -12,6 +12,13 @@
    padding-left: 20px;
    padding-right: 20px;
   }
+  @media screen and (min-width: 768px){
+    .section{
+        padding-left: 32px;
+        padding-right: 32px;
+    }
+  }
+
 
   .container{
     width: 100vw;
@@ -20,6 +27,31 @@
 
     /* outline: 2px solid red; */
   }
+  
+  @media screen and (max-width: 374.98px){
+    .container{
+        max-width: 335px;
+    }
+  }
+
+  @media screen and (min-width: 375px){
+    .container{
+        width: 335px;
+    }
+  }
+
+  @media screen and (min-width: 768px){
+    .container{
+        width: 704px;
+    }
+  }
+
+  @media screen and (min-width: 1440px){
+    .container{
+        width: 1376px;
+    }
+  }
+
 .button{
     display: block;
     font-family: inherit;
