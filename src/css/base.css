@@ -1,8 +1,12 @@
-body{
-    background-color: var(--primery-bg-color);
+ body{
+        background-color: var(--primary-white-color);
+        font-family: 'DM Sans', sans-serif;
+        
   }
-
- 
+  /* braaking points */
+    /*mobile: 375px */
+    /*tablet: 768px */
+    /*desktop: 1440px */
 
   .section{
    padding-left: 20px;
@@ -10,11 +14,34 @@ body{
   }
 
   .container{
-      width: 100vw;
-      margin-left: auto;
-      margin-right: auto;
+    width: 100vw;
+    margin-left: auto;
+    margin-right: auto;
 
-       /* outline: 2px solid red; */
+    /* outline: 2px solid red; */
   }
+.button{
+    display: block;
+    font-family: inherit;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: calc(24 / 18);
+    text-transform: uppercase;
+    text-align: center;
+    background-color: transparent;
+    border-radius: 32px;
+    
 
+}
+ .button-white{
+    border: 0.8px solid rgba(18, 18, 18, 1);
+ }
+ .button-black{
+    border: 0.8px solid rgba(246, 246, 246, 1);;
+ }
+ .button:hover,
+ .button:focus{
+    background-color: black;
+    color: white;
+ }
  
