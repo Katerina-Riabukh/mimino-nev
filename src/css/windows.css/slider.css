@@ -1,0 +1,10 @@
+.slider{
+    width: 266px;
+    height: 309px;
+    background-color: aqua;
+    border: 1px solid brown;
+}
+
+.slick-prev:before {
+   content: '';
+}
