@@ -62,8 +62,8 @@
     display: block;
     font-family: inherit;
     font-weight: 400;
-    font-size: 18px;
-    line-height: calc(24 / 18);
+    font-size: 14px;
+    line-height: calc(24 / 14);
     text-transform: inherit;
     text-align: center;
     background-color: transparent;
@@ -83,7 +83,9 @@
 @media screen and (min-width: 1440px){
     .button{
         padding-top: 9px;
-    padding-bottom: 9px;
+     padding-bottom: 9px;
+     font-size: 18px;
+     line-height: calc(24 / 18);
     }
 }
 
