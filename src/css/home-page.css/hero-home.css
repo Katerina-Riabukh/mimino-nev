@@ -31,8 +31,9 @@
     }
   }
 
-  /** Device form 769px */
-@media screen and (min-width: 1024px) {
+
+  /** Device form 1440px */
+@media screen and (min-width: 1440px) {
     .hero-section {
 background-position: top right;
 
