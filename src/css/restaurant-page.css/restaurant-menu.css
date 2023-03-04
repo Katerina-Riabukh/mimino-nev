@@ -1,0 +1,238 @@
+/**
+  |============================
+  | Section RESTAURANT MENU
+  |============================
+*/
+
+
+/* @media screen and (max-width: 374.98px){
+   
+  }
+
+  @media screen and (min-width: 375px){
+    
+  }
+
+  @media screen and (min-width: 768px){
+    
+  }
+
+  @media screen and (min-width: 1440px){
+    
+  } */
+
+
+
+.fon {
+    background-color: var(--secondary-bcg-color);
+  }
+
+  .my-container {
+    padding-top: 100px;
+    padding-bottom: 100px;
+  }
+
+/* H2 */
+.price-title {
+    text-align: center;
+    font-family: var(--primery-font);
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 1.1;
+    letter-spacing: -0.02em;
+    color: var(--primary-white-color);
+    /* outline: 2px solid red; */
+  }
+  
+  .price-block {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 74px 50px;
+    padding: 100px 136px 50px 136px;
+    /* outline: 2px solid green; */
+  }
+  
+  .price-list {
+    width: 515px;
+    padding-left: 0;
+    margin-top: 0;
+    margin-bottom: 0;
+    /* outline: 2px solid orange; */
+  }
+  
+  .price-item {
+    display: flex;
+    align-items: baseline;
+    justify-content: space-between;
+    /* outline: 2px solid rgb(51, 21, 223); */
+  }
+  
+  .price-weight {
+    font-family: var(--primery-font);
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.29;
+    letter-spacing: -0.02em;
+    color: var(--secondary-white-color);
+  }
+  
+  
+  .price-title-min {
+    margin-right: auto;
+    margin-bottom: 32px;
+    font-family: var(--primery-font);
+    font-style: italic;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 1;
+    letter-spacing: -0.02em;
+    color: var(--primary-white-color);
+  }
+  
+  
+  .price-name-dish {
+    font-family: var(--primery-font);
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 1.33;
+    letter-spacing: -0.02em;
+  
+  
+    display: flex;
+    align-items: baseline;
+    justify-content: space-between;
+    align-items: center;
+    color: var(--primary-white-color);
+  }
+  
+  .price-name-dish::before {
+    content: '';
+    width: 5px;
+    height: 5px;
+    margin-left: 10px;
+    margin-right: 15px;
+    border-radius: 50%;
+    background-color: var(--primary-white-color);
+  }
+  
+  
+  .price-price {
+    font-family: var(--primery-font);
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 1.33;
+    letter-spacing: -0.02em;
+    margin-bottom: 0;
+    margin-top: 8px;
+    color: var(--primary-white-color);
+  }
+  
+  .price-item-p {
+    width: 325px;
+    /* outline: 2px solid rgb(59, 56, 56); */
+    font-family: var(--primery-font);
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 1.5;
+    letter-spacing: 0.18em;
+    color: var(--secondary-white-color);
+  }
+  
+  .price-add {
+    width: 345px;
+  }
+  
+  .price-height {
+    height: 18px;
+  }
+  
+  .price-item-second {
+    display: flex;
+    justify-content: space-between;
+    border-bottom-width: 1px;
+    border-bottom-color: var(--border-grey);
+    border-bottom-style: solid;
+    margin-bottom: 14px;
+    margin-top: 0;
+  }
+  
+  .price-item-third {
+    display: flex;
+    justify-content: space-between;
+    border-bottom-width: 1px;
+    border-bottom-color: var(--border-grey);
+    border-bottom-style: solid;
+    margin-bottom: 14px;
+    margin-top: 0px;
+    /* outline: 2px solid tomato; */
+  }
+  
+  .price-margin {
+    margin-bottom: 14px;
+  }
+  
+  /* контейнер для 4 и 5 блока */
+  .price-list-last {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 22px;
+    /* outline: 2px solid rgb(61, 212, 16); */
+  }
+  .mybutton {
+    margin-left: 137px;
+  }
+
+
+/* Стилизация слайдера */
+
+  /*Скрытие слайдера с 1440px*/
+/* @media only screen and (min-width: 1440px) {
+    div.multiple-items {
+      display: none;
+    }
+  } */
+
+  @media screen and (min-width: 374.98px) and (max-width: 767.99px) {
+    .slider-container {
+      min-width: 335px;
+      max-height: 505px;
+      outline: 2px solid green;
+    }
+  }
+  @media screen and (min-width: 768px) and (max-width: 1439.99px) {
+    .slider-container {
+      min-width: 515px;
+      min-height: 533px;
+      outline: 2px solid rgb(73, 197, 100);
+    }
+  }
+
+  
+@media screen and (min-width: 374.98px) and (max-width: 767.99px) {
+    .myslyder {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      outline: 2px solid blue;
+      width: 366px;
+      height: 320px;
+    }
+  }
+  
+  @media screen and (min-width: 768px) and (max-width: 1439.99px) {
+    .myslyder {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      outline: 2px solid red;
+      width: 608px;
+      height: 580px;
+    }
+  }
+  
+  
+  
