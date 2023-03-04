@@ -66,8 +66,7 @@ img {
 
 .h-general {
   margin-top: 32px;
-  font-family: ;
-  font-style: ;
+
   font-size: 32px;
   line-height: 40px;
 }
@@ -136,9 +135,6 @@ img {
   height: 159px;
 }
 
-.li-buton {
-  /* display: flex; */
-}
 .buton {
   width: 131px;
   height: 34px;
