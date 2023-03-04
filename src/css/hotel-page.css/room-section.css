@@ -1,0 +1,148 @@
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 0;
+}
+
+p:last-child {
+  margin-bottom: 0;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+a {
+  color: currentColor;
+  text-decoration: none;
+}
+
+button {
+  cursor: pointer;
+}
+
+.conteiner {
+  width: 335px;
+  padding-left: 20px;
+  padding-right: 20px;
+  margin: 0 auto;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+/* <!-- DOUBLE LUXURY ROOM --> */
+.margin-mobil {
+  margin-top: 20px;
+}
+.ul-imj {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+}
+.bed-luxery {
+  width: 335px;
+  height: 468px;
+}
+
+.bathroom-luxery {
+  width: 158px;
+  height: 159px;
+}
+.kutchen-luxery {
+  width: 158px;
+  height: 159px;
+}
+
+.h-general {
+  margin-top: 32px;
+  font-family: ;
+  font-style: ;
+  font-size: 32px;
+  line-height: 40px;
+}
+.ul-text-luxery {
+  margin-top: 32px;
+}
+
+.li-text-luxery {
+  margin-top: 24px;
+}
+
+.ul-buton-all {
+  margin-top: 30px;
+  display: flex;
+}
+.but {
+  margin-left: 10px;
+}
+
+/* TRIPLE-ROOM */
+.section-tripl {
+  margin-top: 64px;
+}
+
+.ul-text-triple {
+  margin-top: 32px;
+}
+.li-text-triple {
+  margin-top: 24px;
+}
+
+.imj-bed-triple {
+  width: 335px;
+  height: 468px;
+}
+
+.imj-bethroom-triple {
+  width: 158px;
+  height: 159px;
+}
+.imj-kutchen-triple {
+  width: 158px;
+  height: 159px;
+}
+
+/* STEATER-ROOM */
+
+.section-steater {
+  margin-top: 64px;
+}
+
+.div-p-steater {
+  margin-top: 32px;
+}
+
+.imj-bed-steater {
+  width: 335px;
+  height: 468px;
+}
+.imj-bethroom-steater {
+  width: 158px;
+  height: 159px;
+}
+.imj-kutchen-steater {
+  width: 158px;
+  height: 159px;
+}
+
+.li-buton {
+  /* display: flex; */
+}
+.buton {
+  width: 131px;
+  height: 34px;
+  border-radius: 15px;
+  background-color: #ffffff;
+  color: black;
+}
