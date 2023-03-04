@@ -67,9 +67,10 @@
 }
  .button-white{
     border: 0.8px solid rgba(18, 18, 18, 1);
+    
  }
  .button-black{
-    border: 0.8px solid rgba(246, 246, 246, 1);;
+    border: 0.8px solid rgba(246, 246, 246, 1);
  }
  .button:hover,
  .button:focus{
