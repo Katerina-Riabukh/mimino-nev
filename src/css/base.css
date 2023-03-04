@@ -1,6 +1,7 @@
  body{
         background-color: var(--primary-white-color);
         font-family: 'DM Sans', sans-serif;
+        letter-spacing: -0.02em;
         text-transform: uppercase;
   }
 
