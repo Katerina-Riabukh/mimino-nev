@@ -1,0 +1,327 @@
+.li-text-second {
+  margin-top: 24px;
+}
+
+/* <!-- DOUBLE LUXURY ROOM --> */
+.margin-mobil {
+  margin-top: 20px;
+}
+.ul-imj {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  position: relative;
+}
+@media screen and (min-width: 768px) {
+  .ul-imj {
+    justify-content: flex-end;
+  }
+}
+@media screen and (min-width: 1440px) {
+  .ul-imj {
+    justify-content: center;
+  }
+}
+
+.bed-luxery {
+  width: 335px;
+  height: 468px;
+}
+@media screen and (min-width: 768px) {
+  .bed-luxery {
+    width: 331px;
+  }
+}
+@media screen and (min-width: 1440px) {
+  .bed-luxery {
+    width: 539px;
+    height: 762px;
+  }
+}
+
+.bathroom-luxery {
+  width: 158px;
+  height: 159px;
+}
+
+@media screen and (min-width: 768px) {
+  .bathroom-luxery {
+    width: 223px;
+    height: 261px;
+    position: absolute;
+    top: 0;
+    left: 118px;
+  }
+}
+@media screen and (min-width: 1440px) {
+  .bathroom-luxery {
+    width: 387px;
+    height: 510px;
+    position: absolute;
+    top: 151px;
+    left: 989px;
+  }
+}
+
+.kutchen-luxery {
+  width: 158px;
+  height: 159px;
+}
+
+@media screen and (min-width: 768px) {
+  .kutchen-luxery {
+    width: 341px;
+    height: 175px;
+    position: absolute;
+    top: 293px;
+    left: 0;
+  }
+}
+@media screen and (min-width: 1440px) {
+  .kutchen-luxery {
+    width: 386px;
+    height: 395px;
+    top: 196px;
+    left: 0;
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  .text-button {
+    display: flex;
+    justify-content: space-between;
+  }
+  .revers {
+    flex-direction: row-reverse;
+  }
+}
+.h-general {
+  margin-top: 32px;
+  font-size: 32px;
+  line-height: 40px;
+}
+@media screen and (min-width: 768px) {
+  .h-general {
+    margin-top: 40px;
+    font-size: 40px;
+    line-height: 44px;
+  }
+}
+@media screen and (min-width: 1440px) {
+  .h-general {
+    margin-top: 50px;
+  }
+}
+
+.ul-text-luxery {
+  margin-top: 32px;
+}
+@media screen and (min-width: 768px) {
+  .ul-text-luxery {
+    display: flex;
+  }
+  .li-text-second {
+    margin-top: 0;
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  .ul-text-luxery {
+    margin-top: 40px;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .li-text-luxery {
+    width: 369px;
+    margin-top: 0;
+
+    padding-right: 32px;
+  }
+}
+@media screen and (min-width: 1440px) {
+  .li-text-luxery {
+    width: 355px;
+  }
+  .li-text-second {
+    width: 299px;
+  }
+}
+
+.ul-buton-all {
+  margin-top: 30px;
+  display: flex;
+  gap: 12px;
+}
+@media screen and (min-width: 768px) {
+  .ul-buton-all {
+    gap: 14px;
+  }
+}
+@media screen and (min-width: 1440px) {
+  .ul-buton-all {
+    margin-top: 50px;
+  }
+}
+
+/* ПЩЧЕМУ ОНО НЕ РАБОТАЕТ С НО ЛАСТ ЧАИЛД  */
+@media screen and (min-width: 768px) {
+  .flex-end {
+    justify-content: flex-end;
+  }
+}
+
+/* TRIPLE-ROOM */
+.section-margin {
+  margin-top: 64px;
+}
+
+@media screen and (min-width: 768px) {
+  .section-margin {
+    margin-top: 88px;
+  }
+}
+@media screen and (min-width: 1440px) {
+  .section-margin {
+    margin-top: 100px;
+  }
+}
+.ul-text-triple {
+  margin-top: 32px;
+}
+
+.imj-bed-triple {
+  width: 335px;
+  height: 468px;
+}
+@media screen and (min-width: 768px) {
+  .imj-bed-triple {
+    width: 331px;
+  }
+}
+@media screen and (min-width: 1440px) {
+  .imj-bed-triple {
+    width: 539px;
+    height: 762px;
+  }
+}
+.imj-bethroom-triple {
+  width: 158px;
+  height: 159px;
+}
+
+@media screen and (min-width: 768px) {
+  .imj-bethroom-triple {
+    width: 223px;
+    height: 261px;
+    position: absolute;
+    top: 0;
+    left: 118px;
+  }
+}
+@media screen and (min-width: 1440px) {
+  .imj-bethroom-triple {
+    width: 387px;
+    height: 510px;
+    position: absolute;
+    top: 151px;
+    left: 989px;
+  }
+}
+
+.imj-kutchen-triple {
+  width: 158px;
+  height: 159px;
+}
+
+@media screen and (min-width: 768px) {
+  .imj-kutchen-triple {
+    width: 341px;
+    height: 175px;
+    position: absolute;
+    top: 293px;
+    left: 0;
+  }
+}
+@media screen and (min-width: 1440px) {
+  .imj-kutchen-triple {
+    width: 386px;
+    height: 395px;
+    top: 196px;
+    left: 0;
+  }
+}
+
+/* STEATER-ROOM */
+
+.section-steater {
+  margin-top: 64px;
+}
+
+.div-p-steater {
+  margin-top: 32px;
+}
+
+.imj-bed-steater {
+  width: 335px;
+  height: 468px;
+}
+@media screen and (min-width: 768px) {
+  .imj-bed-steater {
+    width: 331px;
+  }
+}
+@media screen and (min-width: 1440px) {
+  .imj-bed-steater {
+    width: 539px;
+    height: 762px;
+  }
+}
+
+.imj-bethroom-steater {
+  width: 158px;
+  height: 159px;
+}
+
+@media screen and (min-width: 768px) {
+  .imj-bethroom-steater {
+    width: 223px;
+    height: 261px;
+    position: absolute;
+    top: 0;
+    left: 118px;
+  }
+}
+@media screen and (min-width: 1440px) {
+  .imj-bethroom-steater {
+    width: 387px;
+    height: 510px;
+    position: absolute;
+    top: 151px;
+    left: 989px;
+  }
+}
+
+.imj-kutchen-steater {
+  width: 158px;
+  height: 159px;
+}
+
+@media screen and (min-width: 768px) {
+  .imj-kutchen-steater {
+    width: 341px;
+    height: 175px;
+    position: absolute;
+    top: 293px;
+    left: 0;
+  }
+}
+@media screen and (min-width: 1440px) {
+  .imj-kutchen-steater {
+    width: 386px;
+    height: 395px;
+    top: 196px;
+    left: 0;
+  }
+}
