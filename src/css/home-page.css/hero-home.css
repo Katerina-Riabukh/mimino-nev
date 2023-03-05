@@ -82,7 +82,7 @@ color: var(--primary-white-color);
     margin-bottom: 32px;
 
     font-size: 150px;
-    line-height: 1;
+    line-height: var(--150px);
   }
 }
 
