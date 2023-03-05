@@ -1,34 +1,60 @@
-<welcome-section class="container welcome-section">
-  <div class="section">
-    <div class="description-welcome">
-      <h2 class="title-welcome">
-        Welcome to the epitome of luxury and comfort
-      </h2>
-      <ul class="list-text-welcome">
-        <li>
-          <p class="text-one-welcome">
-            Our hotel rooms are elegantly designed with an eye for detail,
-            ensuring that you have everything you need for a relaxing and
-            rejuvenating stay.
-          </p>
-        </li>
-        <li>
-          <p class="text-two-welcome">
-            Each room is equipped with the latest amenities, including plush
-            bedding, high-speed Wi-Fi, flat-screen TVs, and a coffee maker to
-            help you start your day right. Our spacious bathrooms feature
-            luxurious toiletries and towels, so you can pamper yourself in
-            complete privacy.
-          </p>
-        </li>
-      </ul>
+<section class="section">
+  <div class="container">
+    <div class="welcome-section">
+      <div class="description-welcome">
+        <h2 class="title-welcome">
+          Welcome to the epitome of luxury and comfort
+        </h2>
+        <ul class="list-text-welcome">
+          <li>
+            <p class="text-one-welcome">
+              Our hotel rooms are elegantly designed with an eye for detail,
+              ensuring that you have everything you need for a relaxing and
+              rejuvenating stay.
+            </p>
+          </li>
+          <li>
+            <p class="text-two-welcome">
+              Each room is equipped with the latest amenities, including plush
+              bedding, high-speed Wi-Fi, flat-screen TVs, and a coffee maker to
+              help you start your day right. Our spacious bathrooms feature
+              luxurious toiletries and towels, so you can pamper yourself in
+              complete privacy.
+            </p>
+          </li>
+        </ul>
+      </div>
+      <picture>
+        <source
+          media="(min-width:1440px)"
+          srcset="
+            ./images/home-page_img/welcome.img/welcome-desk-@1x.jpg 1x,
+            ./images/home-page_img/welcome.img/welcome-desk-@2x.png 2x
+          "
+        />
+        <source
+          media="(min-width: 769px)"
+          srcset="
+            ./images/home-page_img/welcome.img/welcome-tablet-@1x.jpg 1x,
+            ./images/home-page_img/welcome.img/welcome-tablet-@2x.png 2x
+          "
+        />
+        <source
+          media="(min-width: 280px)"
+          srcset="
+            ./images/home-page_img/welcome.img/welcome-mobil-@1x.jpg 1x,
+            ./images/home-page_img/welcome.img/welcome-mobil-@2x.png 2x
+          "
+        />
+        <img
+          class="img-welcome"
+          src="./images/welcome.img/welcome-mobil-@1x.jpg"
+          alt="lobby"
+          width="335"
+          height="432"
+          loading="lazy"
+        />
+      </picture>
     </div>
-    <img
-      class="img-welcome"
-      src="./images/welcome.img/welcome-mobil-@1x.jpg"
-      alt="lobby"
-      width="335"
-      height="432"
-    />
   </div>
-</welcome-section>
+</section>
