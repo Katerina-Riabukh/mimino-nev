@@ -1,0 +1,98 @@
+.title-welcome {
+    font-weight: 500;
+    font-size: 32px;
+    line-height: var(--36px);
+    margin-bottom: 32px;
+}
+
+.text-one-welcome {
+    width: 306px;
+    font-size: 14px;
+    line-height: var(--18px);
+    margin-bottom: 32px;
+}
+
+.text-two-welcome {
+    font-size: 14px;
+    line-height: var(--18px);
+    margin-bottom: 32px;
+}
+
+.img-welcome {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+@media screen and (min-width: 375px) and (max-width: 768px) {
+    .welcome-section {
+        padding-top: 60px;
+        padding-bottom: 64px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .description-welcome {
+        width: 335px;  
+    }
+}
+
+@media screen and (min-width: 769px) {
+    .title-welcome {
+        width: 434px;
+        font-size: 36px;
+        line-height: var(--36px);
+        letter-spacing: -0.02em;
+        margin-bottom: 50px;
+        }
+}
+
+@media screen and (min-width: 769px) and (max-width: 1439px) {
+    .welcome-section {
+        padding-top: 80px;
+        padding-bottom: 80px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .list-text-welcome {
+        display: flex;
+        gap: 32px;
+        margin-bottom: 29px;
+    }
+    .text-one-welcome {
+        margin-bottom: 0;
+        width: 306px;
+    }
+    .text-two-welcome {
+        margin-bottom: 0;
+        width: 366px;
+    }
+    .img-welcome {
+        width: 704px;
+    }
+}
+
+@media screen and (min-width: 1440px) {
+    .welcome-section {
+        padding-top: 100px;
+        padding-bottom: 85px;
+        display: flex;
+        flex-direction: row-reverse;
+        gap: 32px;
+    }
+    .description-welcome {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        width: 434px;
+        margin-right: auto;
+    }
+    .img-welcome {
+        max-width: 672px;
+        width: 672px;     
+    }
+    .text-two-welcome {
+        margin-top: 24px;
+        margin-bottom: 0;
+    }
+}
