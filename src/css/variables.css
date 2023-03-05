@@ -1,7 +1,7 @@
 :root{
 /* MAIN COLORS */
     --primary-black-color: rgba(18, 18, 18, 1);
-    --primary-white-color: rgba(246, 246, 246, 1);
+    --primary-white-color: #F7F7F7;
 /* BORDER COLOR */
     --border-white: rgba(18, 18, 18, 0.3);
     --border-black: rgba(246, 246, 246, 0.2);
