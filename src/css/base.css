@@ -1,109 +1,107 @@
- body{
-        background-color: var(--primary-white-color);
-        font-family: 'DM Sans', sans-serif;
-        letter-spacing: -0.02em;
-        text-transform: uppercase;
-  }
-
-  .italic{
-    font-style: italic;
-  }
-  
-  /* braaking points */
-    /*mobile: 375px */
-    /*tablet: 768px */
-    /*desktop: 1440px */
-
-  .section{
-   padding-left: 20px;
-   padding-right: 20px;
-  }
-  @media screen and (min-width: 768px){
-    .section{
-        padding-left: 32px;
-        padding-right: 32px;
-    }
-  }
-
-
-  .container{
-    width: 100vw;
-    margin-left: auto;
-    margin-right: auto;
-
-    /* outline: 2px solid red; */
-  }
-
-  @media screen and (max-width: 374.98px){
-    .container{
-        max-width: 335px;
-    }
-  }
-
-  @media screen and (min-width: 375px){
-    .container{
-        width: 335px;
-    }
-  }
-
-  @media screen and (min-width: 768px){
-    .container{
-        width: 704px;
-    }
-  }
-
-  @media screen and (min-width: 1440px){
-    .container{
-        width: 1376px;
-    }
-  }
-
-.button{
-    display: block;
-    font-family: inherit;
-    font-weight: 400;
-    font-size: 14px;
-    line-height: calc(24 / 14);
-    text-transform: inherit;
-    text-align: center;
-    background-color: transparent;
-    border-radius: 32px;
-
-    padding-top: 8px;
-    padding-bottom: 8px;
-    padding-left: 18px;
-    padding-right: 18px;
-}
-@media screen and (min-width: 768px){
-    .button{
-        padding-left: 24px;
-        padding-right: 24px;
-    }
-}
-@media screen and (min-width: 1440px){
-    .button{
-        padding-top: 9px;
-     padding-bottom: 9px;
-     font-size: 18px;
-     line-height: calc(24 / 18);
-    }
+body {
+  background-color: var(--primary-white-color);
+  font-family: 'DM Sans', sans-serif;
+  letter-spacing: -0.02em;
+  text-transform: uppercase;
 }
 
- .button-white{
-    border: 0.8px solid rgba(18, 18, 18, 1);
- }
- .button-black{
-    border: 0.8px solid rgba(246, 246, 246, 1);;
- }
- .button.button-white:hover,
- .button.button-white:focus{
-    background-color: black;
-    color: white;
- }
- 
- .button.button-black:hover,
- .button.button-black:focus{
-    background-color: white;
-    color: black;
- }
- 
+.italic {
+  font-style: italic;
+}
+
+/* braaking points */
+/*mobile: 375px */
+/*tablet: 768px */
+/*desktop: 1440px */
+
+.section {
+  padding-left: 20px;
+  padding-right: 20px;
+}
+@media screen and (min-width: 768px) {
+  .section {
+    padding-left: 32px;
+    padding-right: 32px;
+  }
+}
+
+.container {
+  width: 100vw;
+  margin-left: auto;
+  margin-right: auto;
+
+  /* outline: 2px solid red; */
+}
+
+@media screen and (max-width: 374.98px) {
+  .container {
+    max-width: 335px;
+  }
+}
+
+@media screen and (min-width: 375px) {
+  .container {
+    width: 335px;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .container {
+    width: 704px;
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  .container {
+    width: 1376px;
+  }
+}
+
+.button {
+  display: block;
+  font-family: inherit;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: calc(24 / 14);
+  text-transform: inherit;
+  text-align: center;
+  background-color: transparent;
+  border-radius: 32px;
+
+  padding-top: 8px;
+  padding-bottom: 8px;
+  padding-left: 18px;
+  padding-right: 18px;
+}
+@media screen and (min-width: 768px) {
+  .button {
+    padding-left: 24px;
+    padding-right: 24px;
+  }
+}
+@media screen and (min-width: 1440px) {
+  .button {
+    padding-top: 9px;
+    padding-bottom: 9px;
+    font-size: 18px;
+    line-height: calc(24 / 18);
+  }
+}
+
+.button-white {
+  border: 0.8px solid rgba(18, 18, 18, 1);
+}
+.button-black {
+  border: 0.8px solid rgba(246, 246, 246, 1);
+}
+.button.button-white:hover,
+.button.button-white:focus {
+  background-color: black;
+  color: white;
+}
+
+.button.button-black:hover,
+.button.button-black:focus {
+  background-color: white;
+  color: black;
+}
