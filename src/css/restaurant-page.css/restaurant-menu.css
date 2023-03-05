@@ -35,11 +35,11 @@
 /* H2 */
 .price-title {
     text-align: center;
-    font-family: var(--primery-font);
+    /* font-family: var(--primery-font); */
     font-weight: 700;
     font-size: 40px;
-    line-height: 1.1;
-    letter-spacing: -0.02em;
+    line-height: var(--40px);
+    /* letter-spacing: -0.02em; */
     color: var(--primary-white-color);
     /* outline: 2px solid red; */
   }
@@ -69,12 +69,13 @@
   }
   
   .price-weight {
-    font-family: var(--primery-font);
+    /* font-family: var(--primery-font); */
     font-style: normal;
     font-weight: 400;
     font-size: 14px;
-    line-height: 1.29;
-    letter-spacing: -0.02em;
+    line-height: var(--18px);
+    /* line-height: 1.29; */
+    /* letter-spacing: -0.02em; */
     color: var(--secondary-white-color);
   }
   
@@ -82,22 +83,24 @@
   .price-title-min {
     margin-right: auto;
     margin-bottom: 32px;
-    font-family: var(--primery-font);
+    /* font-family: var(--primery-font); */
     font-style: italic;
     font-weight: 700;
     font-size: 24px;
-    line-height: 1;
-    letter-spacing: -0.02em;
+    line-height: var(--24px);
+    /* line-height: 1; */
+    /* letter-spacing: -0.02em; */
     color: var(--primary-white-color);
   }
   
   
   .price-name-dish {
-    font-family: var(--primery-font);
+    /* font-family: var(--primery-font); */
     font-weight: 500;
     font-size: 18px;
-    line-height: 1.33;
-    letter-spacing: -0.02em;
+    line-height: var(--18px);
+    /* line-height: 1.33; */
+    /* letter-spacing: -0.02em; */
   
   
     display: flex;
@@ -119,12 +122,13 @@
   
   
   .price-price {
-    font-family: var(--primery-font);
+    /* font-family: var(--primery-font); */
     font-style: normal;
     font-weight: 700;
     font-size: 18px;
-    line-height: 1.33;
-    letter-spacing: -0.02em;
+    line-height: var(--24px);
+    /* line-height: 1.33; */
+    /* letter-spacing: -0.02em; */
     margin-bottom: 0;
     margin-top: 8px;
     color: var(--primary-white-color);
@@ -133,10 +137,11 @@
   .price-item-p {
     width: 325px;
     /* outline: 2px solid rgb(59, 56, 56); */
-    font-family: var(--primery-font);
+    /* font-family: var(--primery-font); */
     font-weight: 400;
     font-size: 12px;
-    line-height: 1.5;
+    line-height: var(--12px);
+    /* line-height: 1.5; */
     letter-spacing: 0.18em;
     color: var(--secondary-white-color);
   }

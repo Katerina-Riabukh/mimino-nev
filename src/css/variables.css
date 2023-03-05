@@ -10,7 +10,7 @@
     /* FONT */
     --primery-font: 'DM Sans', sans-serif;
     /* BACKGROUND */
-    --secondary-bcg-color: rgb(18, 18, 18);
+    --secondary-bcg-color: rgba(18, 18, 18, 1);
 
 
     /* Line heights */
