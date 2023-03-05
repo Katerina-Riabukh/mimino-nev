@@ -4,8 +4,3 @@
         slidesToScroll: 3
       });
       
-      $('.multiple-items-res').slick({
-        infinite: true,
-        slidesToShow: 1,
-        slidesToScroll: 1
-      });

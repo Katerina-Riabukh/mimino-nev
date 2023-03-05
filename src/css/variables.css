@@ -2,15 +2,15 @@
     /* MAIN COLORS */
     --primary-black-color: rgba(18, 18, 18, 1);
     --primary-white-color: rgba(246, 246, 246, 1);
-    --secondary-white-color: rgba(216, 215, 215, 0.5);
+    /* --secondary-white-color: rgba(216, 215, 215, 0.5); */
     /* BORDER COLOR */
     --border-white: rgba(18, 18, 18, 0.3);
     --border-black: rgba(246, 246, 246, 0.2);
-    --border-grey: rgba(255, 255, 255, 0.5);
+    /* --border-grey: rgba(255, 255, 255, 0.5); */
     /* FONT */
     --primery-font: 'DM Sans', sans-serif;
     /* BACKGROUND */
-    --secondary-bcg-color: rgba(18, 18, 18, 1);
+    /* --secondary-bcg-color: rgba(18, 18, 18, 1); */
 
 
     /* Line heights */
