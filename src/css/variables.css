@@ -2,6 +2,7 @@
 /* MAIN COLORS */
     --primary-black-color: rgba(18, 18, 18, 1);
     --primary-white-color: rgba(246, 246, 246, 1);
+    --secondary-white-color: rgba(216, 215, 215, 0.5);
 /* BORDER COLOR */
     --border-white: rgba(18, 18, 18, 0.3);
     --border-black: rgba(246, 246, 246, 0.2);
@@ -11,6 +12,7 @@
 
     /* Line heights */
     --180px: calc(180 / 180);
+    --150px: calc(150 / 150);
     --90px: calc(90 / 90);
     --80px: calc(80 / 80);
     --68px: calc(68 / 68);
