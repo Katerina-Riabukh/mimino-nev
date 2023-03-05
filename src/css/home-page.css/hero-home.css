@@ -106,17 +106,12 @@ color: var(--primary-white-color);
 .buttons-flex{
     display: flex;
     justify-content: center;  
+    gap: 14px
 
 }
 
 
-.buttons-flex .button-black:not(:last-child){
-margin-right: 14px;
-}
-
-
-
-@media screen and (max-width: 1439px) {
+@media screen and (max-width: 767px) {
   .buttons-flex {
     margin-bottom: 66px;
   }
@@ -136,11 +131,8 @@ margin-right: 14px;
 }
 
 
-
-
-
 @media screen and (min-width: 1440px){
-  .buttons-flex .button-black:last-child{
+  .buttons-flex{
     margin-right: 64px;
   }
 }
@@ -150,15 +142,14 @@ margin-right: 14px;
     @media screen and (min-width: 768px) {
       .text-flex{
         display: flex;
-        
+        gap: 32px;
+        /* width: 684px; */
     }
 }
 
 
 
 .hero-text{
-margin-bottom: 32px;
-
     font-size: 14px;
 line-height: var(--14px);
 letter-spacing: 0.05em;
@@ -166,31 +157,23 @@ letter-spacing: 0.05em;
     color: var(--primary-white-color);
 }
 
-
-@media screen and (min-width: 768px) {
-  .hero-text{
-    width: 314px;
-    margin-bottom: 0;
-
-  }
+@media screen and (max-width: 767px) {
+  .hero-text.one{
+  margin-bottom: 32px;
+}
 }
 
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 768px){
   .hero-text.one{
     width: 338px;
-    margin-bottom: 0;
-
   }
 }
 
-@media screen and (min-width: 768px) {
-  .hero-text:not(:last-child){
-    margin-right: 32px;
-
+@media screen and (min-width: 768px){
+  .hero-text{
+  width: 314px;
   }
 }
-
-
 
 
 
