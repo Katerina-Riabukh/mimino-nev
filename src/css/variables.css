@@ -2,12 +2,29 @@
     /* MAIN COLORS */
     --primary-black-color: rgba(18, 18, 18, 1);
     --primary-white-color: rgba(246, 246, 246, 1);
-
+    --text-color-black: rgba(0, 0, 0, 1);
     --border-white: rgba(18, 18, 18, 0.3);
     --border-black: rgba(246, 246, 246, 0.2);
-    /* --border-grey: rgba(255, 255, 255, 0.5); */
+    --border-grey: rgba(255, 255, 255, 0.5);
     /* FONT */
     --primery-font: 'DM Sans', sans-serif;
+
+    /* Line heights */
+    --180px: calc(180 / 180);
+    --150px: calc(150 / 150);
+    --90px: calc(90 / 90);
+    --80px: calc(80 / 80);
+    --68px: calc(68 / 68);
+    --40px: calc(44 / 40);
+    --36px: calc(40 / 36);
+    --28px: calc(32 / 28);
+    --24px: calc(24 / 24);
+    --20px: calc(24 / 20);
+    --18px: calc(24 / 18);
+    --14px: calc(18 / 14);
+    --12px: calc(18 / 12);
+    --12px_14: calc(14 /12);
+    --8px: calc(12 / 8);
 
 }
 
