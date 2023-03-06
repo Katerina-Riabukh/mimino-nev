@@ -1,8 +1,10 @@
+
  body {
    background-color: var(--primary-white-color);
    font-family: 'DM Sans', sans-serif;
    letter-spacing: -0.02em;
    text-transform: uppercase;
+   color: var(--primary-black-color);
  }
 
  .italic {
@@ -97,19 +99,19 @@
  }
 
  .button-black {
-   color: white;
+   color: var(--primary-white-color);
    border: 0.8px solid rgba(246, 246, 246, 1);
-   ;
  }
 
  .button.button-white:hover,
  .button.button-white:focus {
-   background-color: black;
-   color: white;
+   background-color: var(--primary-black-color);
+   color: var(--primary-white-color);
  }
 
  .button.button-black:hover,
  .button.button-black:focus {
-   background-color: white;
-   color: black;
+   background-color: var(--primary-white-color);
+   color: var(--primary-black-color);
  }
+

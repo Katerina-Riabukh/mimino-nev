@@ -1,0 +1,143 @@
+body{
+    margin: 0;
+}
+
+
+.room-hero-section{
+    padding-top: 40px;
+    padding-bottom: 64px;
+}
+
+@media screen and (min-width:768px) {
+    .room-hero-section{
+        padding-bottom: 120px;
+    }
+}
+
+@media screen and (min-width:1440px) {
+    .room-hero-section{
+        padding-top: 247px;
+        padding-bottom: 48px;
+    }
+}
+
+.room-hero-title{
+margin-bottom: 24px;
+
+
+font-weight: 400;
+font-size: 40px;
+line-height: calc(40 / 40);
+color: var(--primary-black-color);
+}
+
+@media screen and (min-width: 768px) {
+    .room-hero-title{
+        margin-bottom: 18px;
+        font-size: 60px;
+        line-height: calc(60 / 60);
+    }
+}
+
+@media screen and (min-width: 1440px) {
+    .room-hero-title{
+         margin-bottom: 32px;
+         font-size: 80px;
+         line-height: var(--80px);
+    }
+}
+
+
+.room-hero-section .button-white{
+margin-bottom: 40px;
+
+    line-height: var(--14px);
+}
+
+@media screen and (min-width: 768px){
+    .room-hero-section .button-white{
+        margin-bottom: 28px;
+
+        line-height: calc(24 / 14)
+    }
+}
+
+@media screen and (min-width: 1440px){
+    .room-hero-section .button-white{
+        margin-bottom: 169px;
+
+        font-size: 18px;
+        line-height: var(--18px);
+    }
+}
+
+
+
+
+
+
+.multiple-items-one{
+    display: flex;
+    margin-bottom: 100px;
+}
+
+@media screen and (min-width: 768px){
+    .multiple-items-one{
+        margin-bottom: 40px;
+    }
+}
+
+
+.room-hero-text{
+width: 301px;
+
+    font-weight: 400;
+font-size: 14px;
+line-height: var(--14px);
+letter-spacing: 0.05em;
+
+}
+
+
+
+
+
+/* Deck position */
+
+.room-hero-section{
+    position: relative;
+}
+
+
+
+@media screen and (min-width: 1440px) {
+    .multiple-items-one{
+        position: absolute;
+        left: 736px;
+        top: 108px;
+    }
+}
+
+/* * Experiment */
+
+@media screen and (max-width: 767px) {
+    .slide{
+        width: 250px;
+        height: 429px;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .slide{
+       width: 436px;
+height: 548px;
+    }
+}
+
+
+@media screen and (min-width: 1440px) {
+    .slide{
+    width: 436px;
+height: 580px;
+    }
+}
