@@ -94,7 +94,7 @@
  }
  .button-black{
     color: white;
-    border: 0.8px solid rgba(246, 246, 246, 1);;
+    border: 0.8px solid rgba(246, 246, 246, 1);
  }
  .button.button-white:hover,
  .button.button-white:focus{
