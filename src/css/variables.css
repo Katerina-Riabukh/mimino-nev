@@ -8,6 +8,9 @@
     --border-grey: rgba(255, 255, 255, 0.5);
     --secondary-white-color: rgba(216, 215, 215, 0.5);
     --backdrop: rgba(18, 18, 18, 0.5);
+    
+
+    
     /* FONT */
     --primery-font: 'DM Sans', sans-serif;
 
@@ -18,6 +21,7 @@
     --80px: calc(80 / 80);
     --68px: calc(68 / 68);
     --40px: calc(44 / 40);
+    --38px: calc(32 / 28);
     --36px: calc(40 / 36);
     --28px: calc(32 / 28);
     --24px: calc(24 / 24);
