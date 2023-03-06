@@ -25,7 +25,7 @@ body{
 margin-bottom: 24px;
 
 
-font-weight: 300;
+font-weight: 400;
 font-size: 40px;
 line-height: calc(40 / 40);
 color: var(--primary-black-color);
@@ -91,7 +91,7 @@ margin-bottom: 40px;
 .room-hero-text{
 width: 301px;
 
-    font-weight: 300;
+    font-weight: 400;
 font-size: 14px;
 line-height: var(--14px);
 letter-spacing: 0.05em;
