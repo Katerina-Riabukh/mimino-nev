@@ -10,7 +10,13 @@
     padding-bottom: 100px;
 }
 
-@media screen and (min-width: 375px) {
+
+@media screen and (max-width: 374.98px) {
+    .container {
+      max-width: 335px;
+    }
+  }
+@media screen and (max-width: 374.98px) and (min-width: 375px) {
     .my-container {
         padding-top: 64px;
         padding-bottom: 64px;
@@ -27,13 +33,6 @@
     }
 }
 
-/* @media screen and (min-width: 375px) {
-    .present {
-        
-        outline: 5px solid rgb(162, 241, 14);
-    }
-} */
-
 @media screen and (min-width: 768px) and (max-width: 1439.99px) {
     .present {
         display: flex;
@@ -54,6 +53,16 @@
     }
 }
 
+@media screen and (max-width: 374.99px)  {
+    .present-before {
+        display: flex;
+        flex-direction: row-reverse;
+        gap: 20px;
+        flex-wrap: wrap;
+        width: 335px;
+    }
+}
+
 @media screen and (min-width: 375px) and (max-width: 767.99px) {
     .present-before {
         display: flex;
@@ -61,7 +70,6 @@
         gap: 20px;
         flex-wrap: wrap;
         width: 335px;
-        /* outline: 10px solid rgb(20, 206, 212); */
     }
 }
 
@@ -73,7 +81,6 @@
         gap: 16px;
         flex-wrap: wrap;
         width: 284px;
-        /* outline: 10px solid rgb(20, 206, 212); */
     }
 }
 
@@ -87,13 +94,23 @@
     }
 }
 
-@media screen and (min-width: 375px) and (max-width: 767.99px) {
+@media screen and (max-width: 374.98px) {
     .present-unite {
         display: flex;
         flex-direction: row;
         gap: 20px;
         flex-wrap: nowrap;
         /* outline: 5px solid rgb(9, 233, 20); */
+    }
+  }
+
+@media screen  and (min-width: 375px) and (max-width: 767.99px) {
+    .present-unite {
+        display: flex;
+        flex-direction: row;
+        gap: 20px;
+        flex-wrap: nowrap;
+      
     }
 }
 
@@ -102,7 +119,6 @@
         display: flex;
         flex-direction: column;
         gap: 16px;
-        /* flex-wrap: nowrap; */
         /* outline: 5px solid rgb(9, 233, 20); */
     }
 }
@@ -117,12 +133,21 @@
     }
 }
 
+ @media screen and (max-width: 374.98px) {
+    .present-img-one {
+        min-width: 335px;
+        height: 443px;
+        margin-bottom: 20px;
+        /* height: 100%; 
+        outline: 5px solid rgb(240, 197, 9);*/
+    }
+  } 
+
 @media screen and (min-width: 375px) and (max-width: 767.99px) {
     .present-img-one {
         width: 335px;
         height: 443px;
         margin-bottom: 20px;
-        /* height: 100%; */
         /* outline: 5px solid rgb(240, 197, 9); */
     }
 }
@@ -135,6 +160,15 @@
         /* outline: 5px solid rgb(240, 197, 9); */
     }
 }
+
+
+@media screen and (max-width: 374.98px) {
+    .present-img-two {
+        width: 158px;
+        height: 149px;
+        /* outline: 5px solid rgb(240, 197, 9); */
+    }
+  }
 
 @media screen and (min-width: 375px) and (max-width: 767.99px) {
     .present-img-two {
@@ -161,6 +195,13 @@
     }
 }
 
+@media screen and (max-width: 374.98px) {
+    .present-img-three {
+        width: 157px;
+        height: 149px;
+       /* outline: 5px solid rgb(240, 197, 9); */
+    }
+  }
 @media screen and (min-width: 375px) and (max-width: 767.99px) {
     .present-img-three {
         width: 157px;
@@ -193,7 +234,6 @@
         gap: 32px;
         flex-wrap: wrap;
         flex-direction: column;
-        /* outline: 7px solid green; */
         width: 284px;
         height: 296px;
     }
@@ -218,6 +258,15 @@
     /* outline: 2px solid blue; */
 }
 
+
+@media screen and (max-width: 374.98px) {
+    .present-text {
+        display: flex;
+        flex-direction: column;
+        gap: 24px;
+        /* outline: 4px solid rgb(12, 233, 23); */
+    }
+  }
 @media screen and (min-width: 365px) {
     .present-text {
         display: flex;
@@ -248,11 +297,21 @@
         /* outline: 4px solid rgb(12, 233, 23); */
     }
 }
-
-@media screen and (min-width: 365px) and (max-width: 767.99px) {
+@media screen and (max-width: 374.98px) {
     .present-text-one {
         margin: 0;
-        text-transform: uppercase;
+        /* text-transform: uppercase; */
+        font-weight: 400;
+        font-size: 14px;
+        line-height: var(--14px);
+        color: var(--text-color-black);
+    }
+}
+
+@media screen and (min-width: 375px) and (max-width: 767.99px) {
+    .present-text-one {
+        margin: 0;
+        /* text-transform: uppercase; */
         font-weight: 400;
         font-size: 14px;
         line-height: var(--14px);
@@ -262,7 +321,7 @@
 
 @media screen and (min-width: 768px) and (max-width: 1439.99px) {
     .present-text-one {
-        text-transform: uppercase;
+        /* text-transform: uppercase; */
         font-weight: 400;
         font-size: 18px;
         line-height: var(--18px);
@@ -275,7 +334,7 @@
 
 @media screen and (min-width: 1440px) {
     .present-text-one {
-        text-transform: uppercase;
+        /* text-transform: uppercase; */
         font-weight: 500;
         font-size: 18px;
         line-height: var(--18px);
@@ -285,11 +344,21 @@
         color: var(--text-color-black);
     }
 }
+@media screen and (max-width: 374.98px) {
+    .present-text-two {
+        margin: 0;
+        /* text-transform: uppercase; */
+        font-weight: 400;
+        font-size: 14px;
+        line-height: var(--14px);
+        color: var(--text-color-black);
+    }
+}
 
 @media screen and (min-width: 365px) and (max-width: 767.99px) {
     .present-text-two {
         margin: 0;
-        text-transform: uppercase;
+        /* text-transform: uppercase; */
         font-weight: 400;
         font-size: 14px;
         line-height: var(--14px);
@@ -299,7 +368,7 @@
 
 @media screen and (min-width: 768px) and (max-width: 1439.99px) {
     .present-text-two {
-        text-transform: uppercase;
+        /* text-transform: uppercase; */
         font-weight: 400;
         font-size: 18px;
         line-height: var(--18px);
@@ -313,7 +382,7 @@
 
 @media screen and (min-width: 1440px) {
     .present-text-two {
-        text-transform: uppercase;
+        /* text-transform: uppercase; */
         font-weight: 500;
         font-size: 18px;
         line-height: var(--18px);
