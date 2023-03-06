@@ -1,4 +1,19 @@
+
+:root {
+
+    /* Line heights */
+--38px: calc(32 / 28);
+--8px: calc(12 / 8);
+
+/* MAIN COLORS */
+--light-white: #F7F7F7;
+--light-grey: #D8D7D7
+}
+
+
+
 .backdrop{
+    position: relative;
     position: fixed;
     top: 0px;
     left: 0px;
@@ -8,13 +23,45 @@
     overflow-y: scroll;
     background-color: rgba(18, 18, 18, 0.3);
 }
+
+/* ????????????????????? */
+.data-modal-close {
+    content: "";
+    position: absolute;
+    z-index: 1000;
+    top: 14px;
+    right: 14px;
+}
+
 .modal{
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-
-    width: 628px;
-    height: 476px;
+    width: 355px;
+    height: 528px;
     background-color: aliceblue;
+    padding-top: 24px;
+    padding-left: 24px;
+    background: #121212;
+    border-radius: 2px;
+    color: var(--light-white);
+}
+
+.book-a-table-title {
+font-weight: 500;
+font-size: 28px;
+line-height: var(--38px);
+letter-spacing: -0.02em;
+text-transform: uppercase;
+color: var(--light-white);
+}
+
+.modal-hint {
+    font-weight: 400;
+font-size: 8px;
+line-height: var(--8px);
+letter-spacing: 0.18em;
+text-transform: uppercase;
+color: var(--light-grey);
 }
