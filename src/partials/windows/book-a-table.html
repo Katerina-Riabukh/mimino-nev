@@ -8,35 +8,40 @@
           <form class="book-a-table-form">
             <h2 class="book-a-table-title">BOOK A TABLE</h2>
             
-            <lable class="">
-              <span class="user-name-form">
-                <input name="user_name" type="text" pattern="[a-zA-Z]+$" minlength="2" placeholder="Your name">
+            <lable class="name-lable">
+              <span class="user-name-form current">
+                <input class="modal-form-input" name="user_name" type="text" pattern="[a-zA-Z]+$" minlength="2" placeholder="Your name">
               </span>
                 <p class="modal-hint">Who should book a table for?</p>
               </lable>
               
-            <lable class="">
-              <span class="number-form">
-                <input name="number_of_people" type="number" placeholder="number of people" pattern="[0-1]"> 
+            <lable class="number-lable">
+              <span class="number-form current">
+                <select class="modal-form-input" name="number_of_people" type="tel" pattern="[0-1]">
+                  <option value="number of people">number of people</option>
+                  </select>
               </span>
             </lable>
 
             
-            <lable class="">
-              <span class="date-form">
-                <input name="date" type="number" placeholder="Today" pattern="What date to book?"> 
+            <lable class="date-lable">
+              <span class="date-form current">
+                <select class="modal-form-input" name="date" type="text">
+                  <option value="number of people">today</option>
+                  <option value="number of people">tomorrow</option>
+                </select>
               </span>
               <p class="modal-hint">What date to book?</p>
             </lable>
 
-            <lable class="">
-              <span class="phone-number-form">
-                <input name="user_namber" type="tel" placeholder="+ 38 () ">
+            <lable class="phon-number-lable">
+              <span class="phone-number-form current">
+                <input class="modal-form-input" name="user_namber" type="tel" placeholder="+ 38 () ">
               </span>
               <p class="modal-hint">Phone number</p>
               </lable>
               
-            <button class="button button-black" type="submit">MAKE A RESERVATION</button>
+            <div class="text-align"><button class="button-black-modal" type="submit">MAKE A RESERVATION</button></div>
           </form>
       </div>
     </div>
