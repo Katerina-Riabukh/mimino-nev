@@ -1,7 +1,6 @@
-.review-one,
-.review-two {
-    /* padding-top: 64px;
-    padding-bottom: 64px; */
+.review-one {
+    padding-top: 64px;
+    padding-bottom: 64px;
 }
 
 .img-one {
@@ -83,6 +82,33 @@
     .img-four {
         width: 266px;
         height: 309px;
+        margin-top: 0;
+    }
+}
+
+@media screen and (min-width: 1439px) {
+    .review-one {
+        display: flex;
+        justify-content: space-between;
+        padding-top: 100px;
+        padding-bottom: 100px;
+    }
+    .description-review {
+        margin-top: 209px;
+    }
+    .review-two {
+        display: flex;
+        flex-direction: row-reverse;
+        padding-bottom: 100px;
+    }
+    .img-three {
+        margin-left: 0;
+    }
+    .review-tabl {
+        margin-top: 127px;
+        margin-right: 82px;
+    }
+    .title-review-one {
         margin-top: 0;
     }
 }
