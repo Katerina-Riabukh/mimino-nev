@@ -1,0 +1,10 @@
+*,
+*:before,
+*:after{
+ box-sizing: border-box;
+}
+
+.room-hero-section{
+    padding-top: 40px;
+    padding-bottom: 64px;
+}
