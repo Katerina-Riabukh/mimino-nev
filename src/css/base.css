@@ -98,9 +98,11 @@
    border: 0.8px solid rgba(18, 18, 18, 1);
  }
 
+ 
  .button-black {
    color: var(--primary-white-color);
    border: 0.8px solid rgba(246, 246, 246, 1);
+
  }
 
  .button.button-white:hover,
