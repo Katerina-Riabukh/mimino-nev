@@ -86,12 +86,19 @@ $('.slider-2').slick({
   autoplay: false,
   responsive: [
     {
-       breakpoint: 767,
-       settings: "unslick"
-    }
+      breakpoint: 1440,
+      settings: 
+        "unslick"
+    },
+    {
+      breakpoint: 767,
+      settings: 
+        "object"
+    },
  ]
- 
+
 });
+
 
       
 
