@@ -7,7 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Room</title>
     
-    <link rel="stylesheet" href="/mimino-nev/assets/styles-d0f889f5.css">
+    <link rel="stylesheet" href="/mimino-nev/assets/styles-0dda1c93.css">
   </head>
   <body>
     <header></header>
@@ -266,7 +266,55 @@
     </div>
 
     
-    <div class="hello">hello world</div>
+    <div class="backdrop" data-modal>
+      <div class="modal is-hidden">
+        <button class="data-modal-close">
+          <svg class width="28" height="28">
+            <use href="/mimino-nev/assets/sprite-1b4886b9.svg#modal_close"></use>
+          </svg>
+        </button>
+          <form class="book-a-table-form">
+            <h2 class="book-a-table-title">BOOK 
+              <span class="italick">A TABLE</span></h2>
+            
+            <lable class="name-lable">
+              <span class="user-name-form current">
+                <input class="modal-form-input" name="user_name" type="text" pattern="[a-zA-Z]+$" minlength="2" placeholder="Your name">
+              </span>
+                <p class="modal-hint">Who should book a table for?</p>
+              </lable>
+              
+            <lable class="number-lable">
+              <span class="number-form current">
+                <select class="modal-form-input" name="number_of_people" type="tel" pattern="[0-1]">
+                  <option value="number of people">number of people</option>
+                  </select>
+              </span>
+            </lable>
+
+            <lable class="date-lable">
+              <span class="date-form current">
+                <select class="modal-form-input" name="date" type="text">
+                  <option value="number of people">today</option>
+                  <option value="number of people">tomorrow</option>
+                </select>
+              </span>
+              <p class="modal-hint">What date to book?</p>
+            </lable>
+
+            <lable class="phon-number-lable">
+              <span class="phone-number-form current">
+                <input class="modal-form-input" name="user_namber" type="tel" placeholder="+ 38 () ">
+              </span>
+              <p class="modal-hint">Phone number</p>
+              </lable>
+              
+            <div class="text-align"><button class="button button-black  button-black-modal" type="submit">MAKE A RESERVATION</button></div>
+          </form>
+      </div>
+    </div>
+
+  
     
     
 
