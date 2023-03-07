@@ -9,8 +9,8 @@
     width: 250px;
     height: 429px;
     margin-right: 20px;
-    background-color: aqua;
-    border: 1px solid hotpink;
+    /* background-color: aqua;
+    border: 1px solid hotpink; */
 }
 
 
@@ -106,8 +106,8 @@
     height: 201px;
     margin: 10px;
 
-    background-color: aqua;
-    border: 1px solid hotpink;
+    /* background-color: aqua;
+    border: 1px solid hotpink; */
 }
 
 .slider-1.slick-slider{
@@ -177,8 +177,8 @@
     height: 128px;
     margin: 10px;
 
-    background-color: aqua;
-    border: 1px solid hotpink;
+    /* background-color: aqua;
+    border: 1px solid hotpink; */
 }
 
 .slider-2.slick-slider{
