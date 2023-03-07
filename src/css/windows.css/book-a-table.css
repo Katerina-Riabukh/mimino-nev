@@ -1,0 +1,186 @@
+
+.backdrop{
+    position: relative;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    z-index: 100;
+    width: 100%;
+    height: 100%;
+    overflow-y: scroll;
+    background-color: rgba(18, 18, 18, 0.5);
+    display: none;
+}
+
+
+.data-modal-close {
+    content: "";
+    position: absolute;
+    z-index: 1000;
+    top: 14px;
+    right: 14px;
+}
+
+.modal{
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 355px;
+    height: 528px;
+    background-color: aliceblue;
+    padding-top: 24px;
+    padding-left: 24px;
+    padding-right: 24px;
+    background: var(--primary-black-color);
+    border-radius: 2px;
+    color: var(--primary-white-color);
+    overflow: scroll;
+    text-transform: uppercase;
+}
+
+.book-a-table-title {
+display: block;
+font-weight: 500;
+font-size: 28px;
+line-height: var(--38px);
+letter-spacing: -0.02em;
+text-transform: uppercase;
+color: var(--primary-white-color);
+margin-bottom: 40px;
+}
+
+.italick {
+    font-style: italic;
+}
+
+/* modal-form */
+
+.modal-form-input::placeholder {
+font-weight: 500;
+font-size: 14px;
+line-height: var(--14px);
+letter-spacing: -0.02em;
+text-transform: uppercase;
+color: var(--primary-white-color);
+}
+
+.modal-form-input {
+font-weight: 500;
+font-size: 14px;
+line-height: var(--14px);
+letter-spacing: -0.02em;
+width: 100%;
+height: 20px;
+fill: currentColor;
+background-color: var(--primary-black-color);
+color: var(--secondary-white-color);
+border: none;
+text-transform: uppercase;
+}
+
+.modal-form-input:focus {
+outline: none;
+
+}
+
+/* name-lable */
+
+.name-lable {
+    display: block;
+    margin-bottom: 32px;
+    background-color: var(--primary-black-color);
+}
+
+.user-name-form {
+    position: relative;
+    display: block;
+    margin-bottom: 26px;
+}
+
+.modal-hint {
+font-weight: 400;
+font-size: 8px;
+line-height: var(--8px);
+letter-spacing: 0.18em;
+text-transform: uppercase;
+color: var(--secondary-white-color);
+}
+
+/* number-lable */
+
+.number-lable {
+    position: relative;
+    display: block;
+    margin-bottom: 50px;
+}
+
+
+
+/* date-lable */
+
+
+.date-lable {
+    display: block;
+    padding-bottom: 32px;
+}
+
+.date-form {
+    position: relative;
+    display: block;
+    padding-bottom: 26px;
+}
+
+
+/* phon-number-lable */
+
+.phon-number-lable {
+    display: block;
+    padding-bottom: 40px;
+}
+
+.phone-number-form {
+    position: relative;
+   display: block;
+    padding-bottom: 26px; 
+}
+
+
+/*     line      */
+
+.current::after {
+    content: "";
+    position: absolute;
+    bottom: -1px;
+    left: 0;
+    top: 36px;
+    width: 100%;
+    height: 1px;
+    background-color: gray;
+    
+}
+
+/* buttons */
+
+.text-align {
+    text-align: center;
+}
+
+.button-black-modal {
+
+padding: 14px 48px;
+border-radius: 32px;
+margin-bottom: 40px;
+margin-left: auto;
+margin-right: auto;
+}
+
+.button-black-modal:hover,
+.button-black-modal:focus {
+margin-bottom: 40px;
+margin-left: auto;
+margin-right: auto;
+}
+
