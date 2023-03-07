@@ -3,10 +3,10 @@
 /* section hotel hero */
 .hotel-hero-section {
 background-color: rgb(247, 247, 247);
+overflow: hidden;
 }
 
 .hotel-hero-container {
-  position: relative;
   padding-top: 40px;
   padding-bottom: 40px;
 }
@@ -38,10 +38,10 @@ background-color: rgb(247, 247, 247);
   margin-bottom: 40px;
 }
 
-.button-black,
-.button-black {
+.button-white,
+.button-white {
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1), background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
- }
+}
 
 .hotel-hero-text {
   font-weight: 400;
@@ -52,39 +52,13 @@ background-color: rgb(247, 247, 247);
   text-transform: uppercase;
 
   color: (var(--primary-black-color));
-
 }  
 
 .hotel-hero-text-italic {
   font-style: italic;
 }
 
-
-
-/* ---slider--- */
-
-.swiper-wrapper {
-  display: flex;
-  align-items: center;
-  gap: 20px;
-
-  overflow: hidden;
-  outline: 1px solid rgb(85, 0, 255);
-}
-
-.swiper-slide {
-  flex-basis: calc((100% - (20px)) / 1.5);
-  background-repeat: no-repeat;
-  background-position-x: 0%;
-  background-position-y: 0%;
-  background-attachment: scroll;
-  background-size: cover;
-  width: 250px;
-  height: 429px;
-}
-
-
-/* ---slider button--- */
+/* --slider button prev-next-- */
 
 .hero-swiper-btn-wrapper {
 
@@ -124,11 +98,7 @@ background-color: rgb(247, 247, 247);
 
 /* Phone screen to 767px */
 @media screen and (max-width: 767px) {
-  .swiper-wrapper {
-    margin-bottom: 24px;
-  }
-
-  .first-slide {
+   .first-slide {
     background-image: linear-gradient(0deg, rgba(18, 18, 18, 0.2), rgba(18, 18, 18, 0.2)), url(../images/hotel-page_img/hotel1_mob@1x.jpg) ;
   }
   @media (min-device-pixel-ratio: 2), (min-resolution: 192dpi), (min-resolution: 2dppx) {
@@ -159,26 +129,15 @@ background-color: rgb(247, 247, 247);
 @media screen and (max-width: 767px) {
   .hotel-hero-text {
    max-width: 335px;
-   margin-top: 40px;
+   margin-top: 100px;
   }
+
 }
 
 /* Device form 768px */
+
 @media screen and (min-width: 768px) {
-  .swiper {
-    width: 100%; 
-  }
-
-   .swiper-wrapper {
-    margin-bottom: 40px;
-  }
-
-  .swiper-slide {
-    max-width: 436px;
-    height: 548px;
-  }
-
-  .first-slide {
+    .first-slide {
     background-image: linear-gradient(0deg, rgba(18, 18, 18, 0.2), rgba(18, 18, 18, 0.2)), url(../images/hotel-page_img/hotel1_tab@1x.jpg);
 
   }
@@ -208,7 +167,6 @@ background-color: rgb(247, 247, 247);
 }
 
 @media screen and (min-width: 768px){
-
   .hotel-hero-title {
       margin-bottom: 32px;
       font-size: 80px;
@@ -218,32 +176,20 @@ background-color: rgb(247, 247, 247);
     margin-right: 14px;
   }
 
-
   .hotel-hero-btn-wrapper {
     margin-bottom: 54px;
   }
   .hotel-hero-text {
     width: 338px;
+    margin-top: 40px;
   }
 
 }
 
 /* Device form 1440px */
+
 @media screen and (min-width: 1440px) {
-   .swiper {
-    width: 100%; 
-  }
-
-   .swiper-wrapper {
-    margin-bottom: 16px;
-  }
-
-  .swiper-slide {
-    max-width: 436px;
-    height: 580px;
-  }
-
-  .first-slide {
+    .first-slide {
     background-image: linear-gradient(0deg, rgba(18, 18, 18, 0.2), rgba(18, 18, 18, 0.2)), url(../images/hotel-page_img/hotel1_desk@1x.jpg);
   }
   @media (min-device-pixel-ratio: 2), (min-resolution: 192dpi), (min-resolution: 2dppx) {
@@ -274,12 +220,12 @@ background-color: rgb(247, 247, 247);
 @media screen and (min-width: 1440px) {
 
   .hotel-hero-container {
-  padding-top: 30px;
-  padding-bottom: 30px;
-}
+    padding-top: 30px;
+    padding-bottom: 30px;
+  }
 
  .hotel-hero-title {
-    margin-top: 204px;
+    margin-top: 174px;
     font-size: 90px;
   } 
 
@@ -287,19 +233,15 @@ background-color: rgb(247, 247, 247);
     margin-bottom: 204px;
   }
   
-  .hero-swiper-btn-wrapper {
+  .hotel-hero-text {
+    margin-bottom: 18px;
+    margin-top: 0;
+  }
+  /* .hero-swiper-btn-wrapper {
     justify-content: flex-start;
-  }
+  } */
 
-  /* ---------- */
-  .swiper {
-    position: absolute;
-    width: 50%;
-    margin-left: auto;
-    top: 30px;
-    left: 50%;
 
-  }
   
 }
 
