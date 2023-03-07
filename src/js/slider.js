@@ -16,6 +16,7 @@ $('.slider').slick({
   slidesToShow: 2,
   slidesToScroll: 1,
   adaptiveWidth: true,
+  adaptiveHeigth: true,
   lazyLoad: 'ondemand',
   infinite: true,
   variableWidth: true,
