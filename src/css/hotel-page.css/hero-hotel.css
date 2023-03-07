@@ -9,6 +9,7 @@ background-color: rgb(247, 247, 247);
   position: relative;
   padding-top: 40px;
   padding-bottom: 40px;
+   overflow: hidden;
 }
 
 .hotel-hero-title {
@@ -52,7 +53,6 @@ background-color: rgb(247, 247, 247);
   text-transform: uppercase;
 
   color: (var(--primary-black-color));
-
 }  
 
 .hotel-hero-text-italic {
@@ -63,22 +63,9 @@ background-color: rgb(247, 247, 247);
 
 /* ---slider--- */
 
-.swiper-wrapper {
-  display: flex;
-  align-items: center;
-  gap: 20px;
 
-  overflow: hidden;
-  outline: 1px solid rgb(85, 0, 255);
-}
 
 .swiper-slide {
-  flex-basis: calc((100% - (20px)) / 1.5);
-  background-repeat: no-repeat;
-  background-position-x: 0%;
-  background-position-y: 0%;
-  background-attachment: scroll;
-  background-size: cover;
   width: 250px;
   height: 429px;
 }
@@ -113,8 +100,6 @@ background-color: rgb(247, 247, 247);
   color: (var(--primary-black-color));
 }
 
-
-
 .icon-swiper-next,
 .icon-swiper-prev {
   fill: none;
@@ -124,6 +109,11 @@ background-color: rgb(247, 247, 247);
 
 /* Phone screen to 767px */
 @media screen and (max-width: 767px) {
+  .hero-wraper {
+    width: 520px;
+    height: 429px;
+  }
+
   .swiper-wrapper {
     margin-bottom: 24px;
   }
@@ -175,7 +165,7 @@ background-color: rgb(247, 247, 247);
 
   .swiper-slide {
     max-width: 436px;
-    height: 548px;
+    height: 48px;
   }
 
   .first-slide {
@@ -220,7 +210,7 @@ background-color: rgb(247, 247, 247);
 
 
   .hotel-hero-btn-wrapper {
-    margin-bottom: 54px;
+    margin-bottom: 594px;
   }
   .hotel-hero-text {
     width: 338px;
@@ -230,22 +220,14 @@ background-color: rgb(247, 247, 247);
 
 /* Device form 1440px */
 @media screen and (min-width: 1440px) {
-   .swiper {
-    width: 100%; 
-  }
-
-   .swiper-wrapper {
-    margin-bottom: 16px;
-  }
-
-  .swiper-slide {
-    max-width: 436px;
+  .hero-wraper {
+    width: 436px;
     height: 580px;
   }
 
   .first-slide {
     background-image: linear-gradient(0deg, rgba(18, 18, 18, 0.2), rgba(18, 18, 18, 0.2)), url(../images/hotel-page_img/hotel1_desk@1x.jpg);
-  }
+  } 
   @media (min-device-pixel-ratio: 2), (min-resolution: 192dpi), (min-resolution: 2dppx) {
      .first-slide {
       background-image: linear-gradient(0deg, rgba(18, 18, 18, 0.2), rgba(18, 18, 18, 0.2)), url(../images/hotel-page_img/hotel1_desk@2x.jpg);
@@ -282,24 +264,20 @@ background-color: rgb(247, 247, 247);
     margin-top: 204px;
     font-size: 90px;
   } 
-
-  .hotel-hero-btn-wrapper {
-    margin-bottom: 204px;
-  }
   
-  .hero-swiper-btn-wrapper {
+  /* .hero-swiper-btn-wrapper {
     justify-content: flex-start;
-  }
+  } */
 
   /* ---------- */
-  .swiper {
+  /* .swiper {
     position: absolute;
     width: 50%;
     margin-left: auto;
     top: 30px;
     left: 50%;
 
-  }
+  } */
   
 }
 
