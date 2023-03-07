@@ -145,13 +145,14 @@ margin-left: auto;
 }
 .hotel-flex{
     display: flex;
+    margin-bottom: 82px;
 }
 @media screen and  (min-width:768px){
     .hotel-flex{
         position: absolute;
         top: 0;
-        align-items: flex-start;   
         flex-wrap: wrap;
+        align-items: flex-start;   
         column-gap: 352px;
         /* row-gap: 16px; */
         justify-content: center;
