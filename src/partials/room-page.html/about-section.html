@@ -1,9 +1,10 @@
-<section class="section-room">
-    <h2 class="visually-hiddden">Room Arrengement</h2>
+<section class="section section-dark section-room">
+  <div class="container ">
+    <h2 class="visually-hidden">Room Arrengement</h2>
     <ul class="room-flex">
       <li>
-        <p>General Amenities & Facilities:</p>
-        <ul>
+        <p class="arrang-titles">General Amenities & Facilities:</p>
+        <ul class="arrang-list">
           <li>24-hour front desk service</li>
           <li>Daily housekeeping</li>
           <li>Free Wi-Fi throughout the hotel</li>
@@ -16,8 +17,8 @@
         </ul>
       </li>
       <li>
-        <p>Bathroom:</p>
-        <ul>
+        <p class="arrang-titles">Bathroom:</p>
+        <ul class="arrang-list">
           <li>Private bathroom with shower</li>
           <li>Complimentary toiletries</li>
           <li>Hair dryer</li>
@@ -26,8 +27,8 @@
         </ul>
       </li>
       <li>
-        <p>Bedroom:</p>
-        <ul>
+        <p class="arrang-titles">Bedroom:</p>
+        <ul class="arrang-list">
           <li>Comfortable beds with high-quality linens</li>
           <li>Blackout curtains</li>
           <li>Climate control (air conditioning and heating)</li>
@@ -37,8 +38,8 @@
         </ul>
       </li>
       <li>
-        <p>Kitchen:</p>
-        <ul>
+        <p class="arrang-titles">Kitchen:</p>
+        <ul class="arrang-list">
           <li>In-room kitchenette (in some room categories)</li>
           <li>Refrigerator</li>
           <li>Microwave</li>
@@ -48,8 +49,8 @@
         </ul>
       </li>
       <li>
-        <p>Media:</p>
-        <ul>
+        <p class="arrang-titles">Media:</p>
+        <ul class="arrang-list">
           <li>Flat-screen TV with cable channels</li>
           <li>High-speed Wi-Fi</li>
           <li>iPod docking station</li>
@@ -58,24 +59,31 @@
         </ul>
       </li>
     </ul>
-    <picture>
-      <!-- Desktop screen -->
-      <source type="image/jpg" media="(min-width: 1440px)" srcset="../images/room-page/arrengement/bathroom_desk@1x.jpg 1x, ../images/room-page/arrengement/bathroom_desk@2x.jpg 2x">
-      <!-- Tablet screen -->
-      <source type="image/jpg" media="(min-width: 768px)" srcset="../images/room-page/arrengement/bathroom_tabl@1x.jpg 1x, ../images/room-page/arrengement/bathroom_tabl@2x.jpg 2x">
-      <!-- Mobile screen -->
-      <source type="image/jpg" media="(max-width: 767px)" srcset="../images/room-page/arrengement/bathroom_mob@1x.jpg 1x, ../images/room-page/arrengement/bathroom_mob@1x.jpg 2x">
-      <img class="cards-image" src="../images/room-page/arrengement/bathroom_mob@1x.jpg" alt="Bathroom" width="259" height="333" loading="lazy">
-    </picture>
-    <picture>
-      <!-- Desktop screen -->
-      <source type="image/jpg" media="(min-width: 1440px)" srcset="../images/room-page/arrengement/mirror_desk@1x.jpg 1x, ../images/room-page/arrengement/mirror_desk@2x.jpg 2x">
-      <!-- Tablet screen -->
-      <source type="image/jpg" media="(min-width: 768px)" srcset="../images/room-page/arrengement/mirror_tabl@1x.jpg 1x, ../images/room-page/arrengement/mirror_tabl@2x.jpg 2x">
-      <!-- Mobile screen -->
-      <source type="image/jpg" media="(max-width: 767px)" srcset="../images/room-page/arrengement/mirror_mob@1x.jpg 1x, ../images/room-page/arrengement/mirror_mob@2x.jpg 2x">
-      <img class="cards-image" src="../images/room-page/arrengement/mirror_mob@1x" alt="Mirror shielf" width="207" height="103" loading="lazy">
-    </picture>
-    <button type="button">Book a room</button>
+    
+      <div class="room-image">
+        
+          <picture>
+            <!-- Desktop screen -->
+            <source type="image/jpg" media="(min-width: 1440px)" srcset="./images/room-page/arrengement/bathroom_desk@1x.jpg 1x, ./images/room-page/arrengement/bathroom_desk@2x.jpg 2x">
+            <!-- Tablet screen -->
+            <source type="image/jpg" media="(min-width: 768px)" srcset="./images/room-page/arrengement/bathroom_tabl@1x.jpg 1x, ./images/room-page/arrengement/bathroom_tabl@2x.jpg 2x">
+            <!-- Mobile screen -->
+            <source type="image/jpg" media="(max-width: 767px)" srcset="./images/room-page/arrengement/bathroom_mob@1x.jpg 1x, ./images/room-page/arrengement/bathroom_mob@1x.jpg 2x">
+            <img class="img-back" src="./images/room-page/arrengement/bathroom_mob@1x.jpg" alt="Bathroom" width="259" height="333" loading="lazy">
+          </picture>
+      
+            <picture>
+              <!-- Desktop screen -->
+              <source type="image/jpg" media="(min-width: 1440px)" srcset="./images/room-page/arrengement/mirror_desk@1x.jpg 1x, ./images/room-page/arrengement/mirror_desk@2x.jpg 2x">
+              <!-- Tablet screen -->
+              <source type="image/jpg" media="(min-width: 768px)" srcset="./images/room-page/arrengement/mirror_tabl@1x.jpg 1x, ./images/room-page/arrengement/mirror_tabl@2x.jpg 2x">
+              <!-- Mobile screen -->
+              <source type="image/jpg" media="(max-width: 767px)" srcset="./images/room-page/arrengement/mirror_mob@1x.jpg 1x, ./images/room-page/arrengement/mirror_mob@2x.jpg 2x">
+              <img class="img-front" src="./images/room-page/arrengement/mirror_mob@1x.jpg" alt="Mirror shielf" width="207" height="103" loading="lazy">
+            </picture>
+            <button class="button button-black button-room" data-modal-open-1 type="button">Book a room</button>
+          </div>
+       
+  </div>
 
-  </section>
+</section>
