@@ -1,10 +1,13 @@
-
+/* класс на контейнер hero */
 .reletiv{
     position: relative;
 }
-/* .margin{
-    margin-bottom: 70px;
-} */
+/* класс на секцию hero*/
+.overflow{
+    overflow: hidden;
+}
+
+/* класс на div item */
 .box{
     width: 250px;
     height: 429px;
@@ -83,6 +86,8 @@
       width: 904px;
    
     } 
+    /* класс на div 
+    оборачивающий слайдер */
     .slider-wraper{
         position: absolute;
         top: 30px;
