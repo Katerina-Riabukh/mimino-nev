@@ -84,20 +84,22 @@ $('.slider-2').slick({
   infinite: true,
   variableWidth: true,
   autoplay: false,
-  responsive: [
-    {
-      breakpoint: 1440,
-      settings: 
-        "unslick"
-    },
-    {
-      breakpoint: 767,
-      settings: 
-        "object"
-    },
- ]
-
+//   responsive: [
+//     {
+//       breakpoint: 3000,
+//       settings: 
+//         "unslick"
+//     },
+//     {
+//       breakpoint: 767,
+//       settings: 
+//         "object"
+//     },
+//  ]
 });
+
+
+
 
 
       
