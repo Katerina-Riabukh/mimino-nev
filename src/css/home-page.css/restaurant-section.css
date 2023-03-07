@@ -1,0 +1,125 @@
+/* RESTAURANT SECTION */
+.restaurant-section-container {
+    position: relative;
+}
+
+.name-restaurant-section {
+    margin-right: auto;
+    margin-bottom: 24px;
+
+    font-weight: 500;
+    font-size: 40px;
+    line-height: 40px;
+}
+
+.description-restaurant-section {
+ max-width: 221px;
+ margin-right: auto;
+margin-bottom: 32px;
+
+ font-weight: 500;
+font-size: 14px;
+line-height: 18px;
+}
+
+
+@media screen and (min-width: 768px) {
+    .restaurant-section-items {
+display: flex;
+align-items: center;
+margin-bottom: 87px;
+    }
+    .name-restaurant-section {
+        font-weight: 500;
+        font-size: 68px;
+        line-height: 68px;
+        margin: 0 32px 0 0;
+    }
+    .description-restaurant-section {
+        margin: 0;
+    }
+}
+
+@media screen and (min-width: 1440px) {
+    .restaurant-section-items {
+        margin-bottom: 125px;
+        padding-top: 44px;
+        padding-left: 32px;
+    }
+}
+
+
+
+/* SLIDER */
+
+
+/* @media screen and (min-width: 320px) {
+    .slider-mob-tablet {
+        margin-bottom: 40px;
+    }
+
+   
+
+}
+
+
+    
+
+
+  
+.slider-item {
+    width: 157px;
+    height: 201px;
+}
+
+.slider-img {
+max-width: fit-content ;
+
+} 
+
+@media screen and (min-width: 1200px) {
+    .slider-mob-tablet {
+display: none;
+    }
+
+
+}
+
+@media screen and (max-width: 1200px) {
+    .slider-desk {
+        display: none;
+    } 
+   
+} */
+
+
+
+/* BUTTONS */
+.buttons-restautant-section {
+    
+    display: flex;
+    gap: 12px;
+    justify-content: center;
+}
+
+
+
+
+
+
+
+@media screen and (min-width: 768px) {
+    .buttons-restautant-section {
+        gap: 14px;
+    }
+}
+
+@media screen and (min-width: 1200px) {
+    .buttons-restautant-section {
+        position: absolute;
+        top: 44px;
+        right: 32px;
+        
+      
+    }
+}
