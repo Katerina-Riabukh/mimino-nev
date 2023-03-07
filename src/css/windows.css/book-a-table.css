@@ -9,7 +9,7 @@
     height: 100%;
     overflow-y: scroll;
     background-color: rgba(18, 18, 18, 0.5);
-    display: none;
+    /* display: none; */
 }
 
 
@@ -52,9 +52,6 @@ color: var(--primary-white-color);
 margin-bottom: 40px;
 }
 
-.italick {
-    font-style: italic;
-}
 
 /* modal-form */
 
@@ -105,7 +102,6 @@ font-weight: 400;
 font-size: 8px;
 line-height: var(--8px);
 letter-spacing: 0.18em;
-text-transform: uppercase;
 color: var(--secondary-white-color);
 }
 
@@ -183,4 +179,12 @@ margin-bottom: 40px;
 margin-left: auto;
 margin-right: auto;
 }
+.close-button{
+    background-color: transparent;
+    border: transparent;
+}
+.close-icon{
+ stroke: black;
+}
+
 

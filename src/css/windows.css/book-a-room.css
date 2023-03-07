@@ -1,6 +1,5 @@
 
 .backdrop{
-    position: relative;
     position: fixed;
     top: 0px;
     left: 0px;
@@ -21,7 +20,7 @@
     right: 14px;
 }
 
-.modal{
+.modal-box{
     display: flex;
     flex-direction: column;
     position: absolute;
@@ -38,7 +37,7 @@
     border-radius: 2px;
     color: var(--primary-white-color);
     overflow: scroll;
-    text-transform: uppercase;
+    
 }
 
 .book-a-table-title {

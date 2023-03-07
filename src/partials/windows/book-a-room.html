@@ -1,49 +1,44 @@
-<div class="backdrop" data-modal>
-      <div class="modal is-hidden">
-        <button class="data-modal-close">
-          <svg class width="28" height="28">
-            <use href="./images/icons/sprite.svg#modal_close"></use>
-          </svg>
-        </button>
-          <form class="book-a-table-form">
-            <h2 class="book-a-table-title">BOOK 
-              <span class="italick">A TABLE</span></h2>
+<div class="backdrop">
+    <div class="modal-box">
+        <form name="booking-form">
+         <strong>book a room</strong>
+            <label>
+                <input type="text" name="username" placeholder="Your name">
+                <span>Who should book a table for?</span>
+            </label>
             
-            <lable class="name-lable">
-              <span class="user-name-form current">
-                <input class="modal-form-input" name="user_name" type="text" pattern="[a-zA-Z]+$" minlength="2" placeholder="Your name">
-              </span>
-                <p class="modal-hint">Who should book a table for?</p>
-              </lable>
-              
-            <lable class="number-lable">
-              <span class="number-form current">
-                <select class="modal-form-input" name="number_of_people" type="tel" pattern="[0-1]">
-                  <option value="number of people">number of people</option>
-                  </select>
-              </span>
-            </lable>
-
-            <lable class="date-lable">
-              <span class="date-form current">
-                <select class="modal-form-input" name="date" type="text">
-                  <option value="number of people">today</option>
-                  <option value="number of people">tomorrow</option>
+            <label>    
+                <input type="tel" name="phone_number" placeholder="+38()"/>
+                <span>Phone number</span>
+            </label>
+            
+            <label>
+                <input type="date" name="check-in" value="" placeholder="today">
+                <svg class="" width="20" height="20"><use href="../../images/icons/sprite.svg#icon-down"></use></svg>
+                <span>Check-in date</span>  
+            </label>
+             
+            </label>
+            <label>
+                <input type="date" name="check-out" value="2023-04-25">
+                <svg class="" width="20" height="20"><use href="../../images/icons/sprite.svg#icon-down"></use></svg>
+                <span>Check-out date</span>
+            </label>
+            <label>
+                <select name="" >
+                    <option value="">Double suite</option>
+                    <option value="">Triple Room</option>
+                    <option value="">four-seater room</option>
                 </select>
-              </span>
-              <p class="modal-hint">What date to book?</p>
-            </lable>
+                <svg class="" width="20" height="20"><use href="../../images/icons/sprite.svg#icon-down"></use></svg>
+                <span>Number category</span>
+            </label>
+            <button class="button button-black">MAKE A RESERVATION</button>
 
-            <lable class="phon-number-lable">
-              <span class="phone-number-form current">
-                <input class="modal-form-input" name="user_namber" type="tel" placeholder="+ 38 () ">
-              </span>
-              <p class="modal-hint">Phone number</p>
-              </lable>
-              
-            <div class="text-align"><button class="button button-black  button-black-modal" type="submit">MAKE A RESERVATION</button></div>
-          </form>
-      </div>
+
+
+ 
+        </form>
+
     </div>
-
-  
+</div>
