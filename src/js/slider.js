@@ -84,6 +84,12 @@ $('.slider-2').slick({
   infinite: true,
   variableWidth: true,
   autoplay: false,
+  responsive: [
+    {
+       breakpoint: 767,
+       settings: "unslick"
+    }
+ ]
  
 });
 

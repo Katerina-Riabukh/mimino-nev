@@ -39,6 +39,7 @@
   
 .slick-next:before{
     content: '>';
+    background-image: url();
     
 }
 .slick-prev:before{
@@ -191,6 +192,19 @@
     height: 128px;
     margin-right: auto;
     margin-left: auto;
+}
+
+.slider-2.slick-slider .slick-next {
+    
+        left: 44px;
+        top: 146px;
+    
+}
+.slider-2.slick-slider .slick-prev {
+    
+    left: 0;
+    top: 146px;
+    
 }
 
 /* @media screen and (min-width: 768px){
