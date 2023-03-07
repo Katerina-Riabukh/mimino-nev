@@ -19,15 +19,14 @@
  .section {
    padding-left: 20px;
    padding-right: 20px;
- }
 
- @media screen and (min-width: 768px) {
-   .section {
-     padding-left: 32px;
-     padding-right: 32px;
-   }
- }
-
+  }
+  @media screen and (min-width: 768px){
+    .section{
+        padding-left: 32px;
+        padding-right: 32px;
+    }
+  }
 
  .container {
    width: 100vw;
