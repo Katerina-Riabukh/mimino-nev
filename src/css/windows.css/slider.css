@@ -230,3 +230,9 @@
         display: none;
     } */
 
+.icon-sl{
+    background-color: transparent;
+    stroke: black;
+    fill: #F6F6F6;
+    
+}

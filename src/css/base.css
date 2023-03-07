@@ -6,6 +6,19 @@
    text-transform: uppercase;
    color: var(--primary-black-color);
  }
+/* IS_HIDDEN FOR MODAL WINDOW*/
+ .backdrop.is-hidden {
+  visibility: hidden;
+  opacity: 0;
+  pointer-events: none;
+}
+/* IS_OPEN FOR MENU */
+.hidden-menu.is-open{
+  visibility: visible;
+  opacity: 1;
+  pointer-events: auto;
+}
+
 
  .italic {
    font-style: italic;
