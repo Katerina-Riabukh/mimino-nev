@@ -60,12 +60,14 @@ margin-bottom: 28px;
     list-style: inside;
     font-size: 14px;
 line-height: var(--14px);
+padding-left: 7px;
 }
 @media screen and (min-width:768px)
 {
     .arrang-list{
         font-size: 18px;
     line-height: var(--18px);
+    padding-left: 12px;
     }
 }
 .room-image{
