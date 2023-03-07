@@ -1,7 +1,7 @@
 
-/* .hero-wraper{
+.hotel-hero-container{
     position: relative;
-} */
+}
 
 .box{
     width: 250px;
@@ -45,22 +45,17 @@
 }
 
 .slick-slider{
-    /* position: absolute;
-    top: 178px;
-    right: -164px; */
-    
     width: 520px;
-   
     margin-right: auto;
     margin-left: auto;
-
-    
 }
+
 .slick-prev {
     left: 256px;
     top: 454px;
     border: 1px solid black;
 }
+
 .slick-next {
     right: 184px;
     top: 454px;
@@ -74,8 +69,6 @@
     .slick-slider{
       width: 904px;
       
-      /* top: 239px;
-      right: -192px; */
     } 
     .slick-prev {
         left: 60px;
@@ -91,12 +84,13 @@
 @media screen and (min-width: 1440px){
     .slick-slider{
       width: 904px;
-      /* top: 30px;
-    right: -201px; */
-
-      /* top: 178px;
-      right: -190px; */
+   
     } 
+    .slider-wraper{
+        position: absolute;
+        top: 30px;
+        left: 50%; 
+    }
     .slick-prev {
         left: 60px;
         top: 614px;
@@ -108,6 +102,4 @@
         
     }
 }
-.slider-wraper{
-    margin-right: -150px;
-}
+
