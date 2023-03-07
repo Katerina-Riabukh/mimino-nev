@@ -57,6 +57,7 @@ margin-bottom: 28px;
     } 
 }
 .arrang-list{
+    display: block;
     list-style: inside;
     font-size: 14px;
 line-height: var(--14px);
@@ -70,6 +71,22 @@ padding-left: 7px;
     padding-left: 12px;
     }
 }
+.list-l, .list-m{
+    width:335px;
+}
+@media screen and (min-width:768px)
+{
+    .list-l, .list-m{
+    width:633px;
+}
+}
+@media screen and (min-width:768px)
+{
+    .list-m{
+    width:473px; 
+}
+}
+
 .room-image{
     display: block;
     position: relative;

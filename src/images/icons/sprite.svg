@@ -44,6 +44,7 @@
                 d="M12.444 22.222 18.666 16l-6.222-6.222" />
         </symbol>
         <symbol id="icon-modal-close" viewBox="0 0 32 32">
+
             <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.8"
                 d="M22.667 9.333 9.334 22.666M9.333 9.333l13.333 13.333" />
         </symbol>
@@ -52,6 +53,23 @@
             <path fill="none" stroke="#f7f7f7" style="stroke: var(--color1, #f7f7f7)" stroke-linejoin="round"
                 stroke-linecap="round" stroke-miterlimit="4" stroke-width="4" d="M30 2l-28 28M2 2l28 28"></path>
         </symbol>
+
+        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.8" d="M22.667 9.333 9.334 22.666M9.333 9.333l13.333 13.333"/>
+        </symbol>    
+                
+        <symbol id="icon-burger" viewBox="0 0 32 32">
+        <path stroke-linejoin="round" stroke-linecap="round" stroke-miterlimit="4" stroke-width="2" d="M4 16h24M4 8h24M4 24h16"></path>
+        </symbol>
+        <symbol id="icon-button-l" viewBox="0 0 32 32">
+        <path stroke-linejoin="round" stroke-linecap="round" stroke-miterlimit="4" stroke-width="1.7778" d="M19.556 22.222l-6.222-6.222 6.222-6.222"></path>
+        </symbol>
+        <symbol id="icon-button-r" viewBox="0 0 32 32">
+        <path stroke-linejoin="round" stroke-linecap="round" stroke-miterlimit="4" stroke-width="1.7778" d="M12.444 22.222l6.222-6.222-6.222-6.222"></path>
+        </symbol>
+        <symbol id="icon-down" viewBox="0 0 32 32">
+        <path stroke-linejoin="round" stroke-linecap="round" stroke-miterlimit="4" stroke-width="2.88" d="M8 12l8 8 8-8"></path>
+        </symbol>   
+
 
     </defs>
 </svg>
