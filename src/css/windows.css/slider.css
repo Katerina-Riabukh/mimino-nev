@@ -36,15 +36,23 @@
     }
     
 }
-  
+.slick-prev:before, .slick-next:before{
+    color: black;
+    width: 36px;
+    height: 36px;
+}
 .slick-next:before{
-    content: '>';
-    background-image: url();
+    width: 36px;
+    height: 36px;
+    content: '';
     
+    
+
+   
 }
 .slick-prev:before{
-    content: '<';
-    
+    content: ' ';
+   
 }
 
 .slick-slider{
