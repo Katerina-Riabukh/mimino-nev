@@ -43,6 +43,12 @@ overflow: hidden;
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1), background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
+.swiper-slide {
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-size: cover;
+}
+
 .hotel-hero-text {
   font-weight: 400;
   font-size: 14px;
@@ -98,8 +104,13 @@ overflow: hidden;
 
 /* Phone screen to 767px */
 @media screen and (max-width: 767px) {
+  .swiper-slide {
+    max-width: 250px;
+    height: 429px;
+  }
+
    .first-slide {
-    background-image: linear-gradient(0deg, rgba(18, 18, 18, 0.2), rgba(18, 18, 18, 0.2)), url(../images/hotel-page_img/hotel1_mob@1x.jpg) ;
+    background-image: linear-gradient(0deg, rgba(18, 18, 18, 0.2), rgba(18, 18, 18, 0.2)), url(../images/hotel-page_img/hotel1_mob@1x.jpg);
   }
   @media (min-device-pixel-ratio: 2), (min-resolution: 192dpi), (min-resolution: 2dppx) {
     .first-slide {
@@ -108,7 +119,7 @@ overflow: hidden;
   }
 
   .second-slide {
-    background-image: linear-gradient(0deg, rgba(18, 18, 18, 0.2), rgba(18, 18, 18, 0.2)), url(../images/hotel-page_img/hotel2_mob@1x.jpg) ;
+    background-image: linear-gradient(0deg, rgba(18, 18, 18, 0.2), rgba(18, 18, 18, 0.2)), url(../images/hotel-page_img/hotel2_mob@1x.jpg);
   }
   @media (min-device-pixel-ratio: 2), (min-resolution: 192dpi), (min-resolution: 2dppx) {
     .second-slide {
@@ -117,7 +128,7 @@ overflow: hidden;
   }
 
   .third-slide {
-    background-image: linear-gradient(0deg, rgba(18, 18, 18, 0.2), rgba(18, 18, 18, 0.2)), url(../images/hotel-page_img/hotel3_mob@1x.jpg) ;
+    background-image: linear-gradient(0deg, rgba(18, 18, 18, 0.2), rgba(18, 18, 18, 0.2)), url(../images/hotel-page_img/hotel3_mob@1x.jpg);
   }
   @media (min-device-pixel-ratio: 2), (min-resolution: 192dpi), (min-resolution: 2dppx) {
     .third-slide {
@@ -148,7 +159,7 @@ overflow: hidden;
   }
 
   .second-slide {
-    background-image: linear-gradient(0deg, rgba(18, 18, 18, 0.2), rgba(18, 18, 18, 0.2)), url(../images/hotel-page_img/hotel2_tab@1x.jpg) ;
+    background-image: linear-gradient(0deg, rgba(18, 18, 18, 0.2), rgba(18, 18, 18, 0.2)), url(../images/hotel-page_img/hotel2_tab@1x.jpg);
   }
   @media (min-device-pixel-ratio: 2), (min-resolution: 192dpi), (min-resolution: 2dppx) {
     .second-slide {
@@ -157,7 +168,7 @@ overflow: hidden;
   }
 
   .third-slide {
-    background-image: linear-gradient(0deg, rgba(18, 18, 18, 0.2), rgba(18, 18, 18, 0.2)), url(../images/hotel-page_img/hotel3_tab@1x.jpg) ;
+    background-image: linear-gradient(0deg, rgba(18, 18, 18, 0.2), rgba(18, 18, 18, 0.2)), url(../images/hotel-page_img/hotel3_tab@1x.jpg);
   }
   @media (min-device-pixel-ratio: 2), (min-resolution: 192dpi), (min-resolution: 2dppx) {
     .third-slide {
@@ -167,6 +178,11 @@ overflow: hidden;
 }
 
 @media screen and (min-width: 768px){
+    .swiper-slide {
+    max-width: 436px;
+    height: 548px;
+  }
+
   .hotel-hero-title {
       margin-bottom: 32px;
       font-size: 80px;
@@ -199,7 +215,7 @@ overflow: hidden;
   }
   
   .second-slide {
-    background-image: linear-gradient(0deg, rgba(18, 18, 18, 0.2), rgba(18, 18, 18, 0.2)), url(../images/hotel-page_img/hotel2_desk@1x.jpg) ;
+    background-image: linear-gradient(0deg, rgba(18, 18, 18, 0.2), rgba(18, 18, 18, 0.2)), url(../images/hotel-page_img/hotel2_desk@1x.jpg);
   }
   @media (min-device-pixel-ratio: 2), (min-resolution: 192dpi), (min-resolution: 2dppx) {
     .second-slide {
@@ -208,7 +224,7 @@ overflow: hidden;
   }
 
   .third-slide {
-    background-image: linear-gradient(0deg, rgba(18, 18, 18, 0.2), rgba(18, 18, 18, 0.2)), url(../images/hotel-page_img/hotel3_desk@1x.jpg) ;
+    background-image: linear-gradient(0deg, rgba(18, 18, 18, 0.2), rgba(18, 18, 18, 0.2)), url(../images/hotel-page_img/hotel3_desk@1x.jpg);
   }
   @media (min-device-pixel-ratio: 2), (min-resolution: 192dpi), (min-resolution: 2dppx) {
     .third-slide {
@@ -218,6 +234,10 @@ overflow: hidden;
 }
 
 @media screen and (min-width: 1440px) {
+    .swiper-slide {
+    max-width: 436px;
+    height: 580px;
+  }
 
   .hotel-hero-container {
     padding-top: 30px;
