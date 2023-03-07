@@ -150,7 +150,7 @@ margin-left: auto;
     .hotel-flex{
         position: absolute;
         top: 0;
-        align-items: flex-start;
+        align-items: flex-start;   
         flex-wrap: wrap;
         column-gap: 352px;
         /* row-gap: 16px; */
