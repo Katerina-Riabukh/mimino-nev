@@ -8,8 +8,7 @@
   position: relative;
 }
 .box {
-  /* padding: 12px; */
-  display: flex;
+  /* display: flex; */
   width: 212px;
   height: 61px;
   border-radius: 6px;
@@ -27,19 +26,6 @@
   background-image: url(../../images/home-page_img/review-section-img/mobail/maria.png);
 }
 
-/* .box::after {
-  width: 78px;
-  height: 37px;
-  color: #ffffff;
-  background-size: contain;
-  display: block;
-  content: 'Maria';
-  content: 'give rating 4.5';
-  line-height: 14px;
-  font-size: 14px;
-  margin: 12px;
-}
-.box::after{} */
 .maria {
   font-weight: 500;
   position: absolute;
@@ -91,12 +77,13 @@
     width: 482px;
     height: 636px;
   }
-  @media screen and (min-width: 1440px) {
-    .img-too-armchair {
-      margin-top: 100px;
-    }
+}
+@media screen and (min-width: 1440px) {
+  .img-too-armchair {
+    margin-top: 100px;
   }
 }
+
 .img-bath {
   margin-top: 20px;
   width: 282px;
