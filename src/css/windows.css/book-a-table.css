@@ -1,3 +1,14 @@
+/* 1111121212121 */
+
+/* min 375px */
+
+@media screen and (min-width:768px) {
+
+}
+
+/* 121212121212121212121212 */
+
+
 
 .backdrop{
     position: relative;
@@ -7,10 +18,18 @@
     z-index: 100;
     width: 100%;
     height: 100%;
-    background-color: rgba(18, 18, 18, 0.5);
-    display: none;
-}
 
+
+ 
+
+    background-color: var(--secondary-white-color);
+    
+
+
+    background-color: rgba(18, 18, 18, 0.5);
+    /* display: none; */
+
+}
 
 .data-modal-close {
     content: "";
@@ -18,6 +37,8 @@
     z-index: 1000;
     top: 14px;
     right: 14px;
+    background-color: transparent;
+    border: transparent;
 }
 
 .modal{
@@ -28,31 +49,49 @@
     left: 50%;
     transform: translate(-50%, -50%);
     width: 355px;
-    height: 528px;
     background-color: aliceblue;
-    padding-top: 24px;
-    padding-left: 24px;
-    padding-right: 24px;
-    background: var(--primary-black-color);
+    padding: 24px 24px 40px 24px;
+    background-color: var(--primary-black-color);
     border-radius: 2px;
     color: var(--primary-white-color);
     text-transform: uppercase;
+   box-shadow: 
+    0 0 6px rgba(0,0,0,0.1), 
+    0 3px 10px rgba(0,0,0,0.2), 
+    0 12px 20px rgba(0,0,0,0.2), 
+    0 24px 36px rgba(0,0,0,0.3);
 }
+
+@media screen and (min-width:768px) {
+.modal{
+    width: 628px;
+    padding: 32px 32px 60px 32px;
+}
+}
+
 
 .book-a-table-title {
 display: block;
 font-weight: 500;
 font-size: 28px;
-line-height: var(--38px);
+line-height: --38px;
 letter-spacing: -0.02em;
 text-transform: uppercase;
 color: var(--primary-white-color);
 margin-bottom: 40px;
 }
 
-.italick {
-    font-style: italic;
+
+@media screen and (min-width:768px) {
+.book-a-table-title {
+    font-size: 36px;
+line-height: var(--36px);
 }
+}
+
+
+
+
 
 /* modal-form */
 
@@ -74,7 +113,7 @@ width: 100%;
 height: 20px;
 fill: currentColor;
 background-color: var(--primary-black-color);
-color: var(--secondary-white-color);
+color: var(--primary-white-color);
 border: none;
 text-transform: uppercase;
 }
@@ -84,12 +123,42 @@ outline: none;
 
 }
 
+
+
+@media screen and (min-width:768px) {
+.forms {
+    display: block;
+    gap: 32px;
+}
+}
+
+@media screen and (min-width:768px) {
+.form-1 {
+display: flex;
+gap: 32px;
+}
+
+.form-2 {
+display: flex;
+flex-direction: row-reverse;
+gap: 32px;
+}
+}
+
+
+
 /* name-lable */
 
 .name-lable {
     display: block;
     margin-bottom: 32px;
     background-color: var(--primary-black-color);
+}
+
+@media screen and (min-width:768px) {
+.name-lable {
+   width: 266px;
+}
 }
 
 .user-name-form {
@@ -103,7 +172,6 @@ font-weight: 400;
 font-size: 8px;
 line-height: var(--8px);
 letter-spacing: 0.18em;
-text-transform: uppercase;
 color: var(--secondary-white-color);
 }
 
@@ -116,6 +184,11 @@ color: var(--secondary-white-color);
 }
 
 
+@media screen and (min-width:768px) {
+.number-lable {
+   width: 266px;
+}
+}
 
 /* date-lable */
 
@@ -125,6 +198,12 @@ color: var(--secondary-white-color);
     padding-bottom: 32px;
 }
 
+@media screen and (min-width:768px) {
+.date-lable {
+   width: 266px;
+}
+}
+
 .date-form {
     position: relative;
     display: block;
@@ -132,11 +211,23 @@ color: var(--secondary-white-color);
 }
 
 
+@media screen and (min-width:768px) {
+.date-lable {
+   width: 266px;
+}
+}
+
 /* phon-number-lable */
 
 .phon-number-lable {
     display: block;
     padding-bottom: 40px;
+}
+
+@media screen and (min-width:768px) {
+.phon-number-lable  {
+   width: 266px;
+}
 }
 
 .phone-number-form {
@@ -170,15 +261,33 @@ color: var(--secondary-white-color);
 
 padding: 14px 48px;
 border-radius: 32px;
-margin-bottom: 40px;
 margin-left: auto;
 margin-right: auto;
+}
+
+@media screen and (min-width:768px) {
+.button-black-modal {
+padding: 14px 133px;
+font-size: 14px;
+line-height: calc(24 / 14);
+}
 }
 
 .button-black-modal:hover,
 .button-black-modal:focus {
-margin-bottom: 40px;
 margin-left: auto;
 margin-right: auto;
 }
+.close-button{
+    background-color: transparent;
+    border: transparent;
+}
+.close-icon{
+ stroke: black;
+}
 
+
+.icon-button-close {
+    stroke: white;
+
+}

@@ -24,16 +24,69 @@
 
 
 .fon {
-    background-color: var(--secondary-bcg-color);
+    background-color: var(--primary-black-color);
   }
 
-  .my-container {
+
+@media screen and (max-width: 374.98px){
+   .my-container {
     padding-top: 100px;
     padding-bottom: 100px;
   }
+  }
+
+  @media screen and (min-width: 375px){
+    .my-container {
+    padding-top: 40px;
+    padding-bottom: 64px;
+  }
+  }
+
+  @media screen and (min-width: 768px){
+    .my-container {
+    padding-top: 80px;
+    padding-bottom: 80px;
+  }
+  }
+
+  @media screen and (min-width: 1440px){
+    .my-container {
+    padding-top: 100px;
+    padding-bottom: 100px;
+  }
+  }
+
+  
 
 /* H2 */
-.price-title {
+
+@media screen and (max-width: 374.98px){
+   .price-title {
+    text-align: center;
+    /* font-family: var(--primery-font); */
+    font-weight: 500;
+    font-size: 32px;
+    line-height: var(--28px);
+    /* letter-spacing: -0.02em; */
+    color: var(--primary-white-color);
+  }
+}
+
+  @media screen and (min-width: 375px){
+    .price-title {
+    text-align: center;
+    /* font-family: var(--primery-font); */
+    font-weight: 500;
+    font-size: 32px;
+    line-height: var(--28px);
+    /* letter-spacing: -0.02em; */
+    color: var(--primary-white-color);
+    /* outline: 2px solid red; */
+  }
+  }
+
+  @media screen and (min-width: 768px){
+    .price-title {
     text-align: center;
     /* font-family: var(--primery-font); */
     font-weight: 700;
@@ -43,6 +96,21 @@
     color: var(--primary-white-color);
     /* outline: 2px solid red; */
   }
+  }
+
+  @media screen and (min-width: 1440px){
+    .price-title {
+    text-align: center;
+    /* font-family: var(--primery-font); */
+    font-weight: 700;
+    font-size: 40px;
+    line-height: var(--40px);
+    /* letter-spacing: -0.02em; */
+    color: var(--primary-white-color);
+    /* outline: 2px solid red; */
+  }
+  }
+
   
   .price-block {
     display: flex;
@@ -53,6 +121,30 @@
     /* outline: 2px solid green; */
   }
   
+ @media screen and (max-width: 374.98px){
+     
+  .price-list {
+    width: 335px;
+    padding-left: 0;
+    margin-top: 0;
+    margin-bottom: 0;
+    /* outline: 2px solid orange; */
+  }
+  }
+
+  @media screen and (min-width: 375px){
+      
+  .price-list {
+    width: 335px;
+    padding-left: 0;
+    margin-top: 0;
+    margin-bottom: 0;
+    /* outline: 2px solid orange; */
+  }
+  }
+
+  @media screen and (min-width: 768px){
+      
   .price-list {
     width: 515px;
     padding-left: 0;
@@ -60,6 +152,20 @@
     margin-bottom: 0;
     /* outline: 2px solid orange; */
   }
+  }
+
+  @media screen and (min-width: 1440px){
+      
+  .price-list {
+    width: 515px;
+    padding-left: 0;
+    margin-top: 0;
+    margin-bottom: 0;
+    /* outline: 2px solid orange; */
+  }
+  } 
+
+
   
   .price-item {
     display: flex;
@@ -187,57 +293,339 @@
     gap: 22px;
     /* outline: 2px solid rgb(61, 212, 16); */
   }
-  .mybutton {
+
+  @media screen and (max-width: 374.98px){
+    .mybutton {
+    margin-left: auto;
+    margin-right: auto;
+  }
+  }
+
+  @media screen and (min-width: 375px){
+     .mybutton {
+    margin-left: auto;
+    margin-right: auto;
+  }
+  }
+
+  @media screen and (min-width: 768px){
+     .mybutton {
+   margin-left: 94px;
+    
+  }
+  }
+
+  @media screen and (min-width: 1440px){
+     .mybutton {
     margin-left: 137px;
   }
+  }
+ 
 
 
 /* Стилизация слайдера */
-
-  /*Скрытие слайдера с 1440px*/
-/* @media only screen and (min-width: 1440px) {
-    div.multiple-items {
-      display: none;
-    }
-  } */
-
-  @media screen and (min-width: 374.98px) and (max-width: 767.99px) {
+  @media screen and (max-width: 374.98px) {
     .slider-container {
       min-width: 335px;
       max-height: 505px;
-      outline: 2px solid green;
+      /* outline: 2px solid green; */
+    }
+  }
+  @media screen and (min-width: 375px) and (max-width: 767.99px) {
+    .slider-container {
+      min-width: 335px;
+      max-height: 505px;
+      /* outline: 2px solid green; */
     }
   }
   @media screen and (min-width: 768px) and (max-width: 1439.99px) {
     .slider-container {
       min-width: 515px;
       min-height: 533px;
-      outline: 2px solid rgb(73, 197, 100);
+      /* outline: 2px solid rgb(73, 197, 100); */
     }
+  }
+   
+/* Стилизация стрелок */
+.slick-prev:before,
+.slick-next:before {
+  display: none;
+}
+
+/* .slick-slider {
+  min-width: 0px;
+} */
+
+
+
+.slick-list {
+  overflow: hidden;
+}
+
+@media screen and (min-width: 768px) and (max-width: 1439.98px) {
+  .slick-list {
+    overflow: hidden;
+  }
+}
+
+
+@media screen and (max-width: 375px) {
+  .project_slider {
+     width: 335px;
+    position: relative;
+    left: 0px;
+    top: 0px;
+    margin-top: 36px;
+    margin-bottom: 96px;
+    padding: 0px;
+    /* outline: 2px solid blue; */
+  }
+}
+
+
+
+
+@media screen and (min-width: 375px) and (max-width: 767.98px) {
+  .project_slider {
+    width: 335px;
+    position: relative;
+    left: 0px;
+    top: 0px;
+    margin-top: 36px;
+    margin-bottom: 96px;
+    padding: 0px;
+    /* outline: 2px solid blue; */
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1440px) {
+  .project_slider {
+    width: 515px;
+    position: relative;
+    left: 94px;
+    top: 0px;
+    margin-top: 64px;
+    margin-bottom: 40px;
+    padding: 0px;
+    /* outline: 2px solid blue; */
+  }
+}
+
+
+
+
+
+.project_slider .slick-arrow {
+  position: absolute;
+  top: 55%;
+  margin: -20px 0px 0px 0px;
+  z-index: 10;
+  font-size: 0;
+  width: 40px;
+  height: 48px;
+  /* outline: 2px solid red; */
+}
+
+/* положение стрелок */
+@media screen and (max-width: 374.98px) {
+  .project_slider .slick-arrow.slick-prev {
+    position: absolute;
+    /* outline: 2px solid rgb(50, 194, 230); */
+    top: 98%;
+    left: 165px;
+    background: url('../images/restaurante-page_img/Vectorleft.svg') 0 0 / 30% no-repeat;
+    width: 36px;
+    height: 36px;
+    opacity: 0.4;
+
+  }
+}
+
+@media screen and (min-width: 374.98px) and (max-width: 767.98px) {
+  .project_slider .slick-arrow.slick-prev {
+    position: absolute;
+    /* outline: 2px solid rgb(50, 194, 230); */
+    top: 98%;
+    left: 135px;
+    background: url('../images/restaurante-page_img/Vectorleft.svg') 0 0 / 30% no-repeat;
+    width: 36px;
+    height: 36px;
+    opacity: 0.4;
+
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1439.98px) {
+  .project_slider .slick-arrow.slick-prev {
+    position: absolute;
+    top: 93%;
+    left: 218px;
+    background: url('../images/restaurante-page_img/Vectorleft.svg') 0 0 / 40% no-repeat;
+    width: 36px;
+    height: 36px;
+    opacity: 0.4;
+
+  }
+}
+
+@media screen and (max-width: 374.98px) {
+  .project_slider .slick-arrow.slick-next {
+    position: absolute;
+    background: url('../images/restaurante-page_img/Vectorright.svg') 0 0 / 30% no-repeat;
+    top: 98%;
+    left: 230px;
+    /* right: 33px; */
+    width: 36px;
+    height: 36px;
+  }
+}
+
+@media screen and (min-width: 374.98px) and (max-width: 768.98px) {
+  .project_slider .slick-arrow.slick-next {
+    position: absolute;
+    background: url('../images/restaurante-page_img/Vectorright.svg') 0 0 / 30% no-repeat;
+    top: 98%;
+    left: 190px;
+    /* right: 33px; */
+    width: 36px;
+    height: 36px;
+  }
+}
+
+
+@media screen and (min-width: 768px) and (max-width: 1439.98px) {
+  .project_slider .slick-arrow.slick-next {
+    position: absolute;
+    background: url('../images/restaurante-page_img/Vectorright.svg') 0 0 / 40% no-repeat;
+    top: 93%;
+    left: 290px;
+    /* right: 33px; */
+    width: 36px;
+    height: 36px;
+  }
+}
+
+
+@media screen and (min-width: 768px) and (max-width: 1439.98px) {
+
+  .project_slider .slick-arrow.slick-next:hover,
+  .project_slider .slick-arrow.slick-next:focus,
+  .project_slider .slick-arrow.slick-next:active {
+    opacity: 0.7;
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1439.98px) {
+
+  .project_slider .slick-arrow.slick-prev:hover,
+  .project_slider .slick-arrow.slick-prev:focus,
+  .project_slider .slick-arrow.slick-prev:active {
+    opacity: 1;
+  }
+}
+
+/* .project_slider .slick-arrow.slick-disabled {
+  opacity: 0.25;
+} */
+
+
+.slick-prev.slick-disabled:before,
+.slick-next.slick-disabled:before {
+  opacity: 0.55;
+}
+
+
+/* отмена слайдера на десктопе */
+.project_slider_overlay {
+  display: none;
+}
+
+.project_blocks_overlay {
+  display: block;
+}
+
+@media screen and (max-width: 1440px) {
+  .project_slider_overlay {
+    display: block;
+    /* outline: 5px solid orange; */
   }
 
-  
-@media screen and (min-width: 374.98px) and (max-width: 767.99px) {
-    .myslyder {
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      outline: 2px solid blue;
-      width: 366px;
-      height: 320px;
-    }
+  .project_blocks_overlay {
+    display: none;
   }
+}
   
-  @media screen and (min-width: 768px) and (max-width: 1439.99px) {
-    .myslyder {
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      outline: 2px solid red;
-      width: 608px;
-      height: 580px;
-    }
+@media screen and (max-width: 374.98px)  {
+  .project_slider.slick-slider {
+    width: 335px;
+    top: 0;
+    position: relative;
   }
-  
-  
+}
+
+@media screen and (min-width: 374.98px) and (max-width: 767.98px) {
+  .project_slider.slick-slider {
+    width: 335px;
+    top: 0;
+    position: relative;
+  }
+}
+
+ @media screen and (min-width: 768px) and (max-width: 1440px) {
+  .project_slider.slick-slider {
+    width: 516px;
+    top: 0;
+  /* min-width: 0px; */
+    position: relative;
+  }
+} 
+
+@media screen and (max-width: 374.99px) {
+.project_slider .slick-arrow {
+    position: absolute;
+  top: 75%;
+  margin-left: auto;
+  margin-right: auto;
+  margin: 52px 0px 0px 0px;
+  z-index: 10;
+  font-size: 0;
+  width: 40px;
+  height: 48px;
+  border: transparent;
+  /* outline: 2px solid red; */
+}
+}
+
+@media screen and (min-width: 375px) and (max-width: 767.99px) {
+.project_slider .slick-arrow {
+    position: absolute;
+  top: 75%;
+  /* left: 100px; */
+  margin: 52px 0px 0px 0px;
+  /* margin-top: 52px; */
+  /* margin-left: auto;
+  margin-right: auto; */
+  z-index: 10;
+  font-size: 0;
+  width: 40px;
+  height: 48px;
+  border: transparent;
+  /* outline: 2px solid red; */
+}
+}
+
+
+@media screen and (min-width: 768px) and (max-width: 1440px) {
+.project_slider .slick-arrow {
+  /* position: absolute; */
+  top: 55%;
+  margin: -20px 0px 0px 0px;
+  z-index: 10;
+  font-size: 0;
+  width: 40px;
+  height: 48px;
+  border: transparent;
+  /* outline: 2px solid red; */
+}
+}
   

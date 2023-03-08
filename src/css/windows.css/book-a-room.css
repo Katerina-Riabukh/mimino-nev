@@ -1,14 +1,23 @@
 
+
 .backdrop-room {
     position: relative;
+
+.backdrop{
+
     position: fixed;
     top: 0px;
     left: 0px;
     z-index: 100;
     width: 100%;
     height: 100%;
+
     background-color: rgba(18, 18, 18, 0.5);
     display: none;
+
+    overflow-y: scroll;
+    background-color: rgba(18, 18, 18, 0.5);
+   
 }
 
 
@@ -20,13 +29,17 @@
     right: 14px;
 }
 
+
 .modal{
     display: flex;
     flex-direction: column;
+
+.modal-box{
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
+
     width: 355px;
     height: 528px;
     background-color: aliceblue;
@@ -50,9 +63,90 @@ color: var(--primary-white-color);
 margin-bottom: 40px;
 }
 
-.italick {
-    font-style: italic;
+    width: 335px;
+    height: 636px;
+   
+    padding-top: 24px;
+    padding-left: 24px;
+    padding-right: 24px;
+
+    background: var(--primary-black-color);
+    border-radius: 2px;
+    color: var(--primary-white-color);
+    
+    
 }
+
+.book-title{
+    font-weight: 500;
+    font-size: 28px;
+    line-height: var(--28);
+
+    margin-bottom: 40px;
+}
+.text-after{
+    font-weight: 400;
+    font-size: 8px;
+    line-height: var(--8px);
+}
+
+
+
+.text-input{
+    position: relative;
+    display: block;
+    background-color: transparent;
+    border: none;
+    width: 287px;
+   
+
+    font-weight: 500;
+    font-size: 14px;
+    line-height: var(--14px);
+    color: var(--primary-white-color);
+}
+.text-input:hover{
+    outline: none;
+}
+
+.text-input::after {
+    content: '';
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    display: block;
+    width: 100%;
+    height: 0.8px;
+    background-color: var(--border-black);
+}
+
+
+.close-modal-btn{
+    position: absolute;
+    top:14px;
+    right: 14px;
+    background-color: transparent;
+    border: transparent;
+    stroke: aliceblue;
+    cursor: pointer;
+    
+}
+.close-icon{
+    position: absolute;
+    top: 14px;
+    right: 14px;
+    
+    
+}
+
+.down-icon{
+    fill: black;
+    stroke: white;
+}
+
+
+
+
 
 /* modal-form */
 
@@ -74,7 +168,11 @@ width: 100%;
 height: 20px;
 fill: currentColor;
 background-color: var(--primary-black-color);
+
 color: var(--primary-white-color);
+
+color: var(--secondary-white-color);
+
 border: none;
 text-transform: uppercase;
 }
@@ -115,10 +213,12 @@ color: var(--secondary-white-color);
     margin-bottom: 50px;
 }
 
+
 .number-form {
     display: block;
     padding-bottom: 26px; 
 }
+
 
 
 /* date-lable */
@@ -126,7 +226,10 @@ color: var(--secondary-white-color);
 
 .date-lable {
     display: block;
+
     padding-bottom: 26px;
+
+    padding-bottom: 32px;
 }
 
 .date-form {
@@ -149,6 +252,7 @@ color: var(--secondary-white-color);
     padding-bottom: 26px;
 }
 
+
 /* phon-number-lable */
 
 .phon-number-lable {
@@ -164,7 +268,11 @@ color: var(--secondary-white-color);
 
 
 /*     line      */
-/* 
+
+
+
+
+
 .current::after {
     content: "";
     position: absolute;
@@ -175,7 +283,9 @@ color: var(--secondary-white-color);
     height: 1px;
     background-color: gray;
     
-} */
+
+
+
 
 /* buttons */
 
@@ -183,8 +293,15 @@ color: var(--secondary-white-color);
     text-align: center;
 }
 
-/* .button-black-modal {
 
+ .button-black-modal {
+
+
+
+.button-black-modal {
+
+padding: 14px 48px;
+border-radius: 32px;
 
 margin-bottom: 40px;
 margin-left: auto;
@@ -193,9 +310,13 @@ margin-right: auto;
 
 .button-black-modal:hover,
 .button-black-modal:focus {
+
 background-color: var(--primary-black-color);
 color: var(--primary-white-color);
-} */
+} 
+
+
+
 
 
 

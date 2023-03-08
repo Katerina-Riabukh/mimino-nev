@@ -1,44 +1,212 @@
+.section-hotel{
+    padding-top: 32px;
+    padding-bottom: 32px;
+}
+
+.container-hotel{
+    position: relative;
+    
+}
+@media screen and (min-width:768px){
+    .section-hotel{
+        padding-top: 44px;
+        padding-bottom: 44px;
+    } 
+}
+@media screen and (min-width:1440px){
+    .section-hotel{
+        padding-bottom: 60px;
+    } 
+}
+.title-hotel{
+    font-weight: 500;
+    font-size: 40px;
+    line-height: 1;
+    padding-bottom: 32px;
+}
+@media screen and (min-width:768px){
+    .title-hotel{
+        font-size: 68px;
+        line-height: 1;
+    }
+}
+.text-hotel{
+    display: block;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.29;
+    padding-bottom: 32px;
+}
+@media screen and (min-width:768px){
+    .text-hotel{
+        width: 362px;
+    }
+}
+
+@media screen and (min-width:768px){
+    .hotel-name-flex{
+        display: flex;
+        flex-wrap: wrap;
+        gap: 32px;
+        align-items: center;
+    }
+}
 .main-hotel-img{
     width: 335px;
     display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 28px;
 }
 @media screen and  (min-width:768px){
     .main-hotel-img{
         width: 320px;
+        margin-bottom: 40px;
     }
 }
 @media screen and  (min-width:1440px){
     .main-hotel-img{
         width: 420px;
-    }
-}
-.main-hotel-img-slider{
-    width: 158px;
-    margin-left: auto;
-    margin-right: auto;
-}
-@media screen and  (min-width:768px){
-    .main-hotel-img{
-        width: 176px;
-    }
-}
-@media screen and  (min-width:1440px){
-    .main-hotel-img{
-        width: 320px;
+        margin-bottom: 0;
     }
 }
 @media screen and  (min-width:768px){
     .main-hotel-slider{
         position: relative;
+        /* margin-right: auto;
+        margin-left: auto; */
+    }
+}
+.hotel-flex{
+    display: none;
+}
+.slider-2{
+    display:flex;
+    margin-bottom: 82px;
+}
+@media screen and  (min-width:768px){
+    .slider-2{
+        display:none;
     }
 }
 @media screen and  (min-width:768px){
     .hotel-flex{
+        display: flex;
         position: absolute;
         top: 0;
-        display: flex;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        
+        /* display: flex;
+        margin-bottom: 82px;
+        position: absolute;
+        top: 0;
         flex-wrap: wrap;
-        column-gap: 484px;
-        row-gap: 28px;
+        align-items: flex-start; 
+        flex-basis: inherit;  
+        column-gap: 352px;
+        row-gap: 16px;
+        justify-content: center; */
     }
 }
+
+@media screen and  (min-width:1440px){
+    .hotel-flex{
+        left: 126px;
+        width: 1124px;
+        column-gap: 484px;
+        row-gap: 28px;
+        /* margin-left: auto;
+        margin-right: auto; */
+    }
+}
+
+.main-hotel-img-slider{
+    display: block;
+    width: 158px;
+    /* height: 100%; */
+    margin-left: auto;
+    margin-right: auto;
+}
+@media screen and  (min-width:768px){
+    .main-hotel-img-slider{
+        width: 176px;
+    }
+}
+@media screen and  (min-width:1440px){
+    .main-hotel-img-slider{
+        width: 320px;
+    }
+}
+@media screen and  (min-width:768px){
+    .order-1{
+        position:absolute;
+        top: 0;
+        left: 0;
+        margin-bottom: 16px;
+        
+    }
+}
+@media screen and  (min-width:768px){
+    .order-2{
+        position:absolute;
+        top: 0;
+        right: 0;
+        
+    }
+}
+@media screen and  (min-width:768px){
+    .order-3{
+        position:absolute;
+        bottom: 0;
+        left: 0;   
+    }
+}
+@media screen and  (min-width:768px){
+    .order-4{
+        position:absolute;
+        bottom: 0;
+        right: 0;
+        margin-top: 16px;
+        
+    }
+}
+@media screen and  (min-width:1440px){
+    .order-1{
+        /* position: static; */
+        margin-bottom: 0;
+        
+    }
+}
+@media screen and  (min-width:1440px){
+    .order-4{
+        /* position:static; */
+        margin-top: 0;
+        
+    }
+}
+.hotel-buttons{
+    margin-right: auto;
+    margin-left: auto;
+    display: flex;
+    gap: 12px;
+    justify-content: center;
+}
+@media screen and (min-width:768px){
+    .hotel-buttons{
+        gap: 14px;
+    }
+}
+@media screen and (min-width:1440px){
+    .hotel-buttons{
+        position: absolute;
+        top: 0;
+        right: 0;
+    }
+}
+
+.link-hotel{
+    display: block;
+}
+

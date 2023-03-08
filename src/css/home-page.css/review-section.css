@@ -1,0 +1,373 @@
+
+@media screen and (min-width: 1440px) {
+  .relrtiv {
+    position: relative;
+  }
+}
+
+.position {
+  position: relative;
+}
+.box-review {
+  /* display: flex; */
+  width: 212px;
+  height: 61px;
+  border-radius: 6px;
+  background-color: #121212;
+}
+
+.box-review::before {
+  background-size: contain;
+  display: block;
+  content: '';
+  margin-top: 10px;
+  margin-left: 14px;
+  width: 41px;
+  height: 41px;
+  background-image: url(../../images/home-page_img/review-section-img/mobail/maria.png);
+}
+
+.maria {
+  font-weight: 500;
+  position: absolute;
+  text-transform: capitalize;
+  top: 12px;
+  left: 67px;
+  color: #f6f6f6;
+  line-height: 14px;
+  font-size: 14px;
+}
+.give-r {
+  font-weight: 400;
+  position: absolute;
+  top: 33px;
+  right: 67px;
+  color: #f6f6f6;
+  line-height: 14px;
+  font-size: 14px;
+}
+.give-color {
+  color: #575757;
+  position: absolute;
+  top: 33px;
+  left: 67px;
+  font-size: 400;
+  text-transform: lowercase;
+  line-height: 16px;
+  font-size: 12px;
+}
+.box-maria {
+  position: absolute;
+  top: 420px;
+  left: 123px;
+}
+@media screen and (min-width: 768px) {
+  .box-maria {
+    top: 176px;
+    left: 370px;
+  }
+}
+.img-too-armchair {
+  margin-top: 64px;
+  width: 335px;
+  height: 442px;
+}
+@media screen and (min-width: 768px) {
+  .img-too-armchair {
+    margin-top: 80px;
+    width: 482px;
+    height: 636px;
+  }
+}
+@media screen and (min-width: 1440px) {
+  .img-too-armchair {
+    margin-top: 100px;
+  }
+}
+
+.img-bath {
+  margin-top: 20px;
+  width: 282px;
+  height: 153px;
+}
+@media screen and (min-width: 768px) {
+  .img-bath {
+    margin-top: 0;
+    width: 404px;
+    height: 219px;
+    position: absolute;
+    top: 209px;
+    right: 0;
+  }
+}
+@media screen and (min-width: 1440px) {
+  .img-bath {
+    width: 439px;
+    top: 209px;
+    right: 637px;
+  }
+}
+
+.h3-clas {
+  margin-top: 32px;
+}
+.h3www {
+  line-height: 14px;
+  font-size: 12px;
+  color: #484848;
+  font-weight: 400;
+  letter-spacing: 1.5px;
+}
+.margin-p {
+  margin-top: 14px;
+}
+.p-text {
+  line-height: 18px;
+  font-size: 14px;
+  font-weight: 600;
+}
+@media screen and (min-width: 768px) {
+  .p-text {
+    line-height: 24px;
+    font-size: 18px;
+    font-weight: 500;
+  }
+  .margin-p,
+  .margin-p-second {
+    width: 472px;
+  }
+}
+@media screen and (min-width: 1440px) {
+  .position-text-one {
+    position: absolute;
+    top: 199px;
+    left: 846px;
+  }
+  .h3-clas {
+    margin-top: 0;
+  }
+}
+
+.margin-p-second {
+  margin-top: 14px;
+}
+.img-tabl-wine {
+  width: 335px;
+  height: 311px;
+}
+@media screen and (min-width: 768px) {
+  .img-tabl-wine {
+    width: 530px;
+    height: 492px;
+  }
+}
+.position-second {
+  margin-top: 64px;
+  position: relative;
+}
+@media screen and (min-width: 768px) {
+  .position-second {
+    margin-top: 80px;
+    display: flex;
+    justify-content: flex-end;
+  }
+}
+@media screen and (min-width: 1440px) {
+  .position-second {
+    margin-top: 100px;
+  }
+}
+.position-alexander {
+  position: absolute;
+  left: 0;
+  top: 272px;
+}
+.position-alexander::before {
+  background-size: contain;
+  display: block;
+  content: '';
+  margin-top: 10px;
+  margin-left: 14px;
+  width: 41px;
+  height: 41px;
+  background-image: url(../../images/home-page_img/review-section-img/mobail/alexander.png);
+}
+@media screen and (min-width: 768px) {
+  .position-alexander {
+    top: 303px;
+    left: 67px;
+  }
+}
+@media screen and (min-width: 1440px) {
+  .position-alexander {
+    top: 303px;
+    left: 739px;
+  }
+}
+.margin-p-bisnes {
+  margin-top: 50px;
+}
+@media screen and (min-width: 768px) {
+  .margin-p-bisnes {
+    margin-top: 40px;
+    display: flex;
+    flex-direction: column-reverse;
+    position: relative;
+  }
+}
+@media screen and (min-width: 1440px) {
+  .margin-p-bisnes {
+    position: absolute;
+    margin-top: 0;
+    top: 127px;
+    left: 176px;
+  }
+}
+
+.p-text-bisnes {
+  margin-top: 18px;
+  line-height: 18px;
+  font-size: 14px;
+  font-weight: 600;
+}
+@media screen and (min-width: 768px) {
+  .margin-last {
+    width: 263px;
+    position: absolute;
+    top: 0;
+    left: 298px;
+  }
+  .p-text-bisnes {
+    line-height: 18px;
+    font-size: 14px;
+    font-weight: 500;
+  }
+}
+
+.img-hall {
+  margin-top: 40px;
+  width: 335px;
+  height: 309px;
+}
+@media screen and (min-width: 768px) {
+  .img-hall {
+    width: 266px;
+    height: 309px;
+    margin-top: 0;
+  }
+}
+.review-one {
+    padding-top: 64px;
+    padding-bottom: 64px;
+}
+
+.img-one {
+    margin-bottom: 20px;
+}
+
+.img-four {
+    margin-top: 40px;
+}
+
+.title-review {
+    font-weight: 400;
+    font-size: 12px;
+    line-height: var(--12px_14);
+    letter-spacing: 0.18em;
+    color: #484848;
+    margin-bottom: 18px;
+}
+
+.title-review-one {
+    margin-top: 32px;
+}
+
+.title-review-two {
+    margin-top: 54px;
+}
+
+.text-review {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: var(--14px);
+}
+
+.text-review-big {
+    margin-bottom: 14px;
+}
+
+@media screen and (min-width: 768px) {
+    .review-one {
+        padding-top: 80px;
+        padding-bottom: 80px;
+    }
+    .img-list {
+        position: relative;
+    }
+    .img-one {
+        width: 482px;
+        height: 636px
+    }
+    .img-two {
+        position: absolute;
+        top: 209px;
+        left: 300px;
+        width: 404px;
+        height: 219px;
+    }
+    .description-review {
+        width: 472px;
+    }
+    .img-three {
+        width: 530px;
+        height: 492px;
+        margin-left: auto;
+    }
+    .review-tabl {
+        margin-right: auto;
+        display: flex;
+        gap: 32px;
+        flex-direction: row-reverse;
+        justify-content: start;
+        margin-top: 40px;
+    }
+    .lll {
+        width: 263px;
+    }
+    .title-review-two {
+        margin-top: 0;
+    }
+    .img-four {
+        width: 266px;
+        height: 309px;
+        margin-top: 0;
+    }
+}
+
+@media screen and (min-width: 1439px) {
+    .review-one {
+        display: flex;
+        justify-content: space-between;
+        padding-top: 100px;
+        padding-bottom: 100px;
+    }
+    .description-review {
+        margin-top: 209px;
+    }
+    .review-two {
+        display: flex;
+        flex-direction: row-reverse;
+        padding-bottom: 100px;
+    }
+    .img-three {
+        margin-left: 0;
+    }
+    .review-tabl {
+        margin-top: 127px;
+        margin-right: 82px;
+    }
+    .title-review-one {
+        margin-top: 0;
+    }
+
+}
