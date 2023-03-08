@@ -19,8 +19,13 @@
     width: 100%;
     height: 100%;
     overflow-y: scroll;
+
     background-color: var(--secondary-white-color);
     
+
+    background-color: rgba(18, 18, 18, 0.5);
+    /* display: none; */
+
 }
 
 .data-modal-close {
@@ -74,6 +79,7 @@ color: var(--primary-white-color);
 margin-bottom: 40px;
 }
 
+
 @media screen and (min-width:768px) {
 .book-a-table-title {
     font-size: 36px;
@@ -81,9 +87,9 @@ line-height: var(--36px);
 }
 }
 
-.italick {
-    font-style: italic;
-}
+
+
+
 
 /* modal-form */
 
@@ -164,7 +170,6 @@ font-weight: 400;
 font-size: 8px;
 line-height: var(--8px);
 letter-spacing: 0.18em;
-text-transform: uppercase;
 color: var(--secondary-white-color);
 }
 
@@ -271,6 +276,14 @@ line-height: calc(24 / 14);
 margin-left: auto;
 margin-right: auto;
 }
+.close-button{
+    background-color: transparent;
+    border: transparent;
+}
+.close-icon{
+ stroke: black;
+}
+
 
 .icon-button-close {
     stroke: white;

@@ -1,27 +1,22 @@
-body{
-    margin: 0;
-}
 
-
+@media screen and (max-width: 767px){
 .room-hero-section{
     padding-top: 40px;
     padding-bottom: 64px;
 }
+}
 
-@media screen and (min-width:768px) {
-    .room-hero-section{
+
+@media screen and (min-width: 768px) and (max-width:1439px) {
+    .room-hero-section{ 
         padding-bottom: 120px;
     }
 }
 
-@media screen and (min-width:1440px) {
-    .room-hero-section{
-        padding-top: 247px;
-        padding-bottom: 48px;
-    }
-}
+
 
 .room-hero-title{
+    display: inline-block;
 margin-bottom: 24px;
 
 
@@ -41,6 +36,7 @@ color: var(--primary-black-color);
 
 @media screen and (min-width: 1440px) {
     .room-hero-title{
+        margin-top: 169px;
          margin-bottom: 32px;
          font-size: 80px;
          line-height: var(--80px);
@@ -76,13 +72,12 @@ margin-bottom: 40px;
 
 
 
-.multiple-items-one{
-    display: flex;
+.room-hero-section .slider-wraper{
     margin-bottom: 100px;
 }
 
 @media screen and (min-width: 768px){
-    .multiple-items-one{
+    .room-hero-section .slider-wraper{
         margin-bottom: 40px;
     }
 }
@@ -98,46 +93,14 @@ letter-spacing: 0.05em;
 
 }
 
-
-
-
-
-/* Deck position */
-
-.room-hero-section{
-    position: relative;
-}
-
-
-
-@media screen and (min-width: 1440px) {
-    .multiple-items-one{
-        position: absolute;
-        left: 736px;
-        top: 108px;
-    }
-}
-
-/* * Experiment */
-
-@media screen and (max-width: 767px) {
-    .slide{
-        width: 250px;
-        height: 429px;
-    }
-}
-
-@media screen and (min-width: 768px) {
-    .slide{
-       width: 436px;
-height: 548px;
+@media screen and (min-width: 1440px){
+    .room-hero-text{
+        margin-bottom: 48px;
     }
 }
 
 
-@media screen and (min-width: 1440px) {
-    .slide{
-    width: 436px;
-height: 580px;
-    }
-}
+
+
+
+
