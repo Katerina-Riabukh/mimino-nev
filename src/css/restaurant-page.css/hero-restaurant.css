@@ -1,0 +1,300 @@
+/* Yuliya Solovenuk  */
+
+/* section hotel hero */
+.restaurant-hero-section {
+background-color: rgb(247, 247, 247);
+overflow: hidden;
+}
+
+.restaurant-hero-title {
+  margin-right: auto;
+  margin-bottom: 24px;
+  margin-top: 40px;
+
+  font-weight: 400;
+  font-size: 40px;
+  line-height: 1;
+
+  letter-spacing: -0.02em;
+  text-transform: uppercase;
+
+  color: (var(--primary-black-color));
+}
+
+.restaurant-hero-item:not(:last-child) {
+  margin-right: 12px;
+}
+
+
+.restaurant-hero-btn-wrapper {
+  display: flex;
+  justify-items: start;
+  align-items: center;
+  margin-bottom: 40px;
+}
+
+.button-white,
+.button-white {
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1), background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.swiper-slide {
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-size: cover;
+}
+
+.restaurant-hero-text {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.29;
+
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+
+  color: (var(--primary-black-color));
+}  
+
+.restaurant-hero-text-italic {
+  font-style: italic;
+}
+
+
+/* Phone screen to 767px mobile */
+@media screen and (max-width: 767px) {
+  .swiper-slide {
+    max-width: 250px;
+    height: 429px;
+  }
+
+   .first-slide {
+    background-image: linear-gradient(0deg, rgba(18, 18, 18, 0.2), rgba(18, 18, 18, 0.2)), url(../../images/restaurante-page_img/restaurant-hero-img/rest1_mob@1x.jpg);
+  }
+  @media (min-device-pixel-ratio: 2), (min-resolution: 192dpi), (min-resolution: 2dppx) {
+    .first-slide {
+      background-image: linear-gradient(0deg, rgba(18, 18, 18, 0.2), rgba(18, 18, 18, 0.2)), url(../../images/restaurante-page_img/restaurant-hero-img/rest1_mob@2x.jpg);
+    }
+  }
+
+  .second-slide {
+    background-image: linear-gradient(0deg, rgba(18, 18, 18, 0.2), rgba(18, 18, 18, 0.2)), url(../../images/restaurante-page_img/restaurant-hero-img/rest2_mob@1x.jpg);
+  }
+  @media (min-device-pixel-ratio: 2), (min-resolution: 192dpi), (min-resolution: 2dppx) {
+    .second-slide {
+      background-image: linear-gradient(0deg, rgba(18, 18, 18, 0.2), rgba(18, 18, 18, 0.2)), url(../../images/restaurante-page_img/restaurant-hero-img/rest2_mob@2x.jpg);
+    }
+  }
+
+  .third-slide {
+    background-image: linear-gradient(0deg, rgba(18, 18, 18, 0.2), rgba(18, 18, 18, 0.2)), url(../../images/restaurante-page_img/restaurant-hero-img/rest3_mob@1x.jpg);
+  }
+  @media (min-device-pixel-ratio: 2), (min-resolution: 192dpi), (min-resolution: 2dppx) {
+    .third-slide {
+      background-image: linear-gradient(0deg, rgba(18, 18, 18, 0.2), rgba(18, 18, 18, 0.2)), url(../../images/restaurante-page_img/restaurant-hero-img/rest3_mob@2x.jpg);
+    }
+  }
+
+    .fourth-slide {
+    background-image: linear-gradient(0deg, rgba(18, 18, 18, 0.2), rgba(18, 18, 18, 0.2)), url(../../images/restaurante-page_img/restaurant-hero-img/rest4_mob@1x.jpg);
+  }
+  @media (min-device-pixel-ratio: 2), (min-resolution: 192dpi), (min-resolution: 2dppx) {
+    .fourth-slide {
+      background-image: linear-gradient(0deg, rgba(18, 18, 18, 0.2), rgba(18, 18, 18, 0.2)), url(../../images/restaurante-page_img/restaurant-hero-img/rest4_mob@2x.jpg);
+    }
+  }
+
+    .fifth-slide {
+    background-image: linear-gradient(0deg, rgba(18, 18, 18, 0.2), rgba(18, 18, 18, 0.2)), url(../../images/restaurante-page_img/restaurant-hero-img/rest5_mob@1x.jpg);
+  }
+  @media (min-device-pixel-ratio: 2), (min-resolution: 192dpi), (min-resolution: 2dppx) {
+    .fifth-slide {
+      background-image: linear-gradient(0deg, rgba(18, 18, 18, 0.2), rgba(18, 18, 18, 0.2)), url(../../images/restaurante-page_img/restaurant-hero-img/rest5_mob@2x.jpg);
+    }
+  }
+
+    .sixth-slide {
+    background-image: linear-gradient(0deg, rgba(18, 18, 18, 0.2), rgba(18, 18, 18, 0.2)), url(../../images/restaurante-page_img/restaurant-hero-img/rest6_mob@1x.jpg);
+  }
+  @media (min-device-pixel-ratio: 2), (min-resolution: 192dpi), (min-resolution: 2dppx) {
+    .sixth-slide {
+      background-image: linear-gradient(0deg, rgba(18, 18, 18, 0.2), rgba(18, 18, 18, 0.2)), url(../../images/restaurante-page_img/restaurant-hero-img/rest6_mob@2x.jpg);
+    }
+  }
+} 
+
+@media screen and (max-width: 767px) {
+  .restaurant-hero-text {
+   max-width: 335px;
+   margin-top: 100px;
+  }
+
+}
+
+/* Device form 768px tablet*/
+
+@media screen and (min-width: 768px) {
+    .first-slide {
+    background-image: linear-gradient(0deg, rgba(18, 18, 18, 0.2), rgba(18, 18, 18, 0.2)), url(../../images/restaurante-page_img/restaurant-hero-img/rest1_tab@1x.jpg);
+
+  }
+  @media (min-device-pixel-ratio: 2), (min-resolution: 192dpi), (min-resolution: 2dppx) {
+    .first-slide {
+      background-image: linear-gradient(0deg, rgba(18, 18, 18, 0.2), rgba(18, 18, 18, 0.2)), url(../../images/restaurante-page_img/restaurant-hero-img/rest1_tab@2x.jpg);
+    }
+  }
+
+  .second-slide {
+    background-image: linear-gradient(0deg, rgba(18, 18, 18, 0.2), rgba(18, 18, 18, 0.2)), url(../../images/restaurante-page_img/restaurant-hero-img/rest2_tab@1x.jpg);
+  }
+  @media (min-device-pixel-ratio: 2), (min-resolution: 192dpi), (min-resolution: 2dppx) {
+    .second-slide {
+      background-image: linear-gradient(0deg, rgba(18, 18, 18, 0.2), rgba(18, 18, 18, 0.2)), url(../../images/restaurante-page_img/restaurant-hero-img/rest2_tab@2x.jpg);
+    }
+  }
+
+  .third-slide {
+    background-image: linear-gradient(0deg, rgba(18, 18, 18, 0.2), rgba(18, 18, 18, 0.2)), url(../../images/restaurante-page_img/restaurant-hero-img/rest3_tab@1x.jpg);
+  }
+  @media (min-device-pixel-ratio: 2), (min-resolution: 192dpi), (min-resolution: 2dppx) {
+    .third-slide {
+      background-image: linear-gradient(0deg, rgba(18, 18, 18, 0.2), rgba(18, 18, 18, 0.2)), url(../../images/restaurante-page_img/restaurant-hero-img/rest3_tab@2x.jpg);
+    }
+  }
+
+  .fourth-slide {
+    background-image: linear-gradient(0deg, rgba(18, 18, 18, 0.2), rgba(18, 18, 18, 0.2)), url(../../images/restaurante-page_img/restaurant-hero-img/rest4_tab@1x.jpg);
+  }
+  @media (min-device-pixel-ratio: 2), (min-resolution: 192dpi), (min-resolution: 2dppx) {
+    .fourth-slide {
+      background-image: linear-gradient(0deg, rgba(18, 18, 18, 0.2), rgba(18, 18, 18, 0.2)), url(../../images/restaurante-page_img/restaurant-hero-img/rest4_tab@2x.jpg);
+    }
+  }
+
+  .fifth-slide {
+    background-image: linear-gradient(0deg, rgba(18, 18, 18, 0.2), rgba(18, 18, 18, 0.2)), url(../../images/restaurante-page_img/restaurant-hero-img/rest5_tab@1x.jpg);
+  }
+  @media (min-device-pixel-ratio: 2), (min-resolution: 192dpi), (min-resolution: 2dppx) {
+    .fifth-slide {
+      background-image: linear-gradient(0deg, rgba(18, 18, 18, 0.2), rgba(18, 18, 18, 0.2)), url(../../images/restaurante-page_img/restaurant-hero-img/rest5_tab@2x.jpg);
+    }
+  }
+
+  .sixth-slide {
+    background-image: linear-gradient(0deg, rgba(18, 18, 18, 0.2), rgba(18, 18, 18, 0.2)), url(../../images/restaurante-page_img/restaurant-hero-img/rest6_tab@1x.jpg);
+  }
+  @media (min-device-pixel-ratio: 2), (min-resolution: 192dpi), (min-resolution: 2dppx) {
+    .sixth-slide {
+      background-image: linear-gradient(0deg, rgba(18, 18, 18, 0.2), rgba(18, 18, 18, 0.2)), url(../../images/restaurante-page_img/restaurant-hero-img/rest6_tab@2x.jpg);
+    }
+  }
+}
+
+@media screen and (min-width: 768px){
+    .swiper-slide {
+    max-width: 436px;
+    height: 548px;
+  }
+
+  .restaurant-hero-title {
+      margin-bottom: 32px;
+      font-size: 80px;
+  }
+
+  .restaurant-hero-item:not(:last-child) {
+    margin-right: 14px;
+  }
+
+  .restaurant-hero-btn-wrapper {
+    margin-bottom: 54px;
+  }
+  .restaurant-hero-text {
+    width: 338px;
+    margin-top: 40px;
+  }
+
+}
+
+/* Device form 1440px desktop*/
+
+@media screen and (min-width: 1440px) {
+    .first-slide {
+    background-image: linear-gradient(0deg, rgba(18, 18, 18, 0.2), rgba(18, 18, 18, 0.2)), url(../../images/restaurante-page_img/restaurant-hero-img/rest1_desk@1x.jpg);
+  }
+  @media (min-device-pixel-ratio: 2), (min-resolution: 192dpi), (min-resolution: 2dppx) {
+     .first-slide {
+      background-image: linear-gradient(0deg, rgba(18, 18, 18, 0.2), rgba(18, 18, 18, 0.2)), url(../../images/restaurante-page_img/restaurant-hero-img/rest1_desk@2x.jpg);
+    }
+  }
+  
+  .second-slide {
+    background-image: linear-gradient(0deg, rgba(18, 18, 18, 0.2), rgba(18, 18, 18, 0.2)), url(../../images/restaurante-page_img/restaurant-hero-img/rest2_desk@1x.jpg);
+  }
+  @media (min-device-pixel-ratio: 2), (min-resolution: 192dpi), (min-resolution: 2dppx) {
+    .second-slide {
+      background-image: linear-gradient(0deg, rgba(18, 18, 18, 0.2), rgba(18, 18, 18, 0.2)), url(../../images/restaurante-page_img/restaurant-hero-img/rest2_desk@2x.jpg);
+    }
+  }
+
+  .third-slide {
+    background-image: linear-gradient(0deg, rgba(18, 18, 18, 0.2), rgba(18, 18, 18, 0.2)), url(../../images/restaurante-page_img/restaurant-hero-img/rest3_desk@1x.jpg);
+  }
+  @media (min-device-pixel-ratio: 2), (min-resolution: 192dpi), (min-resolution: 2dppx) {
+    .third-slide {
+      background-image: linear-gradient(0deg, rgba(18, 18, 18, 0.2), rgba(18, 18, 18, 0.2)), url(../../images/restaurante-page_img/restaurant-hero-img/rest3_desk@2x.jpg);
+    }
+  }
+
+  .fourth-slide {
+    background-image: linear-gradient(0deg, rgba(18, 18, 18, 0.2), rgba(18, 18, 18, 0.2)), url(../../images/restaurante-page_img/restaurant-hero-img/rest4_desk@1x.jpg);
+  }
+  @media (min-device-pixel-ratio: 2), (min-resolution: 192dpi), (min-resolution: 2dppx) {
+    .fourth-slide {
+      background-image: linear-gradient(0deg, rgba(18, 18, 18, 0.2), rgba(18, 18, 18, 0.2)), url(../../images/restaurante-page_img/restaurant-hero-img/rest4_desk@2x.jpg);
+    }
+  }
+
+  .fifth-slide {
+    background-image: linear-gradient(0deg, rgba(18, 18, 18, 0.2), rgba(18, 18, 18, 0.2)), url(../../images/restaurante-page_img/restaurant-hero-img/rest5_desk@1x.jpg);
+  }
+  @media (min-device-pixel-ratio: 2), (min-resolution: 192dpi), (min-resolution: 2dppx) {
+    .fifth-slide {
+      background-image: linear-gradient(0deg, rgba(18, 18, 18, 0.2), rgba(18, 18, 18, 0.2)), url(../../images/restaurante-page_img/restaurant-hero-img/rest5_desk@2x.jpg);
+    }
+  }
+
+  .sixth-slide {
+    background-image: linear-gradient(0deg, rgba(18, 18, 18, 0.2), rgba(18, 18, 18, 0.2)), url(../../images/restaurante-page_img/restaurant-hero-img/rest6_desk@1x.jpg);
+  }
+  @media (min-device-pixel-ratio: 2), (min-resolution: 192dpi), (min-resolution: 2dppx) {
+    .sixth-slide {
+      background-image: linear-gradient(0deg, rgba(18, 18, 18, 0.2), rgba(18, 18, 18, 0.2)), url(../../images/restaurante-page_img/restaurant-hero-img/rest6_desk@2x.jpg);
+    }
+  }  
+}
+
+@media screen and (min-width: 1440px) {
+    .swiper-slide {
+    max-width: 436px;
+    height: 580px;
+  }
+
+  /* .restaurant-hero-container {
+    padding-top: 30px;
+    padding-bottom: 30px;
+  } */
+
+ .restaurant-hero-title {
+    margin-top: 174px;
+    font-size: 90px;
+  } 
+
+  .restaurant-hero-btn-wrapper {
+    margin-bottom: 204px;
+  }
+  
+  .restaurant-hero-text {
+    margin-bottom: 48px;
+  }
+   
+}
+
