@@ -17,7 +17,7 @@
     <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css"/>
     
     <script type="module" crossorigin src="/mimino-nev/assets/mobile-menu-ceca4295.js"></script>
-    <link rel="stylesheet" href="/mimino-nev/assets/mobile-menu-18debf2b.css">
+    <link rel="stylesheet" href="/mimino-nev/assets/mobile-menu-4fe011a2.css">
   </head>
   <body>
     <header></header>
@@ -862,40 +862,43 @@
     
     <div class="backdrop">
     <div class="modal-box">
+        <button class="close-modal-btn" type="button">
+            <svg class="icon-close" width="28" height="28"><use href="../../images/icons/sprite.svg#icon-modal-close"></use></svg>
+        </button>
         <form name="booking-form">
-         <strong>book a room</strong>
+         <strong class="book-title italic">book a room</strong>
             <label>
-                <input type="text" name="username" placeholder="Your name">
-                <span>Who should book a table for?</span>
+                <input class="text-input" type="text" name="username" placeholder="Your name">
+                <span class="text-after">Who should book a table for?</span>
             </label>
             
             <label>    
-                <input type="tel" name="phone_number" placeholder="+38()"/>
-                <span>Phone number</span>
+                <input class="text-input" type="tel" name="phone_number" placeholder="+38()"/>
+                <span class="text-after">Phone number</span>
             </label>
             
             <label>
-                <input type="date" name="check-in" value="" placeholder="today">
+                <input class="text-input" type="date" name="check-in" value="today" placeholder="today">
                 <svg class="" width="20" height="20"><use href="../../images/icons/sprite.svg#icon-down"></use></svg>
-                <span>Check-in date</span>  
+                <span class="text-after">Check-in date</span>  
             </label>
              
             </label>
             <label>
-                <input type="date" name="check-out" value="2023-04-25">
+                <input class="text-input" type="date" name="check-out" value="2023-04-25">
                 <svg class="" width="20" height="20"><use href="../../images/icons/sprite.svg#icon-down"></use></svg>
-                <span>Check-out date</span>
+                <span class="text-after">Check-out date</span>
             </label>
             <label>
-                <select name="" >
+                <select class="text-input" name="variables" >
                     <option value="">Double suite</option>
                     <option value="">Triple Room</option>
                     <option value="">four-seater room</option>
                 </select>
                 <svg class="" width="20" height="20"><use href="../../images/icons/sprite.svg#icon-down"></use></svg>
-                <span>Number category</span>
+                <span class="text-after">Number category</span>
             </label>
-            <button class="button button-black">MAKE A RESERVATION</button>
+            <button class="button button-black" type="submit">MAKE A RESERVATION</button>
 
 
 
