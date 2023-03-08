@@ -1,8 +1,12 @@
 /* RESTAURANT SECTION */
 .restaurant-section-container {
     position: relative;
+    
 }
-
+.restaurant-section {
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
 .name-restaurant-section {
     margin-right: auto;
     margin-bottom: 24px;
@@ -20,6 +24,12 @@ margin-bottom: 32px;
  font-weight: 500;
 font-size: 14px;
 line-height: 18px;
+}
+
+.backdrop.is-hidden {
+    visibility: hidden;
+    opacity: 0;
+    pointer-events: none;
 }
 
 
@@ -51,9 +61,12 @@ margin-bottom: 87px;
 
 
 /* SLIDER */
+.slider-img {
+    max-width: fit-content ;
+    margin-right: 20px;
+    } 
 
-
-/* @media screen and (min-width: 320px) {
+ @media screen and (min-width: 320px) {
     .slider-mob-tablet {
         margin-bottom: 40px;
     }
@@ -63,21 +76,7 @@ margin-bottom: 87px;
 }
 
 
-    
-
-
-  
-.slider-item {
-    width: 157px;
-    height: 201px;
-}
-
-.slider-img {
-max-width: fit-content ;
-
-} 
-
-@media screen and (min-width: 1200px) {
+@media screen and (min-width: 1440px) {
     .slider-mob-tablet {
 display: none;
     }
@@ -85,12 +84,12 @@ display: none;
 
 }
 
-@media screen and (max-width: 1200px) {
+@media screen and (max-width: 1439px) {
     .slider-desk {
         display: none;
     } 
    
-} */
+} 
 
 
 
@@ -105,21 +104,56 @@ display: none;
 
 
 
+@media screen and (min-width: 320px) {
+    .buttons-restautant-section {
+        margin-top: 82px;
+    }
+    
+}
 
 
 
 @media screen and (min-width: 768px) {
     .buttons-restautant-section {
         gap: 14px;
+        margin-top: 108px;
     }
 }
 
-@media screen and (min-width: 1200px) {
+@media screen and (min-width: 1440px) {
     .buttons-restautant-section {
         position: absolute;
         top: 44px;
         right: 32px;
-        
+        margin-top: 0;
       
     }
 }
+
+.slick-prev {
+    background-image: url(../../images/Vector1.svg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.slick-prev::before  {
+    background-image: url(../../images/Vector1.svg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.slick-next{
+    background-image: url(../../images/Vector2.svg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+} 
+
+
+  .slick-next::before {
+    background-image: url(../../images/Vector2.svg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+} 
