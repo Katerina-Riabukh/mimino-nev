@@ -28,8 +28,8 @@
     background-color: rgba(18, 18, 18, 0.3);
 }
 
-@media screen and  (min-width:1440px){
-    .footer-section{
+@media screen and  (min-width:768px){
+    .footer-section::after{
         bottom: 48px;
     }
 }@media screen and  (min-width:1440px){
@@ -105,7 +105,7 @@ letter-spacing: 0.05em;
     display: block;
     width: 20px;
     height:20px;
-    fill: var(--primary-white-color);
+    fill: transparent;
     stroke: var(--primary-black-color);
 }
 @media screen and  (min-width:768px){
