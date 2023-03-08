@@ -33,7 +33,7 @@ $('.slider-1').slick({
   adaptiveWidth: true,
   adaptiveHeigth: true,
   lazyLoad: 'ondemand',
-  infinite: true,
+  infinite: false,
   variableWidth: true,
   autoplay: false,
   responsive: [
