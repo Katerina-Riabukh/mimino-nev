@@ -80,12 +80,12 @@
       
     } 
     .slick-prev {
-        left: 60px;
-        top: 564px;
+        left: 640px;
+        top: 570px;
     }
     .slick-next {
-        right: 751px;
-        top: 564px;
+       right: 310px;
+    top: 570px;
     }
 }
 
