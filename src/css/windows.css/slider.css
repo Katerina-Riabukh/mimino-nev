@@ -41,19 +41,45 @@
     width: 36px;
     height: 36px;
 }
+
 .slick-next:before{
     width: 36px;
     height: 36px;
-    content: '';
-    
-    
-
-   
+    content: '' 
 }
+
 .slick-prev:before{
     content: ' ';
-   
+
 }
+
+/* .slick-prev {
+    background-image: url(/);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.slick-prev::before  {
+    background-image: url(../../images/Vector1.svg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.slick-next{
+    background-image: url(../../images/Vector2.svg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+} 
+
+
+  .slick-next::before {
+    background-image: url(../../images/Vector2.svg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+} */
 
 .slick-slider{
     width: 520px;
@@ -63,6 +89,8 @@
     left: 256px;
     top: 454px;
     border: 1px solid black;
+   
+   
 }
 
 .slick-next {
