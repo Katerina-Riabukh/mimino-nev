@@ -8,7 +8,7 @@
     height: 100%;
     overflow-y: scroll;
     background-color: rgba(18, 18, 18, 0.5);
-    display: none;
+    /* display: none; */
 }
 
 
@@ -21,18 +21,19 @@
 }
 
 .modal-box{
-    display: flex;
-    flex-direction: column;
+    
+    
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    width: 355px;
-    height: 528px;
-    background-color: aliceblue;
+    width: 335px;
+    height: 636px;
+   
     padding-top: 24px;
     padding-left: 24px;
     padding-right: 24px;
+
     background: var(--primary-black-color);
     border-radius: 2px;
     color: var(--primary-white-color);
@@ -40,20 +41,70 @@
     
 }
 
-.book-a-table-title {
-display: block;
-font-weight: 500;
-font-size: 28px;
-line-height: var(--38px);
-letter-spacing: -0.02em;
-text-transform: uppercase;
-color: var(--primary-white-color);
-margin-bottom: 40px;
+.book-title{
+    font-weight: 500;
+    font-size: 28px;
+    line-height: var(--28);
+
+    margin-bottom: 40px;
+}
+.text-after{
+    font-weight: 400;
+    font-size: 8px;
+    line-height: var(--8px);
 }
 
-.italick {
-    font-style: italic;
+
+
+.text-input{
+    position: relative;
+    display: block;
+    background-color: transparent;
+    border: none;
+    width: 287px;
+   
+
+    font-weight: 500;
+    font-size: 14px;
+    line-height: var(--14px);
+    color: var(--primary-white-color);
 }
+.text-input:hover{
+    outline: none;
+}
+
+.text-input::after {
+    content: '';
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    display: block;
+    width: 100%;
+    height: 0.8px;
+    background-color: var(--border-black);
+}
+
+
+.close-modal-btn{
+    position: absolute;
+    top:14px;
+    right: 14px;
+    background-color: transparent;
+    border: transparent;
+    stroke: aliceblue;
+    cursor: pointer;
+    
+}
+.close-icon{
+    position: absolute;
+    top: 14px;
+    right: 14px;
+    
+    
+}
+
+
+
 
 /* modal-form */
 
