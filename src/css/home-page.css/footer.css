@@ -1,0 +1,92 @@
+.footer-section{
+    border-bottom: 0.5px solid rgba(18, 18, 18, 0.3);
+    margin-bottom: 32px;
+}
+@media screen and  (min-width:768px){
+    .footer-section{
+        margin-bottom: 48px;
+    }
+}
+@media screen and  (min-width:1440px){
+    .footer-section{
+        margin-bottom: 80px;
+    }
+}
+.logo-footer{
+font-weight: 500;
+font-size: 20px;
+line-height: 1.2;
+letter-spacing: 0.18em;
+}
+.text-footer{
+    font-weight: 400;
+font-size: 8px;
+line-height: 1.25;
+letter-spacing: 0.18em;
+margin-bottom: 32px;
+}
+@media screen and  (min-width:1440px){
+    .text-footer{
+    margin-bottom: 80px;
+    }
+}
+.footer-flex{
+    display: flex;
+    justify-content: space-between;
+padding-left: 20px;
+padding-right: 20px;
+}
+@media screen and  (min-width:768px){
+    .footer-flex{
+        padding-left: 32px;
+padding-right: 32px;
+    }
+}
+@media screen and  (min-width:1440px){
+    .footer-flex{
+        justify-content: space-between;
+    }
+}
+.link-page{
+    font-weight: 400;
+font-size: 14px;
+line-height: 1.29;
+letter-spacing: 0.05em;
+}
+
+.link-page-flex{
+    display: none;
+}
+@media screen and  (min-width:1440px){
+    .link-page-flex{
+        display: flex;
+        gap: 32px;
+    }
+}
+@media screen and  (min-width:1440px){
+    .footer-name{
+        text-align: center;
+    }
+}
+.footer-icon-flex{
+    display: flex;
+    gap: 14px;
+    margin-right: 0;
+}
+@media screen and  (min-width:768px){
+    .footer-icon-flex{
+        gap: 16px;
+    }
+}
+.social-icon{
+    display: block;
+    width: 20px;
+    height:20px;
+    stroke: var(--primary-black-color);
+}
+@media screen and  (min-width:768px){
+    .social-icon{
+width: 24px;
+height: 24px;
+    }
+}
