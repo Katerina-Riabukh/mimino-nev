@@ -17,7 +17,7 @@
     <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css"/>
     
     <script type="module" crossorigin src="/mimino-nev/assets/mobile-menu-ceca4295.js"></script>
-    <link rel="stylesheet" href="/mimino-nev/assets/mobile-menu-4fe011a2.css">
+    <link rel="stylesheet" href="/mimino-nev/assets/mobile-menu-88b9fcbd.css">
   </head>
   <body>
     <header></header>
@@ -31,7 +31,7 @@
 
     <div class="desk-flex">
       <div class="buttons-flex">
-           <button class="button button-black" type="button" data-modal-open>book a room</button>
+           <button class="button button-black" data-modal-open type="button">book a room</button>
            <button class="button button-black" type="button">book  a table</button>
       </div>
     
@@ -762,235 +762,69 @@
         </div>
         </section>
         
-    
-    
+    <section class="section section-location">
+    <div class="container container-location">
+      <div class="location-flex">
+          <h2 class="location-title">location</h2>
+          <div class="contacts">
+              <br class="address">
+                  <br href="https://goo.gl/maps/9WccD9WHb2aES6Mu6">Ukraine, Poltava, </br> St. Marshal Biryuzov, 15</a>
+                </address>
+                <div class="call-us">
+                    <p class="call-title">call us:</p>
+                    <ul class="phone">
+                        <li class="contact-phone"><a href="tel:+380955559533">(095) 555 95 33</a></li>
+                        <li class="contact-phone"><a href="tel:+380668491089">(066) 849 10 89</a></li>
+                    </ul>
+          </div>
+            </div>
+      </div>
+        <picture>
+    <!-- Desktop screen -->
+    <source type="image/jpg" media="(min-width: 1440px)" srcset="../images/home-page_img/home-location/map_desk@1x.jpg 1x, ../images/home-page_img/home-location/map_desk@2x.jpg 2x">
+    <!-- Tablet screen -->
+    <source type="image/jpg" media="(min-width: 768px)" srcset="../images/home-page_img/home-location/map_tab@1x.jpg 1x, ../images/home-page_img/home-location/map_tab@2x.jpg 2x">
+    <!-- Mobile screen -->
+    <source type="image/jpg" media="(max-width: 767px)" srcset="../images/home-page_img/home-location/map_mob@1x.jpg 1x, ../images/home-page_img/home-location/map_mob@1x.jpg 2x">
+    <img class="location_img" src="../images/home-page_img/home-location/map_mob@1x.jpg" alt="Location map" width="335" height="384" loading="lazy">
+    </picture>
+    </div>
+  </section>
+  
+    <footer class="footer-section">
+    <div class="container footer-flex">
+  <ul class="link-page-flex">
+    <li><a class="link-page" href>Home</a></li>
+    <li><a class="link-page" href>Hotel</a></li>
+    <li><a class="link-page" href>Restaurant</a></li>
+  </ul>
+  
+      <div class="footer-name">
+        <a class="logo-footer" href>Mimino</a>
+        <p class="text-footer">restaurant-hotel complex</p>
+      </div>
+      <ul class="footer-icon-flex">
+        <li><svg class="social-icon" width="20" height="20">
+          <use href="../images/icons/sprite.svg#icon-instagram"></use>
+        </svg></li>
+        <li><svg class="social-icon" width="20" height="20">
+          <use href="../images/icons/sprite.svg#icon-facebook"></use>
+        </svg></li>
+        <li><svg class="social-icon" width="20" height="20">
+          <use href="../images/icons/sprite.svg#icon-twitter"></use>
+        </svg></li> 
+      </ul>  
+    </div>
+  </footer>
+  
 
     <!-- WINDOWS -->
 
-    <!-- <div class="slider margin">
-
-    <div class="box"></div>
-    <div class="box"></div>
-    <div class="box"></div>
-    <div class="box"></div>
-    <div class="box"></div>
-    <div class="box"></div>
-    <div class="box"></div>
-    <div class="box"></div>
-    <div class="box"></div>
-    <div class="box"></div>
-</div> -->
-
-<!-- <div class="slider-1 margin">
-
-    <div class="box-1"></div>
-    <div class="box-1"></div>
-    <div class="box-1"></div>
-    <div class="box-1"></div>
-    <div class="box-1"></div>
-    <div class="box-1"></div>
-    <div class="box-1"></div>
-    <div class="box-1"></div>
-    <div class="box-1"></div>
-    <div class="box-1"></div>
-</div> -->
-
-<!-- <div class="slider-2">
-    <div class="box-2"></div>
-    <div class="box-2"></div>
-</div> -->
-
-<!-- <div class="swiper-button-prev">
-                <svg class="icon-sl icon-slider-prev" width="36" height="36">
-                    <use href="../../images/icons/sprite.svg#icon-button-l"></use>
-                </svg>
-            </div>
-            <div class="swiper-button-next">
-                 <svg class="icon-sl icon-slider-next" width="36" height="36">
-                    <use href="../../images/icons/sprite.svg#btn-next-slide"></use>
-                </svg>
-            </div> -->
-    <div class="backdrop is-hidden">
-      <div class="modal" data-modal>
-        <button class="close-button" data-modal-close>
-          <svg class="close-icon" width="28" height="28">
-            <use href="/mimino-nev/assets/sprite-ae89818e.svg#icon-modal-close"></use>
-          </svg>
-        </button>
-          <form class="book-a-table-form">
-            <h2 class="book-a-table-title">BOOK 
-              <span class="italick">A TABLE</span></h2>
-            
-            <lable class="name-lable">
-              <span class="user-name-form current">
-                <input class="modal-form-input" name="user_name" type="text" pattern="[a-zA-Z]+$" minlength="2" placeholder="Your name">
-              </span>
-                <p class="modal-hint">Who should book a table for?</p>
-              </lable>
-              
-            <lable class="number-lable">
-              <span class="number-form current">
-                <select class="modal-form-input" name="number_of_people" type="tel" pattern="[0-1]">
-                  <option value="number of people">number of people</option>
-                  </select>
-              </span>
-            </lable>
-
-            
-            <lable class="date-lable">
-              <span class="date-form current">
-                <select class="modal-form-input" name="date" type="text">
-                  <option value="number of people">today</option>
-                  <option value="number of people">tomorrow</option>
-                </select>
-              </span>
-              <p class="modal-hint">What date to book?</p>
-            </lable>
-
-            <lable class="phon-number-lable">
-              <span class="phone-number-form current">
-                <input class="modal-form-input" name="user_namber" type="tel" placeholder="+ 38 () ">
-              </span>
-              <p class="modal-hint">Phone number</p>
-              </lable>
-              
-            <div class="text-align"><button class="button button-black  button-black-modal" type="submit">MAKE A RESERVATION</button></div>
-          </form>
-      </div>
-    </div>
-
-    
-    <div class="backdrop">
-    <div class="modal-box">
-        <button class="close-modal-btn" type="button">
-            <svg class="icon-close" width="28" height="28"><use href="../../images/icons/sprite.svg#icon-modal-close"></use></svg>
-        </button>
-        <form name="booking-form">
-         <strong class="book-title italic">book a room</strong>
-            <label>
-                <input class="text-input" type="text" name="username" placeholder="Your name">
-                <span class="text-after">Who should book a table for?</span>
-            </label>
-            
-            <label>    
-                <input class="text-input" type="tel" name="phone_number" placeholder="+38()"/>
-                <span class="text-after">Phone number</span>
-            </label>
-            
-            <label>
-                <input class="text-input" type="date" name="check-in" value="today" placeholder="today">
-                <svg class="" width="20" height="20"><use href="../../images/icons/sprite.svg#icon-down"></use></svg>
-                <span class="text-after">Check-in date</span>  
-            </label>
-             
-            </label>
-            <label>
-                <input class="text-input" type="date" name="check-out" value="2023-04-25">
-                <svg class="" width="20" height="20"><use href="../../images/icons/sprite.svg#icon-down"></use></svg>
-                <span class="text-after">Check-out date</span>
-            </label>
-            <label>
-                <select class="text-input" name="variables" >
-                    <option value="">Double suite</option>
-                    <option value="">Triple Room</option>
-                    <option value="">four-seater room</option>
-                </select>
-                <svg class="" width="20" height="20"><use href="../../images/icons/sprite.svg#icon-down"></use></svg>
-                <span class="text-after">Number category</span>
-            </label>
-            <button class="button button-black" type="submit">MAKE A RESERVATION</button>
-
-
-
- 
-        </form>
-
-    </div>
-</div>
-    
-    <div class="menu-container js-menu-container" id="mobile-menu">
-<div class="mobile-menu-header">
-    
-    <button class="menu-toggle js-close-menu">
-    <svg class="mobile-icon-close">
-      <use href="../../images/icons/sprite.svg#icon-icon-menu-cl"></use>
-    </svg>
-    </button>
-   <div class="logo-section">
-   <strong class="header-title">
-    mimino
-     </strong>
-      <p class="header-text">restaurant-hotel complex</p>
-    </div>
-
-      <nav class="header-tablet-social">
-    <ul class="header-tablet-list">
-        <li class="social-media-item top">
-        <a class="social-media-link" href="">
-            <svg class="social-icon-mob" width="24" height="24">
-              <use href="../../images/icons/sprite.svg#icon-instagram"></use>
-            </svg>
-        </a>
-    </li>
-
-     <li class="social-media-item top">
-        <a class="social-media-link" href="">
-            <svg class="social-icon-mob" width="24" height="24">
-              <use href="../../images/icons/sprite.svg#icon-facebook"></use>
-            </svg>
-        </a>
-    </li>
-
-     <li class="social-media-item top">
-        <a class="social-media-link" href="">
-            <svg class="social-icon-mob" width="24" height="24">
-              <use href="../../images/icons/sprite.svg#icon-twitter"></use>
-            </svg>
-        </a>
-    </li>
-
-    </ul>
-    </nav>
-    
-</div>
-
-<div class="menu-main-container">
-<nav class="mobile-nav">
-    <ul class="mobile-list">
-    <li class="mobile-link-item"><a class="link-mobile" href="../../index.html">home</a></li>
-    <li class="mobile-link-item"><a class="link-mobile" href="../../hotel.html">hotel</a></li>
-    <li class="mobile-link-item"><a class="link-mobile" href="../../restaurant.html">restaurant</a></li>
-  </ul>
-  </nav>
-
-<ul class="social-media-mobile">
-    <li class="social-media-item mob">
-        <a class="social-media-link" href="">
-            <svg class="social-icon-mob" width="20" height="20">
-              <use href="../../images/icons/sprite.svg#icon-instagram"></use>
-            </svg>
-        </a>
-    </li>
-    <li class="social-media-item mob">
-        <a  class="social-media-link" href="">
-            <svg class="social-icon-mob" width="20" height="20">
-              <use href="../../images/icons/sprite.svg#icon-facebook"></use>
-            </svg>
-        </a>
-    </li>
-    <li class="social-media-item mob">
-        <a class="social-media-link" href="">
-            <svg class="social-icon-mob" width="20" height="20">
-              <use href="../../images/icons/sprite.svg#icon-twitter"></use>
-            </svg>
-        </a>
-    </li>
-</ul>
-
-
-</div>
-
-</div>
+    ENOENT: no such file or directory, open '/home/runner/work/mimino-nev/mimino-nev/src/.partials/windows/slider.html'
+    ENOENT: no such file or directory, open '/home/runner/work/mimino-nev/mimino-nev/src/.partials/windows/book-a-table.html'
+    ENOENT: no such file or directory, open '/home/runner/work/mimino-nev/mimino-nev/src/.partials/windows/book-a-room.html'
+    ENOENT: no such file or directory, open '/home/runner/work/mimino-nev/mimino-nev/src/.partials/windows/prices-per-room.html'
+    ENOENT: no such file or directory, open '/home/runner/work/mimino-nev/mimino-nev/src/.partials/windows/mobile-tablet-menu.html'
    
 
     <!-- PAGE`S LINKS -->
