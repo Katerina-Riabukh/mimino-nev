@@ -9,7 +9,7 @@
     overflow-y: scroll;
      opacity: 0;
      visibility: hidden;
-     pointer-events: none;
+    
  
 
     background-color: var(--secondary-white-color);
@@ -32,7 +32,7 @@
 }
 
 
-.modal-table{
+.modal{
     position: absolute;
     top: 50%;
     left: 50%;
@@ -64,7 +64,7 @@
 
 
 @media screen and (min-width:768px) {
- .modal-table{
+ .modal{
     width: 628px;
     height: 476px;
     padding-top: 32px;
