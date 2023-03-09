@@ -9,7 +9,7 @@
     
     <script type="module" crossorigin src="/mimino-nev/assets/modal-f53f72d8.js"></script>
     <script type="module" crossorigin src="/mimino-nev/assets/price-per-room-1e13874e.js"></script>
-    <link rel="stylesheet" href="/mimino-nev/assets/styles-ac96e127.css">
+    <link rel="stylesheet" href="/mimino-nev/assets/styles-8c3866aa.css">
   </head>
   <body>
     <header class="header"> 
@@ -151,7 +151,7 @@
 
         <ul class="restaurant-hero-btn-wrapper">
             <li class="restaurant-hero-item list">
-               <button class="restaurant-hero-btn button button-white" type="button" data-modal-open>book a table</button>
+               <button class="restaurant-hero-btn button button-white js-open-modal" type="button" data-modal="1">book a table</button>
             </li>
             <li class="restaurant-hero-item list">
                 <a class="restaurant-hero-btn button button-white" href="#menu">View a menu</a>
@@ -651,7 +651,7 @@
         </div>
 
 
-        <button type="button" class="button button-black mybutton">BOOK A TABLE</button>
+        <button type="button" class="button button-black mybutton js-open-modal" data-modal="1">BOOK A TABLE</button>
     </div>
 
 </section>
@@ -734,8 +734,8 @@
                 </svg>
             </div> -->
     
-<div class="backdrop-table js-overlay-modal" >
-   <div class="modal-tablel modal" data-modal="1">
+<div class="backdrop-table overlay js-overlay-modal" >
+   <div class="modal modal" data-modal="1">
       <button  class="modal-close js-modal-close">
         <svg class width="28" height="28">
           <use href="../../images/icons/sprite.svg#icon-modal-close"></use></svg>
