@@ -11,16 +11,18 @@
         <form name="booking-form">
          <strong class="book-title italic">book a room</strong>
          <div class="modal-wrap">
-            <label class="input">
-                <input class="text-input" type="text" name="username" placeholder="Your name" pattern="[a-zA-Z]{3,16}">
-                <span class="text-after">Who should book a table for?</span>
-            </label>
-            
-            <label class="input">    
-                <input class="text-input" type="tel" name="phone_number" placeholder="+38()"/>
-                <span class="text-after">Phone number</span>
-            </label>
-            
+            <div>
+                <label class="input">
+                    <input class="text-input" type="text" name="username" placeholder="Your name" pattern="[a-zA-Z]{3,16}">
+                    <span class="text-after">Who should book a table for?</span>
+                </label>
+                
+                <label class="input">
+                    <input class="text-input" type="tel" name="phone_number" placeholder="+38()"/>
+                    <span class="text-after">Phone number</span>
+                </label>
+                
+            </div>
             <label class="input">
                 <input class="text-input check-in" type="date" name="check-in" value="TODAY">
                 <span class="text-after">Check-in date</span>  
