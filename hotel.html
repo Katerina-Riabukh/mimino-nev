@@ -9,9 +9,9 @@
     <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
     <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css"/>
     
-    <script type="module" crossorigin src="/mimino-nev/assets/modal-f53f72d8.js"></script>
+    <script type="module" crossorigin src="/mimino-nev/assets/modal-cdc03744.js"></script>
     <script type="module" crossorigin src="/mimino-nev/assets/price-per-room-c6e49ff6.js"></script>
-    <link rel="stylesheet" href="/mimino-nev/assets/styles-78a382af.css">
+    <link rel="stylesheet" href="/mimino-nev/assets/styles-0b9b12c5.css">
   </head>
   <body>
     <header class="header"> 
@@ -113,10 +113,10 @@
         <h1 class="hotel-hero-title">hotel</h1>
         <ul class="hotel-hero-btn-wrapper">
             <li class="hotel-hero-item list">
-               <button class="hotel-hero-btn button button-white" data-modal-open type="button">book a room</button>
+               <button class="hotel-hero-btn button button-white js-open-modal" type="button" data-modal="2">book a room</button>
             </li>
             <li class="hotel-hero-item list">
-                <button class="hotel-hero-btn button button-white js-open-modal" data-modal="3" type="button">View prices</button>
+                <a href="#" class=" js-open-modal" data-modal="3"><button class="button button-white" type="button">View prices</button></a> 
             </li>
         </ul>
 
@@ -217,10 +217,10 @@
       </div>
       <ul class="ul-buton-all flex-end">
         <li>
-          <a href="../../room.html"><button class="button button-white js-open-modal" data-modal="3">More details</button></a>
+          <a href="../../room.html"><button class="button button-white">More details</button></a>
         </li>
         <li class="">
-          <button class="button button-white" type="button">View prices</button>
+          <a href="#" class=" js-open-modal" data-modal="3"><button class="button button-white" type="button">View prices</button></a>
         </li>
       </ul>
     </div>
@@ -416,7 +416,7 @@
             </div> -->
     
 <div class="backdrop-table overlay js-overlay-modal" >
-   <div class="modal modal" data-modal="1">
+   <div class="modal-table modal" data-modal="1">
       <button  class="modal-close js-modal-close">
         <svg class width="28" height="28">
           <use href="../../images/icons/sprite.svg#icon-modal-close"></use></svg>
@@ -477,7 +477,7 @@
 
 
 <div class="backdrop-room overlay js-overlay-modal">
-    <div class="modal-box  modal" data-modal="2">
+    <div class="modal-room  modal" data-modal="2">
         <button class="modal-close-room js-modal-close" type="button" >
             <svg class="icon-close" width="28" height="28"><use href="../../images/icons/sprite.svg#icon-modal-close"></use></svg>
         </button>
@@ -528,7 +528,7 @@
     
 
 <div class="backdrop-price overlay js-overlay-modal" data-modal="3">
-    <div class="modal" data-modal="3">
+    <div class="modal-price modal" data-modal="3">
        <button class="modal-close js-modal-close">
          <svg class width="28" height="28">
            <use href="../../images/icons/sprite.svg#icon-modal-close"></use></svg>
@@ -649,9 +649,9 @@
 
 </div>
     
-    <a href="./index.html">home</a>
+    <!-- <a href="./index.html">home</a>
     <a href="./restaurant.html">Restaurant</a>
-    <a href="./room.html">Room</a>
+    <a href="./room.html">Room</a> -->
     
     <script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
     <script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
