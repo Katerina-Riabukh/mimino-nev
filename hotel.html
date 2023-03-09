@@ -9,8 +9,9 @@
     <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
     <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css"/>
     
-    <script type="module" crossorigin src="/mimino-nev/assets/modal-6ffa3854.js"></script>
-    <link rel="stylesheet" href="/mimino-nev/assets/styles-7e4db486.css">
+    <script type="module" crossorigin src="/mimino-nev/assets/modal-f53f72d8.js"></script>
+    <script type="module" crossorigin src="/mimino-nev/assets/price-per-room-633932b9.js"></script>
+    <link rel="stylesheet" href="/mimino-nev/assets/styles-10e88560.css">
   </head>
   <body>
     <header class="header"> 
@@ -537,21 +538,11 @@
                 </svg>
             </div> -->
     
-<div class="backdrop is-hidden" >
-      <div class="modal" data-modal data-modal-open-2>
-        <button class="" data-modal-close>
-          <svg class width="28" height="28">
-            <use href="/mimino-nev/assets/sprite-2c935940.svg#modal_close"></use>
-
-
-<div class="backdrop" data-modal>
-      <div class="modal is-hidden">
-        <button class="data-modal-close">
-          <svg class="icon-button-close" width="28" height="28">
-            <use href="../../images/icons/sprite.svg#icon-modal-close"></use>
-
-
-          </svg>
+<div class="backdrop-table" id="modal-1">
+   <div class="modal-table modal__content-body">
+      <button  class="modal-close js-modal-close">
+        <svg class width="28" height="28">
+          <use href="../../images/icons/sprite.svg#icon-modal-close"></use></svg>
         </button>
           <form class="book-a-table-form">
             <h2 class="book-a-table-title">BOOK 
@@ -566,11 +557,16 @@
                     <p class="modal-hint">Who should book a table for?</p>
                   </lable>
                 
-                <lable class="number-lable">
+                <lable class="number-lable">number of people
                   <span class="number-form current">
                     <select class="modal-form-input" name="number_of_people" type="tel" pattern="[0-1]">
-                      <option value="number of people">number of people</option>
-                      </select>
+                      <option value="number of people" selected></option>
+                      <option value="number of people">1</option>
+                      <option value="number of people">2</option>
+                      <option value="number of people">3</option>
+                      <option value="number of people">4</option>
+                      <option value="number of people">5</option>
+                    </select>
                   </span>
                 </lable>
               </div>
@@ -580,7 +576,7 @@
                   <span class="date-form current">
                     <select class="modal-form-input" name="date" type="text">
                       <option value="number of people">today</option>
-                      <option value="number of people">tomorrow</option>
+                      <option value="date-to-book">tomorrow</option>
                     </select>
                   </span>
                   <p class="modal-hint">What date to book?</p>
@@ -594,7 +590,7 @@
               </div>
             </div>
               
-            <div class="text-align"><button class="button button-black  button-black-modal" type="submit">MAKE A RESERVATION</button></div>
+            <button class="button button-black  button-black-modal" type="submit">MAKE A RESERVATION</button>
           </form>
       </div>
     </div>
@@ -603,9 +599,9 @@
     
 
 
-<div class="backdrop">
+<div class="backdrop-room  is-hidden" data-modal>
     <div class="modal-box">
-        <button class="close-modal-btn" type="button">
+        <button class="modal-close-room" type="button"  data-modal-close>
             <svg class="icon-close" width="28" height="28"><use href="../../images/icons/sprite.svg#icon-modal-close"></use></svg>
         </button>
         <form name="booking-form">
@@ -744,6 +740,8 @@
     <script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
     <script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
     <script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+    
+    
     
     
     
