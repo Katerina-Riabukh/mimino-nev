@@ -1,0 +1,251 @@
+
+.backdrop-price{
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    z-index: 100;
+    width: 100%;
+    height: 100%;
+    overflow-y: scroll;
+     opacity: 0;
+     visibility: hidden;
+    
+ 
+
+    background-color: var(--secondary-white-color);
+    
+    background-color: rgba(18, 18, 18, 0.5);
+    
+
+}
+
+.modal-close {
+    position: absolute;
+    z-index: 100;
+    top: 28px;
+    right: 28px;
+    border-radius: 50px;
+    
+    background-color: transparent;
+    border: transparent;
+    stroke: white;
+}
+
+
+.modal{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    display: flex;
+    flex-direction: column;
+   
+    transform: translate(-50%, -50%);
+    width: 355px;
+    height: 528px;
+
+    padding: 24px 24px 40px 24px;
+    background-color: var(--primary-black-color);
+    border-radius: 2px;
+    color: var(--primary-white-color);
+   box-shadow: 
+    0 0 6px rgba(0,0,0,0.1), 
+    0 3px 10px rgba(0,0,0,0.2), 
+    0 12px 20px rgba(0,0,0,0.2), 
+    0 24px 36px rgba(0,0,0,0.3);
+
+   
+}
+
+.modal.active,
+.overlay.active{
+   opacity: 1;
+   visibility: visible;
+}
+
+
+@media screen and (min-width:768px) {
+ .modal{
+    width: 628px;
+    height: 476px;
+    padding-top: 32px;
+    padding-bottom: 60px;
+    padding-left: 32px;
+    padding-right: 32px;
+}
+}
+
+.room-name{
+    font-weight: 500;
+font-size: 16px;
+line-height: 1.12;
+
+}
+.price-title {
+display: block;
+font-weight: 500;
+font-size: 28px;
+line-height: --38px;
+letter-spacing: -0.02em;
+text-transform: uppercase;
+color: var(--primary-white-color);
+margin-bottom: 40px;
+}
+
+
+@media screen and (min-width:768px) {
+.price-title {
+    font-size: 36px;
+    line-height: var(--36px);
+}
+}
+
+
+
+
+
+/* modal-form */
+
+.modal-form-input::placeholder {
+font-weight: 500;
+font-size: 14px;
+line-height: var(--14px);
+letter-spacing: -0.02em;
+text-transform: uppercase;
+color: var(--primary-white-color);
+}
+
+.modal-form-input {
+font-weight: 500;
+font-size: 14px;
+line-height: var(--14px);
+letter-spacing: -0.02em;
+width: 100%;
+height: 20px;
+fill: currentColor;
+background-color: var(--primary-black-color);
+color: var(--primary-white-color);
+border: none;
+text-transform: uppercase;
+}
+
+.modal-form-input:focus {
+outline: none;
+
+}
+
+
+
+@media screen and (min-width:768px) {
+  .forms {
+    display: block;
+  }       
+}
+
+@media screen and (min-width:768px) {
+ .form-1 {
+    display: flex;
+    justify-content: space-around;
+    gap: 40px;
+ }
+
+
+}
+
+
+
+.price {
+    display: block;
+    margin-bottom: 32px;
+    background-color: var(--primary-black-color);
+}
+
+@media screen and (min-width:768px) {
+.price {
+   width: 266px;
+}
+}
+
+.price-form {
+    position: relative;
+    display: block;
+    margin-bottom: 26px;
+}
+
+.modal-hint {
+font-weight: 400;
+font-size: 8px;
+line-height: var(--8px);
+letter-spacing: 0.18em;
+color: var(--secondary-white-color);
+}
+
+/* number-lable */
+
+.number-lable {
+    position: relative;
+    display: block;
+    margin-bottom: 50px;
+    font-size: 14px;
+    line-height: var(--14px_18);
+}
+
+
+@media screen and (min-width:768px) {
+.number-lable {
+   width: 266px;
+}
+}
+
+
+
+
+/*     line      */
+
+.current::after {
+    content: "";
+    position: absolute;
+    bottom: -1px;
+    left: 0;
+    top: 36px;
+    width: 100%;
+    height: 1px;
+    background-color: gray;
+    
+}
+
+.button-black-modal {
+
+padding: 14px 48px;
+border-radius: 32px;
+margin-left: auto;
+margin-right: auto;
+font-size: 14px;
+line-height: calc(18 / 14);
+}
+
+@media screen and (min-width:768px) {
+.button-black-modal {
+padding: 14px 133px;
+font-size: 14px;
+line-height: calc(24 / 14);
+}
+}
+
+/* .button-black-modal:hover,
+.button-black-modal:focus {
+margin-left: auto;
+margin-right: auto;
+} */
+/* .close-button{
+    background-color: transparent;
+    border: transparent;
+}
+.close-icon{
+ stroke: black;
+} */
+
+
+/* .icon-button-close {
+    stroke: white;
+
+} */
