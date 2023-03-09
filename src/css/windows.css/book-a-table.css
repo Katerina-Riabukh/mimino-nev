@@ -14,7 +14,7 @@
 
     background-color: var(--secondary-white-color);
     
-    /* background-color: rgba(18, 18, 18, 0.5); */
+    background-color: rgba(18, 18, 18, 0.5);
     
 
 }
@@ -30,10 +30,7 @@
     border: transparent;
     stroke: white;
 }
-/* .modal-close:hover{
-    outline: none;
-    background-color: transparent;
-} */
+
 
 .modal-table{
     position: absolute;
@@ -56,8 +53,7 @@
     0 12px 20px rgba(0,0,0,0.2), 
     0 24px 36px rgba(0,0,0,0.3);
 
-    /* opacity: 0;
-   visibility: hidden; */
+   
 }
 
 .modal.active,

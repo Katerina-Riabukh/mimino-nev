@@ -18,6 +18,11 @@
   opacity: 1;
   pointer-events: auto;
 }
+.modal.active,
+.overlay.active{
+   opacity: 1;
+   visibility: visible;
+}
 
 
  .italic {
