@@ -49,7 +49,7 @@
 }
 
 .slick-prev:before{
-    content: ' ';
+    content: '';
 
 }
 
@@ -169,11 +169,11 @@
     top: 252px;
 }
 
-@media screen and (max-width: 1439px) {
+/* @media screen and (max-width: 1439px) {
     .none{
       display: none;
     }  
-  }
+} */
 
 @media screen and (min-width: 768px){
     .slider-1.slick-slider{ 
@@ -185,7 +185,7 @@
         height: 309px;
         margin: 16px;
     }
-    
+
     .slider-1.slick-slider .slick-prev{
     left: 10px;
     top: 366px;

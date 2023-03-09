@@ -1,19 +1,9 @@
 
-<div class="backdrop is-hidden" >
-      <div class="modal" data-modal data-modal-open-2>
-        <button class="" data-modal-close>
-          <svg class width="28" height="28">
-            <use href="./images/icons/sprite.svg#modal_close"></use>
-
-
-<div class="backdrop" data-modal>
-      <div class="modal is-hidden">
-        <button class="data-modal-close">
-          <svg class="icon-button-close" width="28" height="28">
-            <use href="../../images/icons/sprite.svg#icon-modal-close"></use>
-
-
-          </svg>
+<div class="backdrop-table" id="modal-1">
+   <div class="modal-table modal__content-body">
+      <button  class="modal-close js-modal-close">
+        <svg class width="28" height="28">
+          <use href="../../images/icons/sprite.svg#icon-modal-close"></use></svg>
         </button>
           <form class="book-a-table-form">
             <h2 class="book-a-table-title">BOOK 
@@ -28,11 +18,16 @@
                     <p class="modal-hint">Who should book a table for?</p>
                   </lable>
                 
-                <lable class="number-lable">
+                <lable class="number-lable">number of people
                   <span class="number-form current">
                     <select class="modal-form-input" name="number_of_people" type="tel" pattern="[0-1]">
-                      <option value="number of people">number of people</option>
-                      </select>
+                      <option value="number of people" selected></option>
+                      <option value="number of people">1</option>
+                      <option value="number of people">2</option>
+                      <option value="number of people">3</option>
+                      <option value="number of people">4</option>
+                      <option value="number of people">5</option>
+                    </select>
                   </span>
                 </lable>
               </div>
@@ -42,7 +37,7 @@
                   <span class="date-form current">
                     <select class="modal-form-input" name="date" type="text">
                       <option value="number of people">today</option>
-                      <option value="number of people">tomorrow</option>
+                      <option value="date-to-book">tomorrow</option>
                     </select>
                   </span>
                   <p class="modal-hint">What date to book?</p>
@@ -56,7 +51,7 @@
               </div>
             </div>
               
-            <div class="text-align"><button class="button button-black  button-black-modal" type="submit">MAKE A RESERVATION</button></div>
+            <button class="button button-black  button-black-modal" type="submit">MAKE A RESERVATION</button>
           </form>
       </div>
     </div>

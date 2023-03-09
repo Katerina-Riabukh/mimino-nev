@@ -26,18 +26,20 @@ $('.slider-1').slick({
   dots: false,
   infinite: true,
   speed: 300,
+  autoplay: true,
   slidesToShow: 5,
   slidesToScroll: 1,
   responsive: [
     {
-      breakpoint: 768,
+      breakpoint: 1440,
       settings: {
+        autoplay: false,
         slidesToShow: 2,
         slidesToScroll: 1
       }
     },
     {
-      breakpoint: 375,
+      breakpoint: 768,
       settings: {
         slidesToShow: 2,
         slidesToScroll: 1
@@ -63,6 +65,21 @@ infinite: true,
 variableWidth: true,
 autoplay: false,
 
+});
+
+
+$('.project_slider').slick({
+  arrows: true,
+  speed: 300,
+  dots: false,
+  infinite: true,
+  slidesToShow: 1,
+  slidesToScroll: 1,
+  adaptiveWidth: true,
+  lazyLoad: 'ondemand',
+  variableWidth: true,
+  adaptiveHeight: true,
+  autoplay: false
 });
      
 
