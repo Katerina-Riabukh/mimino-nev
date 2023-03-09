@@ -25,7 +25,7 @@ autoplay: false,
 $('.slider-1').slick({
   dots: false,
   infinite: true,
-  speed: 300,
+  speed: 200,
   autoplay: true,
   slidesToShow: 5,
   slidesToScroll: 1,
