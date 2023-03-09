@@ -135,25 +135,47 @@ display: none;
     background-size: contain;
     background-repeat: no-repeat;
     background-position: center;
+   
+    
 }
-.slick-prev::before  {
+
+
+.slick-next {
+    background-image: url(../../images/Vector2.svg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    
+}
+
+
+
+@media screen and (max-width: 1439px) {
+    .buttons-clik{
+      
+       display: none;
+    }
+}
+
+@media screen and (min-width: 1439px) {
+    .buttons-clik{
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 51px;
+    }
+    
+}
+
+.slick-prev:hover, .slick-prev:focus {
     background-image: url(../../images/Vector1.svg);
     background-size: contain;
     background-repeat: no-repeat;
     background-position: center;
 }
 
-.slick-next{
+.slick-next:hover, .slick-next:focus {
     background-image: url(../../images/Vector2.svg);
     background-size: contain;
     background-repeat: no-repeat;
     background-position: center;
-} 
-
-
-  .slick-next::before {
-    background-image: url(../../images/Vector2.svg);
-    background-size: contain;
-    background-repeat: no-repeat;
-    background-position: center;
-} 
+}
