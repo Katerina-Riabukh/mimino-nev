@@ -110,29 +110,29 @@ overflow: hidden;
   }
 
    .first-slide {
-    background-image: linear-gradient(0deg, rgba(18, 18, 18, 0.2), rgba(18, 18, 18, 0.2)), url(../images/hotel-page_img/hotel1_mob@1x.jpg);
+    background-image: linear-gradient(0deg, rgba(18, 18, 18, 0.2), rgba(18, 18, 18, 0.2)), url(./images/hotel-page_img/hotel1_mob@1x.jpg);
   }
   @media (min-device-pixel-ratio: 2), (min-resolution: 192dpi), (min-resolution: 2dppx) {
     .first-slide {
-      background-image: linear-gradient(0deg, rgba(18, 18, 18, 0.2), rgba(18, 18, 18, 0.2)), url(../images/hotel-page_img/hotel1_mob@2x.jpg);
+      background-image: linear-gradient(0deg, rgba(18, 18, 18, 0.2), rgba(18, 18, 18, 0.2)), url(./images/hotel-page_img/hotel1_mob@2x.jpg);
     }
   }
 
   .second-slide {
-    background-image: linear-gradient(0deg, rgba(18, 18, 18, 0.2), rgba(18, 18, 18, 0.2)), url(../images/hotel-page_img/hotel2_mob@1x.jpg);
+    background-image: linear-gradient(0deg, rgba(18, 18, 18, 0.2), rgba(18, 18, 18, 0.2)), url(./images/hotel-page_img/hotel2_mob@1x.jpg);
   }
   @media (min-device-pixel-ratio: 2), (min-resolution: 192dpi), (min-resolution: 2dppx) {
     .second-slide {
-      background-image: linear-gradient(0deg, rgba(18, 18, 18, 0.2), rgba(18, 18, 18, 0.2)), url(../images/hotel-page_img/hotel2_mob@2x.jpg);
+      background-image: linear-gradient(0deg, rgba(18, 18, 18, 0.2), rgba(18, 18, 18, 0.2)), url(./images/hotel-page_img/hotel2_mob@2x.jpg);
     }
   }
 
   .third-slide {
-    background-image: linear-gradient(0deg, rgba(18, 18, 18, 0.2), rgba(18, 18, 18, 0.2)), url(../images/hotel-page_img/hotel3_mob@1x.jpg);
+    background-image: linear-gradient(0deg, rgba(18, 18, 18, 0.2), rgba(18, 18, 18, 0.2)), url(./images/hotel-page_img/hotel3_mob@1x.jpg);
   }
   @media (min-device-pixel-ratio: 2), (min-resolution: 192dpi), (min-resolution: 2dppx) {
     .third-slide {
-      background-image: linear-gradient(0deg, rgba(18, 18, 18, 0.2), rgba(18, 18, 18, 0.2)), url(../images/hotel-page_img/hotel3_mob@2x.jpg);
+      background-image: linear-gradient(0deg, rgba(18, 18, 18, 0.2), rgba(18, 18, 18, 0.2)), url(./images/hotel-page_img/hotel3_mob@2x.jpg);
     }
   }
 } 
@@ -149,30 +149,30 @@ overflow: hidden;
 
 @media screen and (min-width: 768px) {
     .first-slide {
-    background-image: linear-gradient(0deg, rgba(18, 18, 18, 0.2), rgba(18, 18, 18, 0.2)), url(../images/hotel-page_img/hotel1_tab@1x.jpg);
+    background-image: linear-gradient(0deg, rgba(18, 18, 18, 0.2), rgba(18, 18, 18, 0.2)), url(./images/hotel-page_img/hotel1_tab@1x.jpg);
 
   }
   @media (min-device-pixel-ratio: 2), (min-resolution: 192dpi), (min-resolution: 2dppx) {
     .first-slide {
-      background-image: linear-gradient(0deg, rgba(18, 18, 18, 0.2), rgba(18, 18, 18, 0.2)), url(../images/hotel-page_img/hotel1_tab@2x.jpg);
+      background-image: linear-gradient(0deg, rgba(18, 18, 18, 0.2), rgba(18, 18, 18, 0.2)), url(./images/hotel-page_img/hotel1_tab@2x.jpg);
     }
   }
 
   .second-slide {
-    background-image: linear-gradient(0deg, rgba(18, 18, 18, 0.2), rgba(18, 18, 18, 0.2)), url(../images/hotel-page_img/hotel2_tab@1x.jpg);
+    background-image: linear-gradient(0deg, rgba(18, 18, 18, 0.2), rgba(18, 18, 18, 0.2)), url(./images/hotel-page_img/hotel2_tab@1x.jpg);
   }
   @media (min-device-pixel-ratio: 2), (min-resolution: 192dpi), (min-resolution: 2dppx) {
     .second-slide {
-      background-image: linear-gradient(0deg, rgba(18, 18, 18, 0.2), rgba(18, 18, 18, 0.2)), url(../images/hotel-page_img/hotel2_tab@2x.jpg);
+      background-image: linear-gradient(0deg, rgba(18, 18, 18, 0.2), rgba(18, 18, 18, 0.2)), url(./images/hotel-page_img/hotel2_tab@2x.jpg);
     }
   }
 
   .third-slide {
-    background-image: linear-gradient(0deg, rgba(18, 18, 18, 0.2), rgba(18, 18, 18, 0.2)), url(../images/hotel-page_img/hotel3_tab@1x.jpg);
+    background-image: linear-gradient(0deg, rgba(18, 18, 18, 0.2), rgba(18, 18, 18, 0.2)), url(./images/hotel-page_img/hotel3_tab@1x.jpg);
   }
   @media (min-device-pixel-ratio: 2), (min-resolution: 192dpi), (min-resolution: 2dppx) {
     .third-slide {
-      background-image: linear-gradient(0deg, rgba(18, 18, 18, 0.2), rgba(18, 18, 18, 0.2)), url(../images/hotel-page_img/hotel3_tab@2x.jpg);
+      background-image: linear-gradient(0deg, rgba(18, 18, 18, 0.2), rgba(18, 18, 18, 0.2)), url(./images/hotel-page_img/hotel3_tab@2x.jpg);
     }
   }
 }
@@ -206,29 +206,29 @@ overflow: hidden;
 
 @media screen and (min-width: 1440px) {
     .first-slide {
-    background-image: linear-gradient(0deg, rgba(18, 18, 18, 0.2), rgba(18, 18, 18, 0.2)), url(../images/hotel-page_img/hotel1_desk@1x.jpg);
+    background-image: linear-gradient(0deg, rgba(18, 18, 18, 0.2), rgba(18, 18, 18, 0.2)), url(./images/hotel-page_img/hotel1_desk@1x.jpg);
   }
   @media (min-device-pixel-ratio: 2), (min-resolution: 192dpi), (min-resolution: 2dppx) {
      .first-slide {
-      background-image: linear-gradient(0deg, rgba(18, 18, 18, 0.2), rgba(18, 18, 18, 0.2)), url(../images/hotel-page_img/hotel1_desk@2x.jpg);
+      background-image: linear-gradient(0deg, rgba(18, 18, 18, 0.2), rgba(18, 18, 18, 0.2)), url(./images/hotel-page_img/hotel1_desk@2x.jpg);
     }
   }
   
   .second-slide {
-    background-image: linear-gradient(0deg, rgba(18, 18, 18, 0.2), rgba(18, 18, 18, 0.2)), url(../images/hotel-page_img/hotel2_desk@1x.jpg);
+    background-image: linear-gradient(0deg, rgba(18, 18, 18, 0.2), rgba(18, 18, 18, 0.2)), url(./images/hotel-page_img/hotel2_desk@1x.jpg);
   }
   @media (min-device-pixel-ratio: 2), (min-resolution: 192dpi), (min-resolution: 2dppx) {
     .second-slide {
-      background-image: linear-gradient(0deg, rgba(18, 18, 18, 0.2), rgba(18, 18, 18, 0.2)), url(../images/hotel-page_img/hotel2_desk@2x.jpg);
+      background-image: linear-gradient(0deg, rgba(18, 18, 18, 0.2), rgba(18, 18, 18, 0.2)), url(./images/hotel-page_img/hotel2_desk@2x.jpg);
     }
   }
 
   .third-slide {
-    background-image: linear-gradient(0deg, rgba(18, 18, 18, 0.2), rgba(18, 18, 18, 0.2)), url(../images/hotel-page_img/hotel3_desk@1x.jpg);
+    background-image: linear-gradient(0deg, rgba(18, 18, 18, 0.2), rgba(18, 18, 18, 0.2)), url(./images/hotel-page_img/hotel3_desk@1x.jpg);
   }
   @media (min-device-pixel-ratio: 2), (min-resolution: 192dpi), (min-resolution: 2dppx) {
     .third-slide {
-      background-image: linear-gradient(0deg, rgba(18, 18, 18, 0.2), rgba(18, 18, 18, 0.2)), url(../images/hotel-page_img/hotel3_desk@2x.jpg);
+      background-image: linear-gradient(0deg, rgba(18, 18, 18, 0.2), rgba(18, 18, 18, 0.2)), url(./images/hotel-page_img/hotel3_desk@2x.jpg);
     }
   }
 }
