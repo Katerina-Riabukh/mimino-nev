@@ -21,6 +21,7 @@
 .restaurant-hero-section {
 background-color: rgb(247, 247, 247);
 overflow: hidden;
+position: relative;
 }
 
 .restaurant-hero-container {
@@ -93,17 +94,85 @@ overflow: hidden;
 
 
 /* ############# img tablet ############ */
-@media screen and (max-width: 767px) {
+@media screen and (min-width: 768px) {
   .rest-hero-img-wrapper {
-    display: flex;
     width: 904px;
     height: 548px;
     gap: 32px;
+  }
+
+  .img-rest-hero {
+    width: 436px;
+    height: 548px;
   }
 }
 
 /* ############# /img tablet ############ */
 
+/* ############# img desktop ############ */
+@media screen and (min-width: 1440px) {
+  .rest-hero-img-wrapper {
+    position: absolute;
+    top: 30px;
+    left: 50%;
+    width: 904px;
+    height: 580px;
+    gap: 32px;
+  }
+
+  .img-rest-hero {
+    width: 436px;
+    height: 580px;
+  }
+}
+/* ############# /img desktop ############ */
+
+/* #############  btn ############ */
+.hero-swiper-btn-wrapper {
+display: flex;
+justify-items: start;
+align-items: center;
+gap: 32px;
+margin-top: 24px;
+}
+
+.swiper-button-prev,
+.swiper-button-next {
+  display: block;
+  background-color: transparent;
+  margin-right: 0;
+  
+  border: none;
+  color: rgba(18, 18, 18, 0.3);
+}
+
+.swiper-button-prev:hover,
+.swiper-button-prev:focus,
+.swiper-button-next:hover,
+.swiper-button-next:focus {
+  color: (var(--primary-black-color));
+}
+.icon-swiper-next,
+.icon-swiper-prev {
+  fill: none;
+  stroke: currentColor;
+}
+@media screen and (min-width: 768px) {
+
+}
+@media screen and (min-width: 1440px) {
+   .restaurant-hero-section {
+    position: relative;
+   }
+
+  .hero-swiper-btn-wrapper {
+    position: absolute;
+    bottom: 30px;
+    right: 567px;
+  }
+
+}
+/* ############# / btn ############ */
 
 
 /* Phone screen to 767px mobile */
@@ -168,13 +237,28 @@ overflow: hidden;
   } */
 } 
 
-@media screen and (max-width: 767px) {
+/* @media screen and (max-width: 767px) {
   .restaurant-hero-text {
    max-width: 335px;
    margin-top: 100px;
   }
+} */
 
+/* ############# btn ############ */
+@media screen and (max-width: 767px) {
+  .restaurant-hero-text {
+   max-width: 335px;
+   margin-top: 76px;
+  }
 }
+
+@media screen and (min-width: 768px) {
+  .hero-swiper-btn-wrapper {
+   margin-top: 40px;
+  }
+}
+/* ############# / btn ############ */
+
 
 /* Device form 768px tablet*/
 
