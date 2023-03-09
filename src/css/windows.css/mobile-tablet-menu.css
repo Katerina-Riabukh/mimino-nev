@@ -64,6 +64,7 @@ margin-right: 246px;
    .mobile-icon-close{
     width: 14px;
     height: 14px;
+    stroke: var(--primary-white-color);
    }
 
    @media screen and (min-width: 768px) {
@@ -151,7 +152,7 @@ justify-content: space-between;
     .menu-main-container{
         display: flex;
         flex-direction: column;
-        width: 100%;
+       
     height: 100%;
         padding-top: 128px;
         padding-left: 20px;
@@ -200,3 +201,11 @@ line-height: calc(32/28);
 }
 
    
+.social-icon-mob{
+    stroke: var(--primary-white-color);
+}
+
+.social-media-link:hover > .social-icon-mob,
+.social-media-link:focus > .social-icon-mob{
+    /* доповніть тут код для ховеру на посилання мої,дякую! */
+}
