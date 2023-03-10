@@ -14,9 +14,14 @@
     
 
     overflow-y: scroll;
-   
-   
 }
+
+
+.modal-box.modal.modal-room{
+    max-width: 628px;
+}
+
+
 .modal.active,
 .overlay.active{
    opacity: 1;
