@@ -108,11 +108,11 @@
       
     } 
     .slick-prev {
-        left: 640px;
+        left: 620px;
         top: 570px;
     }
     .slick-next {
-       right: 310px;
+       right: 208px;
     top: 570px;
     }
 }

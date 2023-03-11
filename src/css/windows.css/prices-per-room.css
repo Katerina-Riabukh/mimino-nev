@@ -22,8 +22,8 @@
 .modal-close {
     position: absolute;
     z-index: 100;
-    top: 28px;
-    right: 28px;
+    top: 14px;
+    right: 14px;
     border-radius: 50px;
     
     background-color: transparent;
@@ -33,7 +33,7 @@
 
 
 .modal-price{
-    position: absolute;
+    position: fixed;
     top: 50%;
     left: 50%;
     display: flex;
@@ -41,7 +41,7 @@
    
     transform: translate(-50%, -50%);
     width: 355px;
-    height: 528px;
+    height: 414px;
 
     padding: 24px 24px 40px 24px;
     background-color: var(--primary-black-color);
@@ -64,9 +64,9 @@
 
 
 @media screen and (min-width:768px) {
- .modal{
+    .modal-price{
     width: 628px;
-    height: 476px;
+    height: 430px;
     padding-top: 32px;
     padding-bottom: 60px;
     padding-left: 32px;
@@ -76,15 +76,16 @@
 
 .room-name{
     font-weight: 500;
-font-size: 16px;
-line-height: 1.12;
+font-size: 14px;
+line-height: var(--14_18px);
+margin-bottom: 24px;
 
 }
 .price-title {
 display: block;
 font-weight: 500;
 font-size: 28px;
-line-height: --38px;
+line-height: --28px;
 letter-spacing: -0.02em;
 text-transform: uppercase;
 color: var(--primary-white-color);
@@ -108,7 +109,7 @@ margin-bottom: 40px;
 .modal-form-input::placeholder {
 font-weight: 500;
 font-size: 14px;
-line-height: var(--14px);
+line-height: var(--14_18px);
 letter-spacing: -0.02em;
 text-transform: uppercase;
 color: var(--primary-white-color);
@@ -120,7 +121,7 @@ font-size: 14px;
 line-height: var(--14px);
 letter-spacing: -0.02em;
 width: 100%;
-height: 20px;
+height: 36px;
 fill: currentColor;
 background-color: var(--primary-black-color);
 color: var(--primary-white-color);
@@ -155,7 +156,7 @@ outline: none;
 
 .price {
     display: block;
-    margin-bottom: 32px;
+    margin-bottom: 40px;
     background-color: var(--primary-black-color);
 }
 
@@ -168,7 +169,7 @@ outline: none;
 .price-form {
     position: relative;
     display: block;
-    margin-bottom: 26px;
+    /* margin-bottom: 26px; */
 }
 
 .modal-hint {
@@ -177,6 +178,7 @@ font-size: 8px;
 line-height: var(--8px);
 letter-spacing: 0.18em;
 color: var(--secondary-white-color);
+margin-top: 8px;
 }
 
 /* number-lable */
