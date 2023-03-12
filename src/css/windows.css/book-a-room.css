@@ -1,22 +1,4 @@
 
-.backdrop-room{  
-    position: fixed;
-    top: 0px;
-    left: 0px;
-    z-index: 100;
-    width: 100%;
-    height: 100%;
-    opacity: 0;
-    visibility: hidden;
-
-
-    background-color: rgba(18, 18, 18, 0.5);
-    
-
-    overflow-y: scroll;
-}
-
-
 .modal-box.modal.modal-room{
     max-width: 628px;
 }
@@ -34,10 +16,6 @@
 }
 }
 
-
-
-
-
 .modal-close-room {
     content: "";
     position: absolute;
@@ -50,26 +28,15 @@
    cursor: pointer;
 }
 
-
-
 .modal-room{
-    position: absolute;
-    top: 25%;
-    left: 25%;
-    transform: translate(-50%, -50%);
-
     width: 335px;
     height: 636px;
-    background-color: aliceblue;
     padding-top: 24px;
     padding-left: 24px;
     padding-right: 24px;
     padding-bottom: 40px;
-    background: var(--primary-black-color);
-    border-radius: 2px;
     color: var(--primary-white-color);
-    opacity: 0;
-   visibility: hidden;
+   
 }
 
 

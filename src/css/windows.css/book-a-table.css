@@ -1,59 +1,4 @@
 
-.backdrop-table{
-    position: fixed;
-    top: 0px;
-    left: 0px;
-    z-index: 100;
-    width: 100%;
-    height: 100%;
-    overflow-y: scroll;
-     opacity: 0;
-     visibility: hidden;
-    
- 
-
-    background-color: var(--secondary-white-color);
-    
-   
-    
-
-}
-.overlay {
-   
-    /* Скрываем подложку  */
-    opacity: 0;
-    visibility: hidden;
-    
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background-color: rgba(0, 0, 0, .3);
-    background-color: var(--secondary-white-color);
-    z-index: 20;
-    transition: .3s all;
- }
-
- .modal {
-   
-    opacity: 0;
-    visibility: hidden;
-    
-    
-    
-    width: 100%;
-    max-width: 500px;
-    
-   
-    position: fixed;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    z-index: 1000;
- } 
- 
-
 .modal-close {
     position: absolute;
     z-index: 100;
@@ -69,40 +14,17 @@
 
 .modal-table{
     
-    top: 50%;
-    left: 50%;
     display: flex;
     flex-direction: column;
    
-    transform: translate(-50%, -50%);
     width: 355px;
     height: 528px;
 
     padding: 24px 24px 40px 24px;
-    background-color: var(--primary-black-color);
-    border-radius: 2px;
-    color: var(--primary-white-color);
-   box-shadow: 
-    0 0 6px rgba(0,0,0,0.1), 
-    0 3px 10px rgba(0,0,0,0.2), 
-    0 12px 20px rgba(0,0,0,0.2), 
-    0 24px 36px rgba(0,0,0,0.3);
+    
+  
 
 }
-.modal.is-hidden{
-opacity: 0;
-
-}
-
-.modal{
-    opacity: 1;
-}
-/* 
-.modal.active,
-.overlay.active{
-   opacity: 1;
-   visibility: visible;
-} */
 
 
 @media screen and (min-width:768px) {
