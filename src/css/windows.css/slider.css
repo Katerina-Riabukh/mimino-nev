@@ -273,13 +273,13 @@
 }
 
 .box-3{
-    background-color: black;
+    /* background-color: black; */
     
     width: 515px;
     height: 533px;
 }
 .my-section{
-    background-color: black;
+    /* background-color: black; */
 }
 @media screen and (max-width: 767px){
     .slider-3{
