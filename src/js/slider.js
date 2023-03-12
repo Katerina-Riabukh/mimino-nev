@@ -82,5 +82,16 @@ $('.project_slider').slick({
   autoplay: false
 });
      
-
+$('.slider-3').slick({
+  dots: false,
+  infinite: true,
+  speed: 300,
+  autoplay: false,
+  slidesToShow: 1,
+  slidesToScroll: 1,
+  lazyLoad: 'ondemand',
+  variableWidth: true,
+  adaptiveWidth: true,
+adaptiveHeigth: true,
+});
 
