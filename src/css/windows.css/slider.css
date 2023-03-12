@@ -278,9 +278,9 @@
     width: 515px;
     height: 533px;
 }
-.my-section{
-    /* background-color: black; */
-}
+/* .my-section{
+    background-color: black;
+} */
 @media screen and (max-width: 767px){
     .slider-3{
         width: 335px;
