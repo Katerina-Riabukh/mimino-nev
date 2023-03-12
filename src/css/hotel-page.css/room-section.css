@@ -37,6 +37,12 @@
   .bed-luxery {
     width: 539px;
     height: 762px;
+    transition: transform 500ms cubic-bezier(0.4, 0, 0.2, 1);
+  }
+  .bed-luxery:hover,
+  .bed-luxery:focus {
+    transform: scale(1.1);
+    cursor: pointer;
   }
 }
 
@@ -61,6 +67,16 @@
     position: absolute;
     top: 151px;
     left: 989px;
+    transition: transform 500ms cubic-bezier(0.4, 0, 0.2, 1),
+      margin 500ms cubic-bezier(0.4, 0, 0.2, 1),
+      box-shadow 500ms cubic-bezier(0.4, 0, 0.2, 1);
+  }
+  .bathroom-luxery:hover,
+  .bathroom-luxery:focus {
+    transform: scale(1.35);
+    cursor: pointer;
+    margin-left: -200px;
+    box-shadow: -18px 26px 100px 100px rgba(4, 4, 4, 0.9);
   }
 }
 
@@ -84,6 +100,16 @@
     height: 395px;
     top: 196px;
     left: 0;
+    transition: transform 500ms cubic-bezier(0.4, 0, 0.2, 1),
+      margin 500ms cubic-bezier(0.4, 0, 0.2, 1),
+      box-shadow 500ms cubic-bezier(0.4, 0, 0.2, 1);
+  }
+  .kutchen-luxery:hover,
+  .kutchen-luxery:focus {
+    transform: scale(1.5);
+    cursor: pointer;
+    margin-left: 200px;
+    box-shadow: 30px 26px 100px 100px rgba(4, 4, 4, 0.9);
   }
 }
 
@@ -204,6 +230,12 @@
   .imj-bed-triple {
     width: 539px;
     height: 762px;
+    transition: transform 500ms cubic-bezier(0.4, 0, 0.2, 1);
+  }
+  .imj-bed-triple:hover,
+  .imj-bed-triple:focus {
+    transform: scale(1.1);
+    cursor: pointer;
   }
 }
 .imj-bethroom-triple {
@@ -227,6 +259,16 @@
     position: absolute;
     top: 151px;
     left: 989px;
+    transition: transform 500ms cubic-bezier(0.4, 0, 0.2, 1),
+      margin 500ms cubic-bezier(0.4, 0, 0.2, 1),
+      box-shadow 500ms cubic-bezier(0.4, 0, 0.2, 1);
+  }
+  .imj-bethroom-triple:hover,
+  .imj-bethroom-triple:focus {
+    transform: scale(1.35);
+    cursor: pointer;
+    margin-left: -200px;
+    box-shadow: -18px 26px 100px 100px rgba(4, 4, 4, 0.9);
   }
 }
 
@@ -250,6 +292,16 @@
     height: 395px;
     top: 196px;
     left: 0;
+    transition: transform 500ms cubic-bezier(0.4, 0, 0.2, 1),
+      margin 500ms cubic-bezier(0.4, 0, 0.2, 1),
+      box-shadow 500ms cubic-bezier(0.4, 0, 0.2, 1);
+  }
+  .imj-kutchen-triple:hover,
+  .imj-kutchen-triple:focus {
+    transform: scale(1.5);
+    cursor: pointer;
+    margin-left: 200px;
+    box-shadow: 30px 26px 100px 100px rgba(4, 4, 4, 0.9);
   }
 }
 
@@ -276,6 +328,12 @@
   .imj-bed-steater {
     width: 539px;
     height: 762px;
+    transition: transform 500ms cubic-bezier(0.4, 0, 0.2, 1);
+  }
+  .imj-bed-steater:hover,
+  .imj-bed-steater:focus {
+    transform: scale(1.1);
+    cursor: pointer;
   }
 }
 
@@ -300,6 +358,16 @@
     position: absolute;
     top: 151px;
     left: 989px;
+    transition: transform 500ms cubic-bezier(0.4, 0, 0.2, 1),
+      margin 500ms cubic-bezier(0.4, 0, 0.2, 1),
+      box-shadow 500ms cubic-bezier(0.4, 0, 0.2, 1);
+  }
+  .imj-bethroom-steater:hover,
+  .imj-bethroom-steater:focus {
+    transform: scale(1.35);
+    cursor: pointer;
+    margin-left: -200px;
+    box-shadow: -18px 26px 100px 100px rgba(4, 4, 4, 0.9);
   }
 }
 
@@ -323,5 +391,15 @@
     height: 395px;
     top: 196px;
     left: 0;
+    transition: transform 500ms cubic-bezier(0.4, 0, 0.2, 1),
+      margin 500ms cubic-bezier(0.4, 0, 0.2, 1),
+      box-shadow 500ms cubic-bezier(0.4, 0, 0.2, 1);
+  }
+  .imj-kutchen-steater:hover,
+  .imj-kutchen-steater:focus {
+    transform: scale(1.5);
+    cursor: pointer;
+    margin-left: 200px;
+    box-shadow: 30px 26px 100px 100px rgba(4, 4, 4, 0.9);
   }
 }
