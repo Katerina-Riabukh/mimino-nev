@@ -57,17 +57,12 @@
   }
 
   
-
 /* H2 */
-
 @media screen and (max-width: 374.98px){
    .price-title {
     text-align: center;
-    /* font-family: var(--primery-font); */
-    font-weight: 500;
     font-size: 32px;
     line-height: var(--28px);
-    /* letter-spacing: -0.02em; */
     color: var(--primary-white-color);
   }
 }
@@ -75,51 +70,53 @@
   @media screen and (min-width: 375px){
     .price-title {
     text-align: center;
-    /* font-family: var(--primery-font); */
     font-weight: 500;
     font-size: 32px;
     line-height: var(--28px);
-    /* letter-spacing: -0.02em; */
     color: var(--primary-white-color);
-    /* outline: 2px solid red; */
-  }
+      }
   }
 
   @media screen and (min-width: 768px){
     .price-title {
     text-align: center;
-    /* font-family: var(--primery-font); */
     font-weight: 700;
     font-size: 40px;
     line-height: var(--40px);
-    /* letter-spacing: -0.02em; */
     color: var(--primary-white-color);
-    /* outline: 2px solid red; */
   }
   }
 
   @media screen and (min-width: 1440px){
     .price-title {
     text-align: center;
-    /* font-family: var(--primery-font); */
     font-weight: 700;
     font-size: 40px;
     line-height: var(--40px);
-    /* letter-spacing: -0.02em; */
     color: var(--primary-white-color);
-    /* outline: 2px solid red; */
   }
   }
 
   
+
+  @media screen and (max-width: 1439px){
+    .price-block {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between;
+      gap: 74px 50px;
+    }
+  }
+
+  @media screen and (min-width: 1440px){
   .price-block {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
     gap: 74px 50px;
     padding: 100px 136px 50px 136px;
-    /* outline: 2px solid green; */
   }
+}
   
  @media screen and (max-width: 374.98px){
      
@@ -128,43 +125,35 @@
     padding-left: 0;
     margin-top: 0;
     margin-bottom: 0;
-    /* outline: 2px solid orange; */
   }
   }
 
-  @media screen and (min-width: 375px){
-      
+  @media screen and (min-width: 375px){ 
   .price-list {
     width: 335px;
     padding-left: 0;
     margin-top: 0;
     margin-bottom: 0;
-    /* outline: 2px solid orange; */
   }
   }
 
   @media screen and (min-width: 768px){
-      
   .price-list {
     width: 515px;
     padding-left: 0;
     margin-top: 0;
     margin-bottom: 0;
-    /* outline: 2px solid orange; */
   }
   }
 
-  @media screen and (min-width: 1440px){
-      
+  @media screen and (min-width: 1440px){  
   .price-list {
     width: 515px;
     padding-left: 0;
     margin-top: 0;
     margin-bottom: 0;
-    /* outline: 2px solid orange; */
   }
-  } 
-
+  }
 
   
   .price-item {
@@ -174,41 +163,85 @@
     /* outline: 2px solid rgb(51, 21, 223); */
   }
   
+  @media screen and (min-width: 375px){
+    .price-weight {
+      font-weight: 400;
+      font-size: 12px;
+      line-height: var(--14px);
+      color: var(--secondary-white-color);
+    }
+
+    .price-title-min {
+      margin-right: auto;
+      margin-bottom: 32px;
+      font-style: italic;
+      font-weight: 500;
+      font-size: 18px;
+      line-height: var(--20px);
+      color: var(--primary-white-color);
+    }
+    .price-price {
+      font-weight: 700;
+      font-size: 16px;
+      line-height: var(--18px);
+      margin-bottom: 0;
+      margin-top: 8px;
+      color: var(--primary-white-color);
+    }
+
+    .price-item-p {
+      width: 320px;
+      font-weight: 400;
+      font-size: 10px;
+      line-height: var(--10px);
+      letter-spacing: 0.18em;
+      color: var(--secondary-white-color);
+    }
+  }
+
+  @media screen and (min-width: 768px){
   .price-weight {
-    /* font-family: var(--primery-font); */
     font-style: normal;
     font-weight: 400;
     font-size: 14px;
     line-height: var(--18px);
-    /* line-height: 1.29; */
-    /* letter-spacing: -0.02em; */
     color: var(--secondary-white-color);
   }
-  
-  
+
   .price-title-min {
     margin-right: auto;
     margin-bottom: 32px;
-    /* font-family: var(--primery-font); */
     font-style: italic;
     font-weight: 700;
     font-size: 24px;
     line-height: var(--24px);
-    /* line-height: 1; */
-    /* letter-spacing: -0.02em; */
     color: var(--primary-white-color);
   }
-  
-  
+
+  .price-price {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: var(--24px);
+    margin-bottom: 0;
+    margin-top: 8px;
+    color: var(--primary-white-color);
+  }
+
+  .price-item-p {
+    width: 325px;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: var(--12px);
+    letter-spacing: 0.18em;
+    color: var(--secondary-white-color);
+  }
+}
+ 
   .price-name-dish {
-    /* font-family: var(--primery-font); */
     font-weight: 500;
     font-size: 18px;
     line-height: var(--18px);
-    /* line-height: 1.33; */
-    /* letter-spacing: -0.02em; */
-  
-  
     display: flex;
     align-items: baseline;
     justify-content: space-between;
@@ -226,31 +259,6 @@
     background-color: var(--primary-white-color);
   }
   
-  
-  .price-price {
-    /* font-family: var(--primery-font); */
-    font-style: normal;
-    font-weight: 700;
-    font-size: 18px;
-    line-height: var(--24px);
-    /* line-height: 1.33; */
-    /* letter-spacing: -0.02em; */
-    margin-bottom: 0;
-    margin-top: 8px;
-    color: var(--primary-white-color);
-  }
-  
-  .price-item-p {
-    width: 325px;
-    /* outline: 2px solid rgb(59, 56, 56); */
-    /* font-family: var(--primery-font); */
-    font-weight: 400;
-    font-size: 12px;
-    line-height: var(--12px);
-    /* line-height: 1.5; */
-    letter-spacing: 0.18em;
-    color: var(--secondary-white-color);
-  }
   
   .price-add {
     width: 345px;
@@ -322,219 +330,6 @@
   }
  
 
-
-/* Стилизация слайдера */
-  @media screen and (max-width: 374.98px) {
-    .slider-container {
-      min-width: 335px;
-      max-height: 505px;
-      /* outline: 2px solid green; */
-    }
-  }
-  @media screen and (min-width: 375px) and (max-width: 767.99px) {
-    .slider-container {
-      min-width: 335px;
-      max-height: 505px;
-      /* outline: 2px solid green; */
-    }
-  }
-  @media screen and (min-width: 768px) and (max-width: 1439.99px) {
-    .slider-container {
-      min-width: 515px;
-      min-height: 533px;
-      /* outline: 2px solid rgb(73, 197, 100); */
-    }
-  }
-   
-/* Стилизация стрелок */
-.slick-prev:before,
-.slick-next:before {
-  display: none;
-}
-
-/* .slick-slider {
-  min-width: 0px;
-} */
-
-
-
-.slick-list {
-  overflow: hidden;
-}
-
-@media screen and (min-width: 768px) and (max-width: 1439.98px) {
-  .slick-list {
-    overflow: hidden;
-  }
-}
-
-
-@media screen and (max-width: 375px) {
-  .project_slider {
-     width: 335px;
-    position: relative;
-    left: 0px;
-    top: 0px;
-    margin-top: 36px;
-    margin-bottom: 96px;
-    padding: 0px;
-    /* outline: 2px solid blue; */
-  }
-}
-
-
-
-
-@media screen and (min-width: 375px) and (max-width: 767.98px) {
-  .project_slider {
-    width: 335px;
-    position: relative;
-    left: 0px;
-    top: 0px;
-    margin-top: 36px;
-    margin-bottom: 96px;
-    padding: 0px;
-    /* outline: 2px solid blue; */
-  }
-}
-
-@media screen and (min-width: 768px) and (max-width: 1440px) {
-  .project_slider {
-    width: 515px;
-    position: relative;
-    left: 94px;
-    top: 0px;
-    margin-top: 64px;
-    margin-bottom: 40px;
-    padding: 0px;
-    /* outline: 2px solid blue; */
-  }
-}
-
-
-
-
-
-.project_slider .slick-arrow {
-  position: absolute;
-  top: 55%;
-  margin: -20px 0px 0px 0px;
-  z-index: 10;
-  font-size: 0;
-  width: 40px;
-  height: 48px;
-  /* outline: 2px solid red; */
-}
-
-/* положение стрелок */
-@media screen and (max-width: 374.98px) {
-  .project_slider .slick-arrow.slick-prev {
-    position: absolute;
-    /* outline: 2px solid rgb(50, 194, 230); */
-    top: 98%;
-    left: 165px;
-    background: url('../images/restaurante-page_img/Vectorleft.svg') 0 0 / 30% no-repeat;
-    width: 36px;
-    height: 36px;
-    opacity: 0.4;
-
-  }
-}
-
-@media screen and (min-width: 374.98px) and (max-width: 767.98px) {
-  .project_slider .slick-arrow.slick-prev {
-    position: absolute;
-    /* outline: 2px solid rgb(50, 194, 230); */
-    top: 98%;
-    left: 135px;
-    background: url('../images/restaurante-page_img/Vectorleft.svg') 0 0 / 30% no-repeat;
-    width: 36px;
-    height: 36px;
-    opacity: 0.4;
-
-  }
-}
-
-@media screen and (min-width: 768px) and (max-width: 1439.98px) {
-  .project_slider .slick-arrow.slick-prev {
-    position: absolute;
-    top: 93%;
-    left: 218px;
-    background: url('../images/restaurante-page_img/Vectorleft.svg') 0 0 / 40% no-repeat;
-    width: 36px;
-    height: 36px;
-    opacity: 0.4;
-
-  }
-}
-
-@media screen and (max-width: 374.98px) {
-  .project_slider .slick-arrow.slick-next {
-    position: absolute;
-    background: url('../images/restaurante-page_img/Vectorright.svg') 0 0 / 30% no-repeat;
-    top: 98%;
-    left: 230px;
-    /* right: 33px; */
-    width: 36px;
-    height: 36px;
-  }
-}
-
-@media screen and (min-width: 374.98px) and (max-width: 768.98px) {
-  .project_slider .slick-arrow.slick-next {
-    position: absolute;
-    background: url('../images/restaurante-page_img/Vectorright.svg') 0 0 / 30% no-repeat;
-    top: 98%;
-    left: 190px;
-    /* right: 33px; */
-    width: 36px;
-    height: 36px;
-  }
-}
-
-
-@media screen and (min-width: 768px) and (max-width: 1439.98px) {
-  .project_slider .slick-arrow.slick-next {
-    position: absolute;
-    background: url('../images/restaurante-page_img/Vectorright.svg') 0 0 / 40% no-repeat;
-    top: 93%;
-    left: 290px;
-    /* right: 33px; */
-    width: 36px;
-    height: 36px;
-  }
-}
-
-
-@media screen and (min-width: 768px) and (max-width: 1439.98px) {
-
-  .project_slider .slick-arrow.slick-next:hover,
-  .project_slider .slick-arrow.slick-next:focus,
-  .project_slider .slick-arrow.slick-next:active {
-    opacity: 0.7;
-  }
-}
-
-@media screen and (min-width: 768px) and (max-width: 1439.98px) {
-
-  .project_slider .slick-arrow.slick-prev:hover,
-  .project_slider .slick-arrow.slick-prev:focus,
-  .project_slider .slick-arrow.slick-prev:active {
-    opacity: 1;
-  }
-}
-
-/* .project_slider .slick-arrow.slick-disabled {
-  opacity: 0.25;
-} */
-
-
-.slick-prev.slick-disabled:before,
-.slick-next.slick-disabled:before {
-  opacity: 0.55;
-}
-
-
 /* отмена слайдера на десктопе */
 .project_slider_overlay {
   display: none;
@@ -554,78 +349,3 @@
     display: none;
   }
 }
-  
-@media screen and (max-width: 374.98px)  {
-  .project_slider.slick-slider {
-    width: 335px;
-    top: 0;
-    position: relative;
-  }
-}
-
-@media screen and (min-width: 374.98px) and (max-width: 767.98px) {
-  .project_slider.slick-slider {
-    width: 335px;
-    top: 0;
-    position: relative;
-  }
-}
-
- @media screen and (min-width: 768px) and (max-width: 1440px) {
-  .project_slider.slick-slider {
-    width: 516px;
-    top: 0;
-  /* min-width: 0px; */
-    position: relative;
-  }
-} 
-
-@media screen and (max-width: 374.99px) {
-.project_slider .slick-arrow {
-    position: absolute;
-  top: 75%;
-  margin-left: auto;
-  margin-right: auto;
-  margin: 52px 0px 0px 0px;
-  z-index: 10;
-  font-size: 0;
-  width: 40px;
-  height: 48px;
-  border: transparent;
-  /* outline: 2px solid red; */
-}
-}
-
-@media screen and (min-width: 375px) and (max-width: 767.99px) {
-.project_slider .slick-arrow {
-    position: absolute;
-  top: 75%;
-  /* left: 100px; */
-  margin: 52px 0px 0px 0px;
-  /* margin-top: 52px; */
-  /* margin-left: auto;
-  margin-right: auto; */
-  z-index: 10;
-  font-size: 0;
-  width: 40px;
-  height: 48px;
-  border: transparent;
-  /* outline: 2px solid red; */
-}
-}
-
-
-@media screen and (min-width: 768px) and (max-width: 1440px) {
-.project_slider .slick-arrow {
-  /* position: absolute; */
-  top: 55%;
-  margin: -20px 0px 0px 0px;
-  z-index: 10;
-  font-size: 0;
-  width: 40px;
-  height: 48px;
-  border: transparent;
-  /* outline: 2px solid red; */
-}
-}
-  
