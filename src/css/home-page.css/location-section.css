@@ -96,7 +96,7 @@ line-height: 1.29;
         line-height: 1.33;
     }
 }
-.location_img{
+/* .location_img{
     position: absolute;
     top: 72px;
     right: auto;
@@ -113,6 +113,32 @@ line-height: 1.29;
 @media screen and  (min-width:1440px){
     .location_img{
         width: 640px;
+        top: 0;
+        left: 32px;
+    }
+} */
+.map{
+cursor: grab;
+    width: 335px;
+    height: 384px;
+    filter: grayscale(1);
+    position: absolute;
+    top: 72px;
+    right: auto;
+    left: auto;
+    box-shadow: -14px 24px 68px -16px rgba(0, 0, 0, 0.12);
+}
+@media screen and  (min-width:768px){
+    .map{
+        width: 704px;
+        height: 576px;
+        top: 108px;
+    }
+}
+@media screen and  (min-width:1440px){
+    .map{
+        width: 640px;
+        height: 524px;
         top: 0;
         left: 32px;
     }
