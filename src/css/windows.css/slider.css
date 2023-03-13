@@ -229,11 +229,12 @@
 .slider-3.slick-slider{
     margin-left: auto;
     margin-right: auto;
+    
 }
 
 .box-3{
     width: 515px;
-    height: 530px;
+    height: 535px;
 }
 
 .slider-3.slick-slider .slick-prev{
@@ -258,12 +259,12 @@
 
     .slider-3.slick-slider .slick-prev { 
         left: 120px;
-        top: 505px;
+        top: 515px;
     }
 
     .slider-3.slick-slider .slick-next {
         right: 120px;
-        top: 505px;
+        top: 515px;
     }
        
 }
@@ -273,7 +274,7 @@
     .slider-3.slick-slider{
         display: block;
         width: 515px;
-        height: 530px;
+        height: 533px;
         margin-left: auto;
         margin-right: auto;
         margin-bottom: 108px;
@@ -281,12 +282,12 @@
 
     .slider-3.slick-slider .slick-prev { 
         left: 208px;
-        top: 535px; 
+        top: 575px; 
     }
 
     .slider-3.slick-slider .slick-next {
         right: 204px;
-        top: 535px;
+        top: 575px;
     }
 }
 @media screen and (min-width: 1440px){
