@@ -12,8 +12,6 @@
     width: 250px;
     height: 429px;
     margin-right: 20px;
-    /* background-color: aqua;
-    border: 1px solid hotpink; */
 }
 
 
@@ -37,7 +35,7 @@
     
 }
 .slick-prev:before, .slick-next:before{
-    color: black;
+    /* color: black; */
     width: 36px;
     height: 36px;
 }
@@ -53,33 +51,6 @@
 
 }
 
-/* .slick-prev {
-    background-image: url(/);
-    background-size: contain;
-    background-repeat: no-repeat;
-    background-position: center;
-}
-.slick-prev::before  {
-    background-image: url(../../images/Vector1.svg);
-    background-size: contain;
-    background-repeat: no-repeat;
-    background-position: center;
-}
-
-.slick-next{
-    background-image: url(../../images/Vector2.svg);
-    background-size: contain;
-    background-repeat: no-repeat;
-    background-position: center;
-} 
-
-
-  .slick-next::before {
-    background-image: url(../../images/Vector2.svg);
-    background-size: contain;
-    background-repeat: no-repeat;
-    background-position: center;
-} */
 
 .slick-slider{
     width: 520px;
@@ -147,9 +118,6 @@
     width: 158px;
     height: 201px;
     margin: 10px;
-
-    /* background-color: aqua;
-    border: 1px solid hotpink; */
 }
 
 .slider-1.slick-slider{
@@ -169,11 +137,6 @@
     top: 252px;
 }
 
-/* @media screen and (max-width: 1439px) {
-    .none{
-      display: none;
-    }  
-} */
 
 @media screen and (min-width: 768px){
     .slider-1.slick-slider{ 
@@ -226,9 +189,6 @@
     width: 158px;
     height: 128px;
     margin: 10px;
-
-    /* background-color: aqua;
-    border: 1px solid hotpink; */
 }
 
 .slider-2.slick-slider{
@@ -242,15 +202,15 @@
 
 .slider-2.slick-slider .slick-next {
         
-        left: 44px;
-        top: 146px;
-        border-color: aliceblue;
+        left: 55px;
+        top: 155px;
+        background-image: url(../../images/icons/arrow-withe-right.svg);
 }
 .slider-2.slick-slider .slick-prev {
     
     left: 0;
-    top: 146px;
-    border-color: aliceblue;
+    top: 155px;
+    background-image: url(../../images/icons/arrow-withe-left.svg);
 }
 
 
@@ -273,31 +233,40 @@
 }
 
 .box-3{
-    /* background-color: black; */
-    
     width: 515px;
     height: 533px;
 }
-/* .my-section{
-    background-color: black;
-} */
+
+.slider-3.slick-slider .slick-prev{
+    background-image: url(../../images/icons/arrow-withe-left.svg);
+}
+
+.slider-3.slick-slider .slick-next{
+    background-image: url(../../images/icons/arrow-withe-right.svg);
+}
+
 @media screen and (max-width: 767px){
     .slider-3{
         width: 335px;
-        height: 505px;
+        height: 495px;
+        margin-bottom: 96px;
     }
+    
     .box-3{
         width: 335px;
-        height: 505px;
+        height: 495px;
     }
+
     .slider-3.slick-slider .slick-prev { 
         left: 120px;
-        top: 548px;
+        top: 505px;
     }
+
     .slider-3.slick-slider .slick-next {
         right: 120px;
-        top: 548px;
+        top: 505px;
     }
+       
 }
 
 
@@ -308,14 +277,17 @@
         height: 533px;
         margin-left: auto;
         margin-right: auto;
+        margin-bottom: 108px;
     }
+
     .slider-3.slick-slider .slick-prev { 
         left: 208px;
-        top: 570px;
+        top: 535px; 
     }
+
     .slider-3.slick-slider .slick-next {
         right: 204px;
-        top: 570px;
+        top: 535px;
     }
 }
 @media screen and (min-width: 1440px){
@@ -323,6 +295,7 @@
         display: none;
     }
 }
+
 
 
 
