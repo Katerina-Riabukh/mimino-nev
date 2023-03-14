@@ -12,6 +12,11 @@ flex-direction: column;
     background-color: black;
 transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
+@media screen and (min-width: 1440px){
+    .menu-container{
+        display: none;
+    }
+}
 
 .menu-container.is-open{
     transform: translateX(0);
@@ -30,7 +35,7 @@ padding: 22.5px 20px;
     border-bottom: 0.5px solid rgba(247, 247, 247, 0.2);
    }
 
-   .mobile-header-container{
+   .mobile-header.container{
     display: flex;
     align-items: center;
 
@@ -210,9 +215,11 @@ line-height: calc(32/28);
    
 .social-icon-mob{
     stroke: var(--primary-white-color);
+    transition: stroke 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .social-media-link:hover > .social-icon-mob,
 .social-media-link:focus > .social-icon-mob{
-    /* доповніть тут код для ховеру на посилання мої,дякую! */
+    
+    stroke: rgb(247, 247, 247, 0.5);
 }
