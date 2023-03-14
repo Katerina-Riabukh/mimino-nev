@@ -26,7 +26,7 @@ $('.slider-1').slick({
   dots: false,
   infinite: true,
   speed: 200,
-  autoplay: true,
+  autoplay: false,
   slidesToShow: 5,
   slidesToScroll: 1,
   responsive: [

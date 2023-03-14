@@ -59,7 +59,7 @@
     left: 256px;
     top: 454px;
     border: 1px solid transparent;
-   
+    
    
 }
 
@@ -162,7 +162,7 @@
     .slider-1.slick-slider{ 
     width: 1458px;
     height: 309px; 
-    overflow: hidden;
+    /* overflow: hidden; */
     }
     .box-1{
         width: 266px;
@@ -170,12 +170,12 @@
     
     .slider-1.slick-slider .slick-prev{
         left: 668px;
-        top: 320px;
+        /* top: 320px; */
         
         }
     .slider-1.slick-slider .slick-next {
         right: 660px;
-        top: 320px;
+        /* top: 320px; */
         
     }
     
