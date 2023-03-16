@@ -37,7 +37,7 @@
 
 
 @media screen and (min-width:768px) {
- .modal{
+    .modal-table{
     width: 628px;
     height: 476px;
     padding-top: 32px;
