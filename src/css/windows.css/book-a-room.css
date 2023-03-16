@@ -26,6 +26,15 @@
     border: transparent;
     stroke: aliceblue;
    cursor: pointer;
+   width: 28px;
+}
+
+@media screen and (min-width: 768px) {
+    .modal-close-room{
+top: 14px;
+    right: 14px;
+    width: 32px;
+    }
 }
 
 .modal-room{
@@ -92,6 +101,7 @@ margin-bottom: 40px;
     position: relative;
     display: block;
 margin-bottom: 8px;
+padding-bottom: 16px;
 
     background-color: transparent;
     border: none;
@@ -119,12 +129,19 @@ margin-bottom: 8px;
    background-position: right;
    background-size: 10px 5px;
    background-repeat: no-repeat;
+   
 }
 
 @media screen and (min-width: 768px){
     .text-input{
         width: 266px;
     }
+}
+
+.text-input select {
+     -moz-appearance:none; /* Firefox */
+    -webkit-appearance:none; /* Safari and Chrome */
+    appearance:none;
 }
 
 
@@ -160,6 +177,9 @@ input[type=date]::-webkit-calendar-picker-indicator {
    background-position: right;
    background-size: 10px 5px;
    background-repeat: no-repeat;
+   background-position-x: right;
+   background-position-y: 8px;
+   ;
 }
 
 
@@ -213,6 +233,7 @@ transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .modal-form-input {
+    padding-bottom: 16px;
 font-weight: 500;
 font-size: 14px;
 line-height: var(--14px);
@@ -246,7 +267,7 @@ outline: none;
 .user-name-form {
     position: relative;
     display: block;
-    margin-bottom: 26px;
+    
 }
 
 .modal-hint {
@@ -255,7 +276,7 @@ font-size: 8px;
 line-height: var(--8px);
 letter-spacing: 0.18em;
 text-transform: uppercase;
-color: var(--secondary-white-color);
+color: rgba(216, 215, 215, 1);
 }
 
 /* number-lable */
@@ -269,7 +290,7 @@ color: var(--secondary-white-color);
 
 .number-form {
     display: block;
-    padding-bottom: 26px; 
+    
 }
 
 
@@ -279,16 +300,13 @@ color: var(--secondary-white-color);
 
 .date-lable {
     display: block;
-
-    padding-bottom: 26px;
-
-    padding-bottom: 32px;
+    margin-bottom: 32px;
 }
 
 .date-form {
     position: relative;
     display: block;
-    padding-bottom: 26px;
+    
 }
 
 
@@ -310,13 +328,13 @@ color: var(--secondary-white-color);
 
 .phon-number-lable {
     display: block;
-    padding-bottom: 40px;
+    margin-bottom: 40px;
 }
 
 .phone-number-form {
     position: relative;
    display: block;
-    padding-bottom: 26px; 
+  
 }
 
 
@@ -326,7 +344,7 @@ color: var(--secondary-white-color);
 
 
 
-.current::after {
+/* .current::after {
     content: "";
     position: absolute;
     bottom: -1px;
@@ -335,7 +353,7 @@ color: var(--secondary-white-color);
     width: 100%;
     height: 1px;
     background-color: gray;
-}
+} */
 
 
 

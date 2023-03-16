@@ -8,26 +8,26 @@
          <div class="modal-wrap">
            
                 <label class="input">
-                    <input class="text-input" type="text" name="username" placeholder="Your name" pattern="[a-zA-Z]{3,16}">
+                    <input class="text-input" type="text" name="username" placeholder="Your name" pattern="[a-zA-Z]{3,16}" required>
                     <span class="text-after">Who should book a table for?</span>
                 </label>
                 
                 <label class="input">
-                    <input class="text-input" type="tel" name="phone_number" placeholder="+38()"/>
+                    <input class="text-input" type="tel" name="phone_number" placeholder="+38()" required/>
                     <span class="text-after">Phone number</span>
                 </label>
             <label class="input">
-                <input class="text-input check-in" type="date" name="check-in" value="TODAY">
+                <input class="text-input check-in" type="date" name="check-in"  required>
                 <span class="text-after">Check-in date</span>  
             </label>
              
             </label>
             <label class="input">
-                <input class="text-input" type="date" name="check-out" value="2023-04-25">
+                <input class="text-input" type="date" name="check-out" required>
                 <span class="text-after">Check-out date</span>
             </label>
             <label class="input">
-                <select class="text-input select" name="variables" >
+                <select class="text-input select" name="variables" required>
                     <option value="">Double suite</option>
                     <option value="">Triple Room</option>
                     <option value="">four-seater room</option>
