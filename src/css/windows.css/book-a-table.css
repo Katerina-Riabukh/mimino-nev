@@ -2,13 +2,22 @@
 .modal-close {
     position: absolute;
     z-index: 100;
-    top: 28px;
-    right: 28px;
+    top: 14px;
+    right: 14px;
     border-radius: 50px;
     
     background-color: transparent;
     border: transparent;
     stroke: white;
+    width: 28px;
+}
+
+@media screen and (min-width: 768px) {
+   .modal-close{
+    top: 24px;
+    right: 24px;
+    width: 32px;
+   }
 }
 
 
@@ -17,7 +26,7 @@
     display: flex;
     flex-direction: column;
    
-    width: 355px;
+    width: 335px;
     height: 528px;
 
     padding: 24px 24px 40px 24px;
@@ -55,6 +64,7 @@ margin-bottom: 40px;
 .book-a-table-title {
     font-size: 36px;
     line-height: var(--36px);
+    margin-bottom: 60px;
 }
 }
 
@@ -85,6 +95,7 @@ background-color: var(--primary-black-color);
 color: var(--primary-white-color);
 border: none;
 text-transform: uppercase;
+border-bottom: 1px solid var(--border-black);
 }
 
 .modal-form-input:focus {
@@ -104,7 +115,7 @@ outline: none;
  .form-1 {
     display: flex;
     justify-content: space-around;
-    gap: 40px;
+    gap: 32px;
  }
 
  .form-2 {
@@ -128,13 +139,14 @@ outline: none;
 @media screen and (min-width:768px) {
 .name-lable {
    width: 266px;
+   margin-bottom: 40px;
 }
 }
 
 .user-name-form {
     position: relative;
     display: block;
-    margin-bottom: 26px;
+    
 }
 
 .modal-hint {
@@ -142,7 +154,7 @@ font-weight: 400;
 font-size: 8px;
 line-height: var(--8px);
 letter-spacing: 0.18em;
-color: var(--secondary-white-color);
+color: rgba(216, 215, 215, 1);
 }
 
 /* number-lable */
@@ -150,7 +162,7 @@ color: var(--secondary-white-color);
 .number-lable {
     position: relative;
     display: block;
-    margin-bottom: 50px;
+    margin-bottom: 32px;
     font-size: 14px;
     line-height: var(--14px_18);
 }
@@ -167,21 +179,26 @@ color: var(--secondary-white-color);
 
 .date-lable {
     display: block;
-    padding-bottom: 32px;
+    margin-bottom: 32px;
 }
 
 @media screen and (min-width:768px) {
 .date-lable {
    width: 266px;
+   margin-bottom: 80px;
 }
 }
 
 .date-form {
     position: relative;
     display: block;
-    padding-bottom: 26px;
 }
 
+.date-form.current select{
+     -moz-appearance:none; /* Firefox */
+    -webkit-appearance:none; /* Safari and Chrome */
+    appearance:none;
+}
 
 @media screen and (min-width:768px) {
 .date-lable {
@@ -193,7 +210,7 @@ color: var(--secondary-white-color);
 
 .phon-number-lable {
     display: block;
-    padding-bottom: 40px;
+    margin-bottom: 40px;
 }
 
 @media screen and (min-width:768px) {
@@ -205,13 +222,13 @@ color: var(--secondary-white-color);
 .phone-number-form {
     position: relative;
    display: block;
-    padding-bottom: 26px; 
+    
 }
 
 
 /*     line      */
 
-.current::after {
+/* .current::after {
     content: "";
     position: absolute;
     bottom: -1px;
@@ -221,7 +238,7 @@ color: var(--secondary-white-color);
     height: 1px;
     background-color: gray;
     
-}
+} */
 
 /* buttons */
 
