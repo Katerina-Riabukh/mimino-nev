@@ -15,9 +15,13 @@
   />
     <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
     <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css"/>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css"
+    />
     
     <script type="module" crossorigin src="/mimino-nev/assets/modal-f5011505.js"></script>
-    <link rel="stylesheet" href="/mimino-nev/assets/styles-62d8c6c5.css">
+    <link rel="stylesheet" href="/mimino-nev/assets/styles-e1903541.css">
   </head>
   <body>
     <header class="header"> 
@@ -570,10 +574,10 @@
                     <p class="modal-hint">Who should book a table for?</p>
                   </lable>
                 
-                <lable class="number-lable">number of people
+                <lable class="number-lable">
                   <span class="number-form current">
                     <select class="modal-form-input" name="number_of_people" type="tel" pattern="[0-1]">
-                      <option value="number of people" selected></option>
+                      <option value="number of people" selected>number of people</option>
                       <option value="number of people">1</option>
                       <option value="number of people">2</option>
                       <option value="number of people">3</option>
@@ -620,26 +624,26 @@
          <div class="modal-wrap">
            
                 <label class="input">
-                    <input class="text-input" type="text" name="username" placeholder="Your name" pattern="[a-zA-Z]{3,16}">
+                    <input class="text-input" type="text" name="username" placeholder="Your name" pattern="[a-zA-Z]{3,16}" required>
                     <span class="text-after">Who should book a table for?</span>
                 </label>
                 
                 <label class="input">
-                    <input class="text-input" type="tel" name="phone_number" placeholder="+38()"/>
+                    <input class="text-input" type="tel" name="phone_number" placeholder="+38()" required/>
                     <span class="text-after">Phone number</span>
                 </label>
             <label class="input">
-                <input class="text-input check-in" type="date" name="check-in" value="TODAY">
+                <input class="text-input check-in" type="date" name="check-in"  required>
                 <span class="text-after">Check-in date</span>  
             </label>
              
             </label>
             <label class="input">
-                <input class="text-input" type="date" name="check-out" value="2023-04-25">
+                <input class="text-input" type="date" name="check-out" required>
                 <span class="text-after">Check-out date</span>
             </label>
             <label class="input">
-                <select class="text-input select" name="variables" >
+                <select class="text-input select" name="variables" required>
                     <option value="">Double suite</option>
                     <option value="">Triple Room</option>
                     <option value="">four-seater room</option>
@@ -687,7 +691,7 @@
                  </lable>
                  <lable class="price">
                    <span class="price-form current">
-                     <input class="modal-form-input" name="price" type="number" placeholder="1000">
+                     <input class="modal-form-input chek-in" name="check-in-price" type="number" value="1000">
                    </span>
                      <p class="modal-hint">UAH</p>
                    </lable>
