@@ -63,27 +63,6 @@ overflow: hidden;
   font-style: italic;
 }
 
-  /* --animation-- */
-/* .box {
-  animation-name: slidein;
-  animation-duration: 2500ms;
-  animation-timing-function: ease-in-out;
-}
-
-@keyframes slidein {
-  from {
-    margin-left: 100%;
-    width: 200%;
-    opacity: 0;
-  }
-
-  to {
-    margin-left: 0%;
-    width: 100%;
-    opacity: 1;
-  }
-} */
-/* --/animation-- */
 
 /* Phone screen to 767px */
 @media screen and (max-width: 767px) {
@@ -151,4 +130,5 @@ overflow: hidden;
     margin-bottom: 18px;
     margin-top: 0;
   }  
+
 }
