@@ -76,7 +76,7 @@
     transform: scale(1.35);
     cursor: pointer;
     margin-left: -200px;
-    box-shadow: -18px 26px 100px 100px rgba(4, 4, 4, 0.9);
+    box-shadow: -18px 26px 100px 100px rgba(244, 247, 249, 0.9);
   }
 }
 
@@ -109,7 +109,7 @@
     transform: scale(1.5);
     cursor: pointer;
     margin-left: 200px;
-    box-shadow: 30px 26px 100px 100px rgba(4, 4, 4, 0.9);
+    box-shadow: 30px 26px 100px 100px rgba(244, 247, 249, 0.9);
   }
 }
 
@@ -268,7 +268,7 @@
     transform: scale(1.35);
     cursor: pointer;
     margin-left: -200px;
-    box-shadow: -18px 26px 100px 100px rgba(4, 4, 4, 0.9);
+    box-shadow: -18px 26px 100px 100px rgba(244, 247, 249, 0.9);
   }
 }
 
@@ -301,7 +301,7 @@
     transform: scale(1.5);
     cursor: pointer;
     margin-left: 200px;
-    box-shadow: 30px 26px 100px 100px rgba(4, 4, 4, 0.9);
+    box-shadow: 30px 26px 100px 100px rgba(244, 247, 249, 0.9);
   }
 }
 
@@ -367,7 +367,9 @@
     transform: scale(1.35);
     cursor: pointer;
     margin-left: -200px;
-    box-shadow: -18px 26px 100px 100px rgba(4, 4, 4, 0.9);
+    box-shadow: -18px 26px 100px 100px rgba(244, 247, 249, 0.9);
+    /* box-shadow: -18px 26px 100px 100px rgba(4, 4, 4, 0.9);
+  } */
   }
 }
 
@@ -400,6 +402,7 @@
     transform: scale(1.5);
     cursor: pointer;
     margin-left: 200px;
+
     box-shadow: 30px 26px 100px 100px rgba(244, 247, 249, 0.9);
   }
 
