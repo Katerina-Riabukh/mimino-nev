@@ -95,7 +95,9 @@ margin-bottom: 40px;
 }
 }
 
-
+.js-phone_num{
+    position: absolute;
+}
 
 .text-input{
     position: relative;
